@@ -47,8 +47,8 @@ To ensure a consistent development environment, please follow these steps:
 ```text
 HHP/
 ├── Evaluation.docx             # Project evaluation documentation
-├── GEMINI.md                   # Assistant instructions
-├── Healthy Hearts update...pptx # Steering Group presentation
+├── AGENT.md                    # Assistant instructions
+├── Healthy Hearts update..pptx # Steering Group presentation
 └── hhp-dashboard/              # Main R project directory
     ├── extracts/               # Raw data extracts
     ├── outputs/                # Processed data and outputs
