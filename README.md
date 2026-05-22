@@ -28,7 +28,7 @@ This document outlines the collaborative workflow for our data science project. 
 *   **Function Scaffolding:** To assist with R logic, the Lead provides function "skeletons."
     *   *Example:*
     ```r
-    # clean_dates.R
+    # clean_dates
     clean_date_column <- function(df) {
       # TODO: Use lubridate to standardise the 'Date' column
       return(df)
