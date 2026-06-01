@@ -7,9 +7,7 @@ if (!require("pacman")){
 pacman::p_load(
   'renv'
   ,'janitor'
-  ,'data.table'
-  ,'tidyverse'
-  ,'plotly'
+  , 'dplyr'
   ,'skimr' 
   ,'tictoc'
 )
