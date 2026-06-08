@@ -1,7 +1,7 @@
 # SYSTEM VARIABLES ----
 # Get user profile
 USERPROFILE <- Sys.getenv("USERPROFILE")
-LOCATION <- "\\OneDrive - King's College London\\Insights - HIN - Insights\\Informatics\\1. Projects and Workstreams\\HHP\\R\\data\\"
+LOCATION <- "\\King's College London\\HIN - Informatics - Informatics sensitive data\\Healthy Hearts\\"
 
 # LIBRARIES ----
 if (!require("pacman")){
@@ -13,7 +13,3 @@ pacman::p_load(
   ,'skimr' 
   ,'tictoc'
 )
-
-
-# HELPER FUNCTIONS ----
-
