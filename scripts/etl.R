@@ -13,11 +13,29 @@ if(DataRefresh){
   FILENAME <- "Healthy Hearts Evaluation Report 1 - patient level data.csv"
   PATH <- paste0(USERPROFILE, LOCATION, FILENAME)
   extract <- read.csv(PATH, skip = 9) # Remove rows not needed
+  
+  # CLEANING
+  # Headers
   extract <- clean_names(extract) # Ensure clean headers
-  saveRDS(extract)
+  
+  # Column selection
+  use_cols <- c(
+    "emis_number",
+    "age",
+    "lower_layer_area_2011",
+    "gender",
+    "ethnic_origin"
+  )
+  
+  dt <- select(extract, paste0(use_cols))
+  
+  saveRDS(dt, paste0('data/wd_',format(Sys.Date(), "%Y%m%d"))) # Save Working data set
 }else{
-  message('DataRefresh set to "F": Using archived data source.')
-  dt <- readRDS(extract)
+  message('DataRefresh set to "F": Using latest archived data source.')
+  file_list <- list.files('data/', pattern = "^wd_", full.names = T)
+  file_metadata <- file.info(file_list)
+  latest_data <- file_list[which.max(file_metadata$mtime)]
+  dt <- readRDS(latest_data)
 }
 
 # TRANSFORMATION PIPELINE ----
@@ -30,6 +48,6 @@ dt <- create_geo_grps(dt)
 if(test_mode){
   message("TestMode is set to 'T': No changes made to the output data.")
 }
-fwrite(dt, )
+write.csv(dt, 'data/clean.csv')
 
 toc()
