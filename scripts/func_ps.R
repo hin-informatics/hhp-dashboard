@@ -18,6 +18,38 @@ create_ethnic_grps <- function(data, ethnic_var){
    
   ## Start code here ##
   
+  # Vectors for Ethnicity
+  African = c(
+    "African - ethnic category 2001 census",
+    "African: African, African Scottish or African British - Scotland ethnic category 2011 census"
+    
+    )
+  Asian = c(
+    "Asian and Chinese - ethnic category 2001 census",
+    "Asian or Asian British: Chinese - England and Wales ethnic category 2011 census"
+    )
+  Mixed = c(
+    ""
+    )
+  OtherWhites = c(
+    "Albanian - ethnic category 2001 census"
+    
+    )
+  WhiteBritish = c(
+    ""
+    )
+  Others = c(
+    "Any other group - ethnic category 2001 census",
+    "Arab - ethnic category 2001 census"
+    )
+  
+  d <- d %>% 
+    mutate(ethnic_group = case_when(
+      ethnic_origin %in% African ~ "African",
+      ethnic_origin %in% Mixed ~ "Mixed",
+      TRUE  ~ "Unknown"
+    ))
+  
   ## End code here ##
   
   return(d)
@@ -34,7 +66,7 @@ create_emis_group <- function(data){
   
   d <- d %>% 
     mutate(emis_cat1 = case_when(
-      emis_number >= 0 & emis_number <= 9 ~ "0-9",
+      between(emis_number, 0, 9) ~ "0-9",
       between(emis_number, 100, 200) ~ "100-200", 
       emis_number >= 201 ~ "> 200",
       TRUE  ~ "Unknown"
