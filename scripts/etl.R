@@ -53,7 +53,7 @@ dt <- create_ethnic_grps(dt)
 dt <- create_geo_grps(dt)
 
 # LOAD ----
-if(test_mode){
+if(TestMode){
   message("TestMode is set to 'T': No changes made to the output data.")
 }
 write.csv(dt, 'data/clean.csv')
