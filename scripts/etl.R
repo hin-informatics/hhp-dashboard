@@ -1,14 +1,14 @@
 source('scripts/ini.R')
 
 # Pipeline Settings
-TestMode <- T
+TestMode <- F
 DataRefresh <- F
 
 tic('ETL Process complete')
 
 # EXTRACTION ----
 # Step 1: Extract data from shared location
-if(DataRefresh){
+if(DataRefresh == T){
   message('DataRefresh set to "T": Fresh data pull.')
   # Access SharePoint
   site <- get_sharepoint_site(
@@ -35,7 +35,7 @@ if(DataRefresh){
     "ethnic_origin"
   )
   
-  dt <- select(extract, paste0(use_cols)) # Use columns
+  d <- select(extract, paste0(use_cols)) # Use columns
   
   saveRDS(dt, paste0('data/wd_',format(Sys.Date(), "%Y%m%d"))) # Save Working data set
 }else{
@@ -43,11 +43,13 @@ if(DataRefresh){
   file_list <- list.files('data/', pattern = "^wd_", full.names = T)
   file_metadata <- file.info(file_list)
   latest_data <- file_list[which.max(file_metadata$mtime)]
-  dt <- readRDS(latest_data)
+  d <- readRDS(latest_data)
 }
 
-# TRANSFORMATION PIPELINE ----
+dt <- d
 
+# TRANSFORMATION PIPELINE ----
+dt <- create_emis_group(dt)
 dt <- create_age_bands(dt)
 dt <- create_ethnic_grps(dt)
 dt <- create_geo_grps(dt)

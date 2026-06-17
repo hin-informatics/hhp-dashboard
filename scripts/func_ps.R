@@ -7,18 +7,6 @@
 # 3. Test it works
 # 4. Add, Commit and push back to Git.
 
-# Age band Function ----
-# Creates 10-year age band column with data and variable input.
-
-create_age_bands <- function(data, age_var){
-  message('Creating 10-year age band column: ')
-  
-  ## Start code here ##
-  
-  ## End code here ##
-  
-  names(data)
-}
 
 # Ethnic Grouping Function ----
 # Creates major ethnic categories column with data and variable input.
@@ -26,22 +14,33 @@ create_age_bands <- function(data, age_var){
 create_ethnic_grps <- function(data, ethnic_var){
   message('Creating major ethnic groups: ')
   
+  d = data
+   
   ## Start code here ##
   
   ## End code here ##
   
-  names(data)
+  return(d)
 }
 
-# Geography Assignment Function ----
-# Creates useful geography and IMD columns with data and variable input.
+## Test: Create EMIS categories ----
 
-create_geo_grps <- function(data, geography_var){
-  message('Creating geographies and IMD: ')
+create_emis_group <- function(data){
+  
+  
+  d = data
   
   ## Start code here ##
   
+  d <- d %>% 
+    mutate(emis_cat1 = case_when(
+      emis_number >= 0 & emis_number <= 9 ~ "0-9",
+      between(emis_number, 100, 200) ~ "100-200", 
+      emis_number >= 201 ~ "> 200",
+      TRUE  ~ "Unknown"
+    ))
+  
   ## End code here ##
   
-  names(data)
+  return(d)
 }

@@ -14,24 +14,13 @@
 create_age_bands <- function(data, age_var){
   message('Creating 10-year age band column: ')
   
-  ## Start code here ##
-  
-  ## End code here ##
-  
-  names(data)
-}
-
-# Ethnic Grouping Function ----
-# Creates major ethnic categories column with data and variable input.
-
-create_ethnic_grps <- function(data, ethnic_var){
-  message('Creating major ethnic groups: ')
+  d = data
   
   ## Start code here ##
   
   ## End code here ##
   
-  names(data)
+  return(d)
 }
 
 # Geography Assignment Function ----
@@ -40,9 +29,11 @@ create_ethnic_grps <- function(data, ethnic_var){
 create_geo_grps <- function(data, geography_var){
   message('Creating geographies and IMD: ')
   
+  d = data
+  
   ## Start code here ##
   
   ## End code here ##
   
-  names(data)
+  return(d)
 }
