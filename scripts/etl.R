@@ -49,7 +49,6 @@ if(DataRefresh == T){
 dt <- d
 
 # TRANSFORMATION PIPELINE ----
-dt <- create_emis_group(dt)
 dt <- create_age_bands(dt)
 dt <- create_ethnic_grps(dt)
 dt <- create_geo_grps(dt)
