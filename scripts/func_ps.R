@@ -54,25 +54,3 @@ create_ethnic_grps <- function(data, ethnic_var){
   
   return(d)
 }
-
-## Test: Create EMIS categories ----
-
-create_emis_group <- function(data){
-  
-  
-  d = data
-  
-  ## Start code here ##
-  
-  d <- d %>% 
-    mutate(emis_cat1 = case_when(
-      between(emis_number, 0, 9) ~ "0-9",
-      between(emis_number, 100, 200) ~ "100-200", 
-      emis_number >= 201 ~ "> 200",
-      TRUE  ~ "Unknown"
-    ))
-  
-  ## End code here ##
-  
-  return(d)
-}
