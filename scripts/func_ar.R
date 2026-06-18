@@ -18,7 +18,8 @@ create_age_bands <- function(data, age_var){
   
   ## Start code here ##
   d <- d %>%
-    mutate(age_bands = case_when(
+    mutate(grouped_age_bands = case_when(
+      #list of cases below
       between(age,0,9) ~ "0 to 9",
       between(age,10,19) ~ "10 to 19",
       between(age,20,29) ~ "20 to 29",
