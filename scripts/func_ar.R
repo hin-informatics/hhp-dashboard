@@ -30,7 +30,10 @@ create_age_bands <- function(data, age_var){
       between(age,70,79) ~ "70 to 79",
       between(age,80,89) ~ "80 to 89",
       between(age,90,99) ~ "90 to 99",
-      TRUE ~ "Above 100"
+      age < 0 ~ "Infant",
+      age >= 100 ~ "Above 100",
+      TRUE ~ "Unknown"
+      
   ))
   ## End code here ##
   
