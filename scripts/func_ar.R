@@ -43,14 +43,26 @@ create_age_bands <- function(data, age_var){
 # Geography Assignment Function ----
 # Creates useful geography and IMD columns with data and variable input.
 
-create_geo_grps <- function(data, geography_var){
+create_geo_grps <- function(data){
   message('Creating geographies and IMD: ')
   
   d = data
   
   ## Start code here ##
   
+  # IMPORTANT! Check to see these columns and addresses are right
+  # Extract the look-up table from source
+  
+  l = read.csv("Location of the Lookup table that has the columns LSOA and IMD")
+  l = l %>% select(LSOA, IMD) 
+  
+  # Assign IMD and other geographies to d from look-up table.
+  d <- d %>%
+    left_join(l, by = c("lower_layer_area_2011","LSOA")
+    )
+  
   ## End code here ##
+
   
   return(d)
 }
