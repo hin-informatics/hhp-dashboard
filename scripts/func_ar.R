@@ -49,21 +49,17 @@ create_geo_grps <- function(data){
   d = data
   
   ## Start code here ##
-  
   # IMPORTANT! Check to see these columns and addresses are right
   # Extract the look-up table from source
-  
-  github_imd =read.csv("https://raw.githubusercontent.com/hin-informatics/hhp-dashboard/refs/heads/main/data/IoD2025.csv")
-  
-  l = l %>% select(LSOA, IMD) 
+  github_imd =read.csv("https://raw.githubusercontent.com/hin-informatics/hhp-dashboard/refs/heads/main/data/IMD_2010.csv")
   
   # Assign IMD and other geographies to d from look-up table.
   d <- d %>%
-    left_join(l, by = c("lower_layer_area_2011","LSOA")
+    left_join(
+      github_imd %>% select(lsoa_code, la_name),
+      by = c("lower_layer_area_2011" = "lsoa_code")
     )
-  
   ## End code here ##
-
   
   return(d)
 }
