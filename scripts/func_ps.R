@@ -11,7 +11,7 @@
 # Ethnic Grouping Function ----
 # Creates major ethnic categories column with data and variable input.
 
-create_ethnic_grps <- function(data, ethnic_var){
+create_ethnic_grps <- function(data, ethnic_var = ethnic_origin){
   message('Creating major ethnic groups: ')
   
   d = data
@@ -21,7 +21,7 @@ create_ethnic_grps <- function(data, ethnic_var){
   ### Asian or Asian British Groups ###
   d <- d %>% 
     mutate(grouped_ethnic_origin = case_when(
-      ethnic_origin %in% c(
+      {{ ethnic_var }} %in% c(
         "Asian and Chinese - ethnic category 2001 census",
         "Asian or Asian British: any other Asian background - England and Wales ethnic category 2011 census",
         "Bangladeshi",
@@ -36,7 +36,7 @@ create_ethnic_grps <- function(data, ethnic_var){
         "Vietnamese") ~ "Asian or Asian British",
   
       ### Black, African, Caribbean or Black British Groups ###
-      ethnic_origin %in% c(
+      {{ ethnic_var }} %in% c(
         "African - ethnic category 2001 census",
         "African: African, African Scottish or African British - Scotland ethnic category 2011 census",
         "Black African",
@@ -53,7 +53,7 @@ create_ethnic_grps <- function(data, ethnic_var){
         "Somali - ethnic category 2001 census") ~ "Black, African, Caribbean or Black British",
   
   ### Mixed / Multiple Ethnic Groups ###
-      ethnic_origin %in% c(
+      {{ ethnic_var }} %in% c(
         "Black Caribbean and White",
         "Black and Asian - ethnic category 2001 census",
         "Black and White - ethnic category 2001 census",
@@ -68,14 +68,14 @@ create_ethnic_grps <- function(data, ethnic_var){
         "White and Black Caribbean - ethnic category 2001 census") ~ "Mixed / Multiple Ethnicity",
   
   ### Not Stated Groups ###
-      ethnic_origin %in% c(
+      {{ ethnic_var }} %in% c(
         "Ethnic category not stated - 2001 census",
         "Ethnicity and other related nationality data",
         "Patient ethnicity unknown",
         "Refusal by patient to provide information about ethnic group") ~ "Not Stated",
   
   ### Other Ethnic Groups ###
-      ethnic_origin %in% c(
+      {{ ethnic_var }} %in% c(
         "Any other group - ethnic category 2001 census",
         "Arab - ethnic category 2001 census",
         "Asian or Asian British: Chinese - England and Wales ethnic category 2011 census",
@@ -86,7 +86,7 @@ create_ethnic_grps <- function(data, ethnic_var){
         "South and Central American - ethnic category 2001 census") ~ "Other Ethnic Group",
   
   ### White Groups ###
-      ethnic_origin %in% c(
+      {{ ethnic_var }} %in% c(
         "Albanian - ethnic category 2001 census",
         "British or mixed British - ethnic category 2001 census",
         "Bulgarian",
@@ -106,7 +106,7 @@ create_ethnic_grps <- function(data, ethnic_var){
         "White Irish - ethnic category 2001 census",
         "White: English or Welsh or Scottish or Northern Irish or British - England and Wales ethnic category 2011 census",
         "White: any other White background - England and Wales ethnic category 2011 census") ~ "White",
-  TRUE ~ "Not Coded"
+      TRUE ~ "Not Coded"
       ))
   
   ## End code here ##

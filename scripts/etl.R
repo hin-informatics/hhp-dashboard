@@ -2,7 +2,7 @@ source('scripts/ini.R')
 
 # Pipeline Settings
 TestMode <- F
-DataRefresh <- F
+DataRefresh <- T
 
 tic('ETL Process complete')
 
@@ -23,21 +23,14 @@ if(DataRefresh == T){
   extract <- file_item$load_dataframe()
   
   # CLEANING
-  extract <- tail(extract, nrow(extract)-8) # Skip top rows
-  extract <- clean_names(extract) # Ensure clean headers
+  # Rename Headers
+  d <- extract[-c(1:9), ]
+  headers <- read.csv('data/headers.csv')
+  names(d) <- headers$HEADERS
   
-  # Column selection
-  use_cols <- c(
-    "emis_number",
-    "age",
-    "lower_layer_area_2011",
-    "gender",
-    "ethnic_origin"
-  )
+  d <- clean_names(d)
   
-  d <- select(extract, paste0(use_cols)) # Use columns
-  
-  saveRDS(dt, paste0('data/wd_',format(Sys.Date(), "%Y%m%d"))) # Save Working data set
+  saveRDS(d, paste0('data/wd_',format(Sys.Date(), "%Y%m%d"))) # Save Working data set
 }else{
   message('DataRefresh set to "F": Using latest archived data source.')
   file_list <- list.files('data/', pattern = "^wd_", full.names = T)
@@ -49,6 +42,14 @@ if(DataRefresh == T){
 dt <- d
 
 # TRANSFORMATION PIPELINE ----
+# Cohort filters
+
+dt <- dt %>% filter(
+  age >= 18 # Patients 18 and over only
+)
+
+# 2. Column transformation
+
 dt <- create_age_bands(dt)
 dt <- create_ethnic_grps(dt)
 dt <- create_geo_grps(dt)

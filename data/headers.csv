@@ -1,0 +1,87 @@
+HEADERS
+EMIS Number
+Organisation Name
+Age
+Ethnic Origin
+Lower Layer Area (2011)
+Gender
+Date
+H H Template Used Earliest Date
+Learning Disability Flag
+SMI Flag
+Housebound Latest Flag
+Palliative care Flag
+Moderate or Severe Frailty Latest Date
+Moderate or Severe Frailty Code Term
+Continuity of Care RAG Latest Date
+Continuity of Care RAG Code Term
+Type 2 Diabetes Diagnosis Earliest Date
+Type 2 Diabetes Diagnosis Code Term
+Metformin Rx First Issue Name Dose
+Metformin Rx First Issue Date
+Metformin Rx First Issue Recent Isses Date
+Metformin Rx First Issue Course Status
+HbA1c Latest Date
+HbA1c Code Term
+HbA1c Value
+Hypertension Diagnosis Earliest Date
+Hypertension Diagnosis Code Term
+Clinic BP Latest Date
+Clinic BP Code Term
+Clinic BP Value
+Clinic BP Secondary Value
+Home Systolic BP Latest Date
+Home Systolic BP Code Term
+Home Systolic BP Value
+Home Diastolic BP Latest Date
+Home Diastolic BP Code Term
+Home Diastolic BP Value
+CKD Diagnosis Date
+CKD Diagnosis Code Term
+ACR Latest Date
+ACR Code Term
+ACR Value
+eGFR Latest Date
+eGFR Code Term
+eGFR Value
+SGLT2i First Issue Name Dosage
+SGLT2i First Issue Date
+SGLT2i Recent Issue Date
+SGLT2i Course Status
+ACEi First Issue Name Dosage
+ACEi First Issue Date
+ACEi Course Status
+ACEi Recent Issue Date
+ARB First Issue Name Dosage
+ARB First Issue Date
+ARB Recent Issue Date
+ARB Course Status
+BMI Latest Date
+BMI Code Term
+BMI Value
+Heart Failure Earliest Date
+Heart Failure Code Term
+CHD Earliest Date
+CHD Code Term
+PAD Earliest Date
+PAD Code Term
+PVD Earliest Date
+PVD Code Term
+Non-hemorrhagic Stroke Earliest Date
+Non-hemorrhagic Stroke Code Term
+TIA Earliest Date
+TIA Code Term
+Obesity Earliest Date
+Obesity Code Term
+Total Cholesterol Latest Date
+Total Cholesterol Code Term
+Total Cholesterol Value
+HDL Latest Date
+HDL Code Term
+HDL Value
+Non HDL Latest Date
+Non HDL Code Term
+Non HDL Value
+QRISK Latest Date
+QRISK Code Term
+QRISK Value
