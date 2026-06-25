@@ -57,20 +57,28 @@ create_geo_grps <- function(data){
   return(d)
 }
 
-# Logic example ----
-# Creates useful geography and IMD columns with data and variable input.
+# Hypertension Optimisation ----
 
-hypetension_flags <- function(data){
-  message('Create Logic 1: ')
+# Patient optimised if:
+# ACR < 70 & Systolic < 140 & diastolic < 90
+# ACR >= 70 & Systolic < 130 & diastolic < 80
+# ACR & Frail & Systolic < 150 & diastolic < 90  
+optimised_htn <- function(data){
+  message('Creating optimisation flag: Hypertension ')
   
   d = data
   
   ## Start code here ##
-  # Patient optimised if:
-  # ACR < 70 & Systolic < 140 & diastolic < 90
-  # ACR >= 70 & Systolic < 130 & diastolic < 80
-  # ACR & Frail & Systolic < 150 & diastolic < 90  
-  
+  d <- d %>%
+    mutate(
+      hypertension_optimised = case_when(
+        acr_value > 70 & home_systolic_bp_value < 140 & home_diastolic_bp_value < 90 |
+          acr_value >= 70 & home_systolic_bp_value < 130 & home_diastolic_bp_value < 80 |
+          !is.na(acr_code_term) & !is.na(moderate_or_severe_frailty_code_term) & home_systolic_bp_value < 140 & home_diastolic_bp_value < 90
+        ~ 'Yes'
+      )
+    )
+
   ## End code here ##
   
   return(d)
