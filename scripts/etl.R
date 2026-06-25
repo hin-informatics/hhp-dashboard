@@ -30,7 +30,7 @@ if(DataRefresh == T){
   # Rename Headers
   d <- extract[-c(1:9), ]
   headers <- read.csv('data/headers.csv')
-  names(d) <- headers$HEADERS
+  names(d) <- headers$patient_data
   
   d <- clean_names(d)
   
