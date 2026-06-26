@@ -99,12 +99,14 @@ optimised_htn <- function(data){
   ## Start code here ##
   d <- d %>%
     mutate(
+      # Column 1 hypertension_optimised
       hypertension_optimised = case_when(
         !is.na(hypertension_diagnosis_code_term) & acr_value < 70 & clinic_bp_value < 140 & clinic_bp_secondary_value < 90 |
           !is.na(hypertension_diagnosis_code_term) & acr_value >= 70 & clinic_bp_value < 130 & clinic_bp_secondary_value < 80 |
           !is.na(hypertension_diagnosis_code_term) & !is.na(acr_value) & !is.na(moderate_or_severe_frailty_code_term) & clinic_bp_value < 150 & clinic_bp_secondary_value < 90
         ~ '1'
       ),
+      # # Column 2 hypertension_exist
       hypertension_exist = ifelse(is.na(hypertension_diagnosis_code_term), 'no','yes')
     )
   
@@ -113,14 +115,7 @@ optimised_htn <- function(data){
   return(d)
 }
 
-
-
 # Chronic Kidney Disease Optimisation ----
-
-# Patient optimised if diagnosed with CKD AND:
-# LOGIC 1
-# LOGIC 2
-# LOGIC 3
 
 optimised_ckd <- function(data){
   message('Creating optimisation flag: CKD ')
@@ -128,6 +123,21 @@ optimised_ckd <- function(data){
   d = data
   
   ## Start code here ##
+  d <- d %>% mutate(
+    #Column 1 ckd_optimised
+    ckd_optimised = case_when(
+      !is.na(ckd_diagnosis_code_term) &
+        # diabetes scenario | no diabetes scenario
+        (!is.na(type_2_diabetes_diagnosis_code_term) & acr_value >= 3 | is.na(type_2_diabetes_diagnosis_code_term) & acr_value >= 22.6) &
+        # ACEi current | ARB current
+        (ac_ei_course_status == "Current" | arb_course_status == "Current") &
+        # SGLT2i current
+        (sglt2i_course_status == "Current")
+      ~ '1'),
+    
+    #Column 2 ckd_exists
+    ckd_exists = ifelse(is.na(ckd_diagnosis_code_term), 'no', 'yes')
+  )
   
   ## End code here ##
   
