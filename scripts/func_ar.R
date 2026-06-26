@@ -111,6 +111,7 @@ optimised_ckd <- function(data){
     ckd_exists = ifelse(is.na(ckd_diagnosis_code_term), 'no', 'yes')
   )
   
+  # Need to workout statin and second clause about exclusion
   ## End code here ##
   
   return(d)
