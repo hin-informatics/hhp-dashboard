@@ -57,6 +57,9 @@ dt <- create_ethnic_grps(dt)
 dt <- create_geo_grps(dt)
 
 dt <- optimised_htn(dt)
+dt <- optimised_ckd(dt)
+dt <- optimised_t2d(dt)
+dt <- optimised_all(dt)
 
 # LOAD ----
 if(TestMode){

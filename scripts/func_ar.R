@@ -57,34 +57,6 @@ create_geo_grps <- function(data){
   return(d)
 }
 
-# # Hypertension Optimisation ----
-# 
-# # Patient optimised if diagnosed with Hypertension AND:
-# # ACR < 70 & Systolic < 140 & diastolic < 90
-# # ACR >= 70 & Systolic < 130 & diastolic < 80
-# # ACR value & Frail & Systolic < 150 & diastolic < 90  
-# optimised_htn <- function(data){
-#   message('Creating optimisation flag: Hypertension ')
-#   
-#   d = data
-#   
-#   ## Start code here ##
-#   d <- d %>%
-#     mutate(
-#       hypertension_optimised = case_when(
-#         !is.na(hypertension_diagnosis_code_term) & acr_value < 70 & home_systolic_bp_value < 140 & home_diastolic_bp_value < 90 |
-#           !is.na(hypertension_diagnosis_code_term) & acr_value >= 70 & home_systolic_bp_value < 130 & home_diastolic_bp_value < 80 |
-#           !is.na(hypertension_diagnosis_code_term) & !is.na(acr_value) & !is.na(moderate_or_severe_frailty_code_term) & home_systolic_bp_value < 150 & home_diastolic_bp_value < 90
-#         ~ '1'
-#       ),
-#       hypertension_exist = ifelse(is.na(hypertension_diagnosis_code_term), 'no','yes')
-#     )
-# 
-#   ## End code here ##
-#   
-#   return(d)
-# }
-
 # Hypertension Optimisation ----
 
 # Patient optimised if diagnosed with Hypertension AND:
@@ -141,8 +113,8 @@ optimised_ckd <- function(data){
 # LOGIC 2
 # LOGIC 3
 
-optimised_ckd <- function(data){
-  message('Creating optimisation flag:  ')
+optimised_t2d<- function(data){
+  message('Creating optimisation flag: Type 2 diabetes ')
   
   d = data
   
@@ -153,3 +125,21 @@ optimised_ckd <- function(data){
   return(d)
 }
 
+# All patients  ----
+
+# Patient optimised if:
+# LOGIC 1
+# LOGIC 2
+# LOGIC 3
+
+optimised_all <- function(data){
+  message('Creating optimisation flag: All patients ')
+  
+  d = data
+  
+  ## Start code here ##
+  
+  ## End code here ##
+  
+  return(d)
+}  
