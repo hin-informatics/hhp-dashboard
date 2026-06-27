@@ -5,8 +5,7 @@
 source('scripts/ini.R')
 
 # Pipeline Settings
-TestMode <- F
-DataRefresh <- T
+TestMode <- T
 
 tic('ETL Process complete')
 

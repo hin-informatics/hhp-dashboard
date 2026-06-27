@@ -96,7 +96,6 @@ optimised_ckd <- function(data){
   
   ## Start code here ##
   d <- d %>% mutate(
-    ckd_optimised = case_when(),
     ckd_exists = ifelse(is.na(ckd_diagnosis_code_term), 'no', 'yes')
   )
   
