@@ -96,18 +96,7 @@ optimised_ckd <- function(data){
   
   ## Start code here ##
   d <- d %>% mutate(
-    #Column 1 ckd_optimised
-    ckd_optimised = case_when(
-      !is.na(ckd_diagnosis_code_term) &
-        # diabetes scenario | no diabetes scenario
-        (!is.na(type_2_diabetes_diagnosis_code_term) & acr_value >= 3 | is.na(type_2_diabetes_diagnosis_code_term) & acr_value >= 22.6) &
-        # ACEi current | ARB current
-        (ac_ei_course_status == "Current" | arb_course_status == "Current") &
-        # SGLT2i current
-        (sglt2i_course_status == "Current")
-      ~ '1'),
-    
-    #Column 2 ckd_exists
+    ckd_optimised = case_when(),
     ckd_exists = ifelse(is.na(ckd_diagnosis_code_term), 'no', 'yes')
   )
   
