@@ -101,9 +101,9 @@ optimised_ckd <- function(data){
       !is.na(ckd_diagnosis_code_term) &
         # diabetes scenario | no diabetes scenario
         (!is.na(type_2_diabetes_diagnosis_code_term) & acr_value >= 3 | is.na(type_2_diabetes_diagnosis_code_term) & acr_value >= 22.6) &
-        # ACEi current | ARB current
+        # acei current | arb current
         (ac_ei_course_status == "Current" | arb_course_status == "Current") &
-        # SGLT2i current
+        # sglt2i current
         (sglt2i_course_status == "Current")
       ~ '1'),
     
@@ -130,6 +130,9 @@ optimised_t2d<- function(data){
   d = data
   
   ## Start code here ##
+  
+  # no frailty value AND metformin AND sglt2i AND hba1c <= 53
+  # frailty has value AND metformin AND hbaic <= 75
   
   ## End code here ##
   

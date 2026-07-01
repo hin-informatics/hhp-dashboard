@@ -113,3 +113,12 @@ create_ethnic_grps <- function(data, ethnic_var = ethnic_origin){
   
   return(d)
 }
+
+
+# Disease Cohorts
+# Hypertension
+# Diabetes
+# CKD
+
+# Palliative Care
+# Frailty
