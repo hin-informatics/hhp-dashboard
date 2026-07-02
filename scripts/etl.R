@@ -2,6 +2,8 @@
 ## DO NOT MODIFY ##
 ###################
 
+rm(list = ls())
+
 source('scripts/ini.R')
 
 # Pipeline Settings
@@ -22,8 +24,8 @@ drv <- site$get_drive("Informatics sensitive data") # Get drive
 drv$list_files(path = "Healthy Hearts") # list files in Healthy Heart folder
 file_item1 <- drv$get_item("Healthy Hearts/Healthy Hearts Evaluation Report 1 - patient level data.csv")
 file_item2 <- drv$get_item("Healthy Hearts/Healthy Hearts Evaluation Report 2 - appt data.csv")
-extract_patient <- file_item1$load_dataframe()
-extract_appoint <- file_item2$load_dataframe()
+extract_patient <- suppressWarnings(file_item1$load_dataframe())
+extract_appoint <- suppressWarnings(file_item2$load_dataframe())
 
 # CLEANING
 # Rename Headers
@@ -50,12 +52,14 @@ dt <- d0
 
 # TRANSFORMATION PIPELINE ----
 # 1. Cohort filters
-
 dt <- dt %>% filter(
   age >= 18 # Patients 18 and over only
 )
 
-# 2. Column transformation
+# 2. Appointment data enrichments
+dt <- appt_cols(dt)
+
+# 3. Other transformation
 
 dt <- create_age_bands(dt)
 dt <- create_ethnic_grps(dt)
