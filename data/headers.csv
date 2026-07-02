@@ -1,86 +1,86 @@
-patient_data,appt_data,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EMIS Number,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Organisation Name,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Age,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Ethnic Origin,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Lower Layer Area (2011),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Gender,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-H H Template Used Earliest Date,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Learning Disability Exist,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SMI Exist,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Housebound Latest Exist,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Palliative care Exist,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Moderate or Severe Frailty Latest Date,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Moderate or Severe Frailty Code Term,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Continuity of Care RAG Latest Date,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Continuity of Care RAG Code Term,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Type 2 Diabetes Diagnosis Earliest Date,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Type 2 Diabetes Diagnosis Code Term,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Metformin Rx First Issue Name Dose,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Metformin Rx First Issue Date,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Metformin Rx First Issue Recent Isses Date,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Metformin Rx First Issue Course Status,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HbA1c Latest Date,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HbA1c Code Term,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HbA1c Value,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Hypertension Diagnosis Earliest Date,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Hypertension Diagnosis Code Term,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Clinic BP Latest Date,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Clinic BP Code Term,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Clinic BP Value,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Clinic BP Secondary Value,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Home Systolic BP Latest Date,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Home Systolic BP Code Term,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Home Systolic BP Value,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Home Diastolic BP Latest Date,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Home Diastolic BP Code Term,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Home Diastolic BP Value,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CKD Diagnosis Date,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CKD Diagnosis Code Term,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ACR Latest Date,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ACR Code Term,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ACR Value,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-eGFR Latest Date,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-eGFR Code Term,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-eGFR Value,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SGLT2i First Issue Name Dosage,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SGLT2i First Issue Date,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SGLT2i Recent Issue Date,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SGLT2i Course Status,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ACEi First Issue Name Dosage,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ACEi First Issue Date,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ACEi Course Status,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ACEi Recent Issue Date,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ARB First Issue Name Dosage,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ARB First Issue Date,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ARB Recent Issue Date,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ARB Course Status,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-BMI Latest Date,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-BMI Code Term,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-BMI Value,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Heart Failure Earliest Date,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Heart Failure Code Term,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CHD Earliest Date,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-CHD Code Term,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PAD Earliest Date,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PAD Code Term,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PVD Earliest Date,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PVD Code Term,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Non-hemorrhagic Stroke Earliest Date,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Non-hemorrhagic Stroke Code Term,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TIA Earliest Date,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TIA Code Term,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Obesity Earliest Date,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Obesity Code Term,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Total Cholesterol Latest Date,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Total Cholesterol Code Term,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Total Cholesterol Value,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HDL Latest Date,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HDL Code Term,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HDL Value,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Non HDL Latest Date,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Non HDL Code Term,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Non HDL Value,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-QRISK Latest Date,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-QRISK Code Term,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-QRISK Value,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+patient_data,appt_data
+EMIS Number, EMIS Number
+Organisation Name, Organisation Name
+Age, Age
+Ethnic Origin, Ethnic Origin
+Lower Layer Area (2011), Lower Layer Area (2011)
+Gender, Gender
+H H Template Used Earliest Date,ACE Exceptions (All) Date
+Learning Disability Exist,ACE Exceptions (All) Code Term
+SMI Exist,ARB Exceptions (All) Date
+Housebound Latest Exist,ARB Exceptions (All) Code Term
+Palliative care Exist,SGLT2 Exceptions (All) Date
+Moderate or Severe Frailty Latest Date,SGLT2 Exceptions (All) Code Term
+Moderate or Severe Frailty Code Term,Lipid Lowering Therapy Exceptions (All) Date
+Continuity of Care RAG Latest Date,Lipid Lowering Therapy Exceptions (All) Code Term
+Continuity of Care RAG Code Term,Calcium Channel Blockers (All) Date
+Type 2 Diabetes Diagnosis Earliest Date,Calcium Channel Blockers (All) Code Term
+Type 2 Diabetes Diagnosis Code Term,Beta Blocker Exceptions (All) Date
+Metformin Rx First Issue Name Dose,Beta Blocker Exceptions (All) Code Term
+Metformin Rx First Issue Date,Diabetic Medication Exceptions (All) Date
+Metformin Rx First Issue Recent Isses Date,Diabetic Medication Exceptions (All) Code Term
+Metformin Rx First Issue Course Status,GP Appointments (5 Years) Appointment Date
+HbA1c Latest Date,GP Appointments (5 Years) Slot Type
+HbA1c Code Term,GP Appointments (5 Years) National Slot Category
+HbA1c Value,GP Appointments (5 Years) Current Slot Status
+Hypertension Diagnosis Earliest Date,Nurse Appointments (5 Years) Appointment Date
+Hypertension Diagnosis Code Term,Nurse Appointments (5 Years) Slot Type
+Clinic BP Latest Date,Nurse Appointments (5 Years) National Slot Category
+Clinic BP Code Term,Nurse Appointments (5 Years) Current Slot Status
+Clinic BP Value,HCA Appointments (5 Years) Appointment Date
+Clinic BP Secondary Value,HCA Appointments (5 Years) Slot Type
+Home Systolic BP Latest Date,HCA Appointments (5 Years) National Slot Category
+Home Systolic BP Code Term,HCA Appointments (5 Years) Current Slot Status
+Home Systolic BP Value,Pharmacist Appointments (5 Years) Appointment Date
+Home Diastolic BP Latest Date,Pharmacist Appointments (5 Years) Slot Type
+Home Diastolic BP Code Term,Pharmacist Appointments (5 Years) National Slot Category
+Home Diastolic BP Value,Pharmacist Appointments (5 Years) Current Slot Status
+CKD Diagnosis Date,Diabetes Referrals (5 Years) Date
+CKD Diagnosis Code Term,Diabetes Referrals (5 Years) Code Term
+ACR Latest Date,Diabetes Referrals (5 Years) Associated Text
+ACR Code Term,Cardiology Referrals (5 Years) Date
+ACR Value,Cardiology Referrals (5 Years) Code Term
+eGFR Latest Date,Cardiology Referrals (5 Years) Associated Text
+eGFR Code Term,Hypertension Referrals (5 Years) Date
+eGFR Value,Hypertension Referrals (5 Years) Code Term
+SGLT2i First Issue Name Dosage,Hypertension Referrals (5 Years) Associated Text
+SGLT2i First Issue Date,Nephrology Referrals (5 Years) Date
+SGLT2i Recent Issue Date,Nephrology Referrals (5 Years) Code Term
+SGLT2i Course Status,Nephrology Referrals (5 Years) Associated Text
+ACEi First Issue Name Dosage,"Insulin (First Issue)  Name, Dosage and Quantity"
+ACEi First Issue Date,Insulin (First Issue)  Date of Issue
+ACEi Course Status,Insulin (First Issue)  Medication Course's Most Recent Issue Date in Course
+ACEi Recent Issue Date,"Insulin (First Issue)  Medication Course's Course Status (Current, Past etc)"
+ARB First Issue Name Dosage,"GLP-1 (First Issue) Name, Dosage and Quantity"
+ARB First Issue Date,GLP-1 (First Issue) Date of Issue
+ARB Recent Issue Date,GLP-1 (First Issue) Medication Course's Most Recent Issue Date in Course
+ARB Course Status,"GLP-1 (First Issue) Medication Course's Course Status (Current, Past etc)"
+BMI Latest Date,"Statins (First Issue) Name, Dosage and Quantity"
+BMI Code Term,Statins (First Issue) Date of Issue
+BMI Value,Statins (First Issue) Medication Course's Most Recent Issue Date in Course
+Heart Failure Earliest Date,"Statins (First Issue) Medication Course's Course Status (Current, Past etc)"
+Heart Failure Code Term,"Fibrate (First Issue) Name, Dosage and Quantity"
+CHD Earliest Date,Fibrate (First Issue) Date of Issue
+CHD Code Term,Fibrate (First Issue) Medication Course's Most Recent Issue Date in Course
+PAD Earliest Date,"Fibrate (First Issue) Medication Course's Course Status (Current, Past etc)"
+PAD Code Term,"inclisiran (First Issue) Name, Dosage and Quantity"
+PVD Earliest Date,inclisiran (First Issue) Date of Issue
+PVD Code Term,inclisiran (First Issue) Medication Course's Most Recent Issue Date in Course
+Non-hemorrhagic Stroke Earliest Date,"inclisiran (First Issue) Medication Course's Course Status (Current, Past etc)"
+Non-hemorrhagic Stroke Code Term,"DPP4 Name, Dosage and Quantity"
+TIA Earliest Date,DPP5 Date of Issue
+TIA Code Term,DPP6 Medication Course's Most Recent Issue Date in Course
+Obesity Earliest Date,"DPP7 Medication Course's Course Status (Current, Past etc)"
+Obesity Code Term,"Sulfonurea (First Issue) Name, Dosage and Quantity"
+Total Cholesterol Latest Date,Sulfonurea (First Issue) Date of Issue
+Total Cholesterol Code Term,Sulfonurea (First Issue) Medication Course's Most Recent Issue Date in Course
+Total Cholesterol Value,"Sulfonurea (First Issue) Medication Course's Course Status (Current, Past etc)"
+HDL Latest Date,"Pioglitazone (First Issue) Name, Dosage and Quantity"
+HDL Code Term,
+HDL Value,
+Non HDL Latest Date,
+Non HDL Code Term,
+Non HDL Value,
+QRISK Latest Date,
+QRISK Code Term,
+QRISK Value,

@@ -20,27 +20,33 @@ site <- get_sharepoint_site(
 
 drv <- site$get_drive("Informatics sensitive data") # Get drive
 drv$list_files(path = "Healthy Hearts") # list files in Healthy Heart folder
-file_item <- drv$get_item("Healthy Hearts/Healthy Hearts Evaluation Report 1 - patient level data.csv")
-
-extract <- file_item$load_dataframe()
+file_item1 <- drv$get_item("Healthy Hearts/Healthy Hearts Evaluation Report 1 - patient level data.csv")
+file_item2 <- drv$get_item("Healthy Hearts/Healthy Hearts Evaluation Report 2 - appt data.csv")
+extract_patient <- file_item1$load_dataframe()
+extract_appoint <- file_item2$load_dataframe()
 
 # CLEANING
 # Rename Headers
-d <- extract[-c(1:9), ]
-headers <- read.csv('data/headers.csv')
-names(d) <- headers$patient_data
+d0 <- extract_patient[-c(1:9), ]
+d1 <- extract_appoint[-c(1:9), ]
 
-d <- clean_names(d)
+headers <- read.csv('data/headers.csv')
+
+patient_names <- remove_empty_names(headers$patient_data)
+appt_names <- remove_empty_names(headers$appt_data)
+
+names(d0) <- patient_names
+names(d1) <- appt_names
+
+d0 <- clean_names(d0)
+d1 <- clean_names(d1)
 
 # Numeric and date columns
-d <- d %>% mutate(across(contains("value"), as.numeric))
 
-d <- d %>% mutate(across(
-  contains("date"), 
-  ~ suppressWarnings(parse_date_time(.x, orders = c("dmy", "ymd", "mdy", "my", "y"))) %>% as_date()
-))
+d0 <- handle_date_num_vars(d0)
+d1 <- handle_date_num_vars(d1)
 
-dt <- d
+dt <- d0
 
 # TRANSFORMATION PIPELINE ----
 # 1. Cohort filters
@@ -59,6 +65,7 @@ dt <- optimised_htn(dt)
 dt <- optimised_ckd(dt)
 dt <- optimised_t2d(dt)
 dt <- optimised_all(dt)
+
 
 # LOAD ----
 if(TestMode){

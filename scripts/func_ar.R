@@ -79,7 +79,7 @@ optimised_htn <- function(data){
         ~ '1'
       ),
       # # Column 2 hypertension_exist
-      hypertension_exist = ifelse(is.na(hypertension_diagnosis_code_term), FALSE,TRUE)
+      hypertension_exists = ifelse(is.na(hypertension_diagnosis_code_term), FALSE,TRUE)
     )
   
   ## End code here ##
