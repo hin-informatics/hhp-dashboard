@@ -79,7 +79,7 @@ optimised_htn <- function(data){
         ~ '1'
       ),
       # # Column 2 hypertension_exist
-      hypertension_exist = ifelse(is.na(hypertension_diagnosis_code_term), 'no','yes')
+      hypertension_exist = ifelse(is.na(hypertension_diagnosis_code_term), FALSE,TRUE)
     )
   
   ## End code here ##
@@ -94,9 +94,14 @@ optimised_ckd <- function(data){
   
   d = data
   
-  ## Start code here ##
   d <- d %>% mutate(
-    ckd_exists = ifelse(is.na(ckd_diagnosis_code_term), 'no', 'yes')
+    
+    ## Start code here ##
+    
+    
+    ## End code here ##
+    
+    ckd_exists = ifelse(is.na(ckd_diagnosis_code_term), FALSE, TRUE)
   )
   
   # Need to workout statin and second clause about exclusion
@@ -117,9 +122,15 @@ optimised_t2d<- function(data){
   
   d = data
   
-  ## Start code here ##
-  
-  ## End code here ##
+  d <- d %>% mutate(
+    
+    ## Start code here ##
+    
+    
+    ## End code here ##
+    
+    t2d_exists = ifelse(is.na(type_2_diabetes_diagnosis_code_term), FALSE, TRUE)
+  )
   
   return(d)
 }

@@ -15,6 +15,8 @@ pacman::p_load(
   ,'skimr' 
   ,'tictoc'
   ,'Microsoft365R'
+  ,'gplots'
+  ,'ggvenn'
 )
 
 # FUNCTIONS

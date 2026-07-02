@@ -5,7 +5,7 @@
 source('scripts/ini.R')
 
 # Pipeline Settings
-TestMode <- T
+TestMode <- F
 
 tic('ETL Process complete')
 
@@ -63,7 +63,17 @@ dt <- optimised_all(dt)
 # LOAD ----
 if(TestMode){
   message("TestMode is set to 'T': No changes made to the output data.")
+}else{
+  
+  write.csv(dt, 'data/patients_data.csv', row.names = F)
+  
+  drv$upload_file(
+    src = 'data/patients_data.csv',
+    dest = "Healthy Hearts/clean_data_patients.csv"
+    )
+  message('Data loaded in SharePoint')
 }
-write.csv(dt, 'data/clean.csv')
+
+
 
 toc()
