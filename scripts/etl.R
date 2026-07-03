@@ -1,6 +1,7 @@
 ###################
 ## DO NOT MODIFY ##
 ###################
+options(warn = 2)
 
 rm(list = ls())
 
@@ -14,23 +15,39 @@ tic('ETL Process complete')
 # EXTRACTION ----
 # Step 1: Extract data from shared location
 message('Getting and cleaning data from sharepoint.')
-# Access SharePoint
+
+# 1. Access SharePoint
 site <- get_sharepoint_site(
   site_url = "https://emckclac.sharepoint.com/sites/LSMhini",
   tenant = "emckclac.onmicrosoft.com"
 )
 
-drv <- site$get_drive("Informatics sensitive data") # Get drive
-drv$list_files(path = "Healthy Hearts") # list files in Healthy Heart folder
+drv <- site$get_drive("Informatics sensitive data") 
+
+# 2. Grab the file items from SharePoint
 file_item1 <- drv$get_item("Healthy Hearts/Healthy Hearts Evaluation Report 1 - patient level data.csv")
 file_item2 <- drv$get_item("Healthy Hearts/Healthy Hearts Evaluation Report 2 - appt data.csv")
-extract_patient <- suppressWarnings(file_item1$load_dataframe())
-extract_appoint <- suppressWarnings(file_item2$load_dataframe())
 
-# CLEANING
-# Rename Headers
-d0 <- extract_patient[-c(1:9), ]
-d1 <- extract_appoint[-c(1:9), ]
+# 3. Create secure local temporary file paths
+temp_patient <- tempfile(fileext = ".csv")
+temp_appoint <- tempfile(fileext = ".csv")
+
+# 4. Stream the raw files down to your local machine memory
+file_item1$download(dest = temp_patient)
+file_item2$download(dest = temp_appoint)
+
+# 5. FAST LOADING & CLEANING WITH data.table
+# 'skip = "emis_number"' automatically drops rows 1-8 and reads row 9 as the true header.
+# 'data.table = TRUE' converts them to data.tables instantly.
+
+d0 <- fread(temp_patient, skip = "EMIS Number", data.table = TRUE)
+d1 <- fread(temp_appoint, skip = "EMIS Number", data.table = TRUE)
+
+# 6. Securely delete the temporary files from your disk memory
+unlink(temp_patient)
+unlink(temp_appoint)
+
+message('Data successfully loaded and cleaned via reference skipping.')
 
 headers <- read.csv('data/headers.csv')
 
@@ -57,7 +74,7 @@ dt <- dt %>% filter(
 )
 
 # 2. Appointment data enrichments
-dt <- appt_cols(dt)
+dt <- appt_prescriptions(dt)
 
 # 3. Other transformation
 

@@ -76,9 +76,9 @@ Total Cholesterol Latest Date,Sulfonurea (First Issue) Date of Issue
 Total Cholesterol Code Term,Sulfonurea (First Issue) Medication Course's Most Recent Issue Date in Course
 Total Cholesterol Value,"Sulfonurea (First Issue) Medication Course's Course Status (Current, Past etc)"
 HDL Latest Date,"Pioglitazone (First Issue) Name, Dosage and Quantity"
-HDL Code Term,
-HDL Value,
-Non HDL Latest Date,
+HDL Code Term,Pioglitazone (First Issue) Date of Issue
+HDL Value,Pioglitazone (First Issue) Medication Course's Most Recent Issue Date in Course
+Non HDL Latest Date,"Pioglitazone (First Issue) Medication Course's Course Status (Current, Past etc)"
 Non HDL Code Term,
 Non HDL Value,
 QRISK Latest Date,
