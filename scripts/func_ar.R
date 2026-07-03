@@ -66,97 +66,26 @@ create_geo_grps <- function(data){
 
 optimised_htn <- function(data){
   message('Creating optimisation flag: Hypertension ')
-
-  d = data
-
-  ## Start code here ##
-  d <- d %>%
-    mutate(
-      hypertension_exist = ifelse(is.na(hypertension_diagnosis_code_term), 0, 1)
-    ) %>%
-    mutate(
-      hypertension_optimised = case_when(
-        hypertension_exist == 1 & (acr_value < 70 | is.na(acr_value)) & clinic_bp_value < 140 & clinic_bp_secondary_value < 90 ~ 1,
-        hypertension_exist == 1 & acr_value >= 70 & clinic_bp_value < 130 & clinic_bp_secondary_value < 80 ~ 1,
-        hypertension_exist == 1 & !is.na(acr_value) & !is.na(moderate_or_severe_frailty_code_term) & clinic_bp_value < 150 & clinic_bp_secondary_value < 90 ~ 1,
-        hypertension_exist == 0 ~ 0)
-    )
-  ## End code here ##
-
-  return(d)
-}
-
-################################################################################
-
-# optimised_htn <- function(data){
-#   message('Creating optimisation flag: Hypertension ')
-# 
-#   d = data
-# 
-#   ## Start code here ##
-#   d <- d %>%
-#     # Checking hypertension exists or not (Yes and No)
-#     mutate(
-#       hypertension_exist = ifelse(is.na(hypertension_diagnosis_code_term), 'No','Yes')
-#     ) %>%
-#     # If Pt has a Home BP measurement, it will be used over the Clinic BP value
-#     mutate(
-#       systolic_bp = coalesce(home_systolic_bp_value, clinic_bp_value),
-#       diastolic_bp = coalesce(home_diastolic_bp_value, clinic_bp_secondary_value)
-#     ) %>%
-#     # Below are the 3 logics where hypertension exists in a pt
-#     mutate(
-#       hypertension_optimised = case_when(
-#         hypertension_exist == 'Yes' &
-#           (acr_value < 70 | is.na(acr_value)) &
-#           systolic_bp < 140 & diastolic_bp < 90 ~ 'Optimised',
-#         hypertension_exist == 'Yes' &
-#           acr_value >= 70 &
-#           systolic_bp < 130 & diastolic_bp < 80 ~ 'Optimised',
-#         hypertension_exist == 'Yes' &
-#           !is.na(acr_value) & !is.na(moderate_or_severe_frailty_code_term) &
-#           systolic_bp < 150 & diastolic_bp < 90 ~ 'Optimised',
-#         # If hypertension doesn't exist in a pt, we assign 'NA'
-#         hypertension_exist == 'No' ~ 'NA',
-#         TRUE ~ "Not optimised")
-#     )
-#   ## End code here ##
-# 
-#   return(d)
-# }
-
-################################################################################
-
-optimised_htn <- function(data){
-  message('Creating optimisation flag: Hypertension ')
   
   d = data
   
   ## Start code here ##
   d <- d %>%
-    # Checking hypertension exists or not (Yes = 1 and No = 0)
     mutate(
-      hypertension_exist = ifelse(is.na(hypertension_diagnosis_code_term), 0, 1)
+      hypertension_exist = ifelse(is.na(hypertension_diagnosis_code_term), 0, 1) # Checking hypertension exists or not (Yes = 1 and No = 0)
     ) %>%
-    # If Pt has a Home BP measurement, it will be used over the Clinic BP value
-    mutate(
-      systolic_bp = coalesce(home_systolic_bp_value, clinic_bp_value),
-      diastolic_bp = coalesce(home_diastolic_bp_value, clinic_bp_secondary_value)
-    ) %>%
-    # Below are the 3 logics where hypertension exists in a pt
     mutate(
       hypertension_optimised = case_when(
         hypertension_exist == 1 &
           (acr_value < 70 | is.na(acr_value)) &
-          systolic_bp < 140 & diastolic_bp < 90 ~ 1,
+          clinic_bp_value < 140 & clinic_bp_secondary_value < 90 ~ 1,
         hypertension_exist == 1 &
           acr_value >= 70 &
-          systolic_bp < 130 & diastolic_bp < 80 ~ 1,
+          clinic_bp_value < 130 & clinic_bp_secondary_value < 80 ~ 1,
         hypertension_exist == 1 &
           !is.na(acr_value) & !is.na(moderate_or_severe_frailty_code_term) &
-          systolic_bp < 150 & diastolic_bp < 90 ~ 1,
-        # If hypertension doesn't exist in a pt, we assign 'NA_real_' meaning Not applicable
-        hypertension_exist == 0 ~ NA_real_,
+          clinic_bp_value < 150 & clinic_bp_secondary_value < 90 ~ 1,
+        hypertension_exist == 0 ~ NA_real_, # If hypertension doesn't exist in a pt, we assign 'NA_real_' meaning Not applicable
         TRUE ~ 0)
     )
   ## End code here ##
@@ -170,6 +99,30 @@ optimised_htn <- function(data){
 # YES Diabetes AND ACR >= 3 & taking ACEi OR ARB + SGLT2i + statin 
 # NO Diabetes AND ACR >= 22.6 & & taking ACEi OR ARB + SGLT2i + statin
 
+# optimised_ckd <- function(data){
+#   message('Creating optimisation flag: CKD ')
+# 
+#   d = data
+# 
+#   ## Start code here ##
+#   d <- d %>%
+#     mutate(
+#       ckd_exist = ifelse(is.na(ckd_diagnosis_code_term), 0, 1) # Checking Chronic Kidney Disease exists or not (Yes = 1 and No = 0)
+#     ) %>%
+#     mutate(
+#       ckd_optimised = case_when(
+#         ckd_exist == 1 & !is.na(type_2_diabetes_diagnosis_code_term) & acr_value >= 3 & ac_ei_course_status == "Current" |
+#           ckd_exist == 1 & !is.na(type_2_diabetes_diagnosis_code_term) & acr_value >= 3 & arb_course_status == "Current" & sglt2i_course_status == "Current" & statins_first_issue_medication_courses_course_status_current_past_etc == "Current" ~ 1,
+#         ckd_exist == 1 & is.na(type_2_diabetes_diagnosis_code_term) & acr_value >= 22.6 & ac_ei_course_status == "Current" |
+#           ckd_exist == 1 & is.na(type_2_diabetes_diagnosis_code_term) & acr_value >= 22.6 & arb_course_status == "Current" & sglt2i_course_status == "Current" & statins_first_issue_medication_courses_course_status_current_past_etc == "Current" ~ 1,
+#         ckd_exist == 0 ~ NA_real_, # If Chronic Kidney Disease doesn't exist in a pt, we assign 'NA_real_' meaning Not applicable
+#         TRUE ~ 0)
+#     )
+#   ## End code here ##
+# 
+#   return(d)
+# }
+
 optimised_ckd <- function(data){
   message('Creating optimisation flag: CKD ')
   
@@ -177,22 +130,18 @@ optimised_ckd <- function(data){
   
   ## Start code here ##
   d <- d %>% 
-    # Checking Chronic Kidney Disease exists or not (Yes = 1 and No = 0)
     mutate(
-      ckd_exists = ifelse(is.na(ckd_diagnosis_code_term), 0, 1)
+      ckd_exist = ifelse(is.na(ckd_diagnosis_code_term), 0, 1) # Checking Chronic Kidney Disease exists or not (Yes = 1 and No = 0)
     ) %>%
     mutate(
       ckd_optimised = case_when(
-        # Logic 1
-        ckd_exists == 1 &
-          !is.na(type_2_diabetes_diagnosis_code_term) & acr_value >= 3 &
-          (ac_ei_course_status == "Current" | arb_course_status == "Current") & (sglt2i_course_status == "Current") + (statins_first_issue_medication_courses_course_status_current_past_etc == "Current") ~ 1,
-        # Logic 2
-        ckd_exists == 1 &
-          is.na(type_2_diabetes_diagnosis_code_term) & acr_value >= 22.6 &
-          (ac_ei_course_status == "Current" | arb_course_status == "Current") & (sglt2i_course_status == "Current") + (statins_first_issue_medication_courses_course_status_current_past_etc == "Current") ~ 1,
-        # If Chronic Kidney Disease doesn't exist in a pt, we assign 'NA_real_' meaning Not applicable
-        ckd_exist == 0 ~ NA_real_,
+        ckd_exist == 1 &
+          !is.na(type_2_diabetes_diagnosis_code_term) & acr_value >= 3 & 
+          (ac_ei_course_status == "Current" | arb_course_status == "Current") & sglt2i_course_status == "Current" & statins_first_issue_medication_courses_course_status_current_past_etc == "Current" ~ 1,
+        ckd_exist == 1 & 
+          is.na(type_2_diabetes_diagnosis_code_term) & acr_value >= 22.6 & 
+          (ac_ei_course_status == "Current" | arb_course_status == "Current") & sglt2i_course_status == "Current" & statins_first_issue_medication_courses_course_status_current_past_etc == "Current" ~ 1,
+        ckd_exist == 0 ~ NA_real_, # If Chronic Kidney Disease doesn't exist in a pt, we assign 'NA_real_' meaning Not applicable
         TRUE ~ 0)
     )
   ## End code here ##
@@ -219,16 +168,13 @@ optimised_t2d <- function(data){
     ) %>%
     mutate(
       diabetes_optimised = case_when(
-        # Logic 1
         diabetes_exist == 1 &
           is.na(moderate_or_severe_frailty_code_term) &
           !is.na(metformin_rx_first_issue_name_dose) & !is.na(sglt2i_first_issue_name_dosage) & hb_a1c_value <= 53 ~ 1,
-        # Logic 2
         diabetes_exist == 1 &
           !is.na(moderate_or_severe_frailty_code_term) &
           !is.na(metformin_rx_first_issue_name_dose) & hb_a1c_value <= 75 ~ 1,
-        # If Diabetes doesn't exist in a pt, we assign 'NA_real_' meaning Not applicable
-        diabetes_exist == 0 ~ NA_real_,
+        diabetes_exist == 0 ~ NA_real_, # If Diabetes doesn't exist in a pt, we assign 'NA_real_' meaning Not applicable
         TRUE ~ 0)
     )
   ## End code here ##
@@ -251,16 +197,17 @@ optimised_all <- function(data){
   d = data
   
   ## Start code here ##
-  d <- d %>% mutate(all_patients = ifelse(hypertension_exist == 0 & ckd_exists == 0 & diabetes_exist == 0, 1, 0))
-  %>%
+  d <- d %>%
     mutate(
-      cvd_exits = case_when(
-      all_patients == 1 & !is.na((chd_code_term) & !is.na(pad_code_term) & !is.na(pvd_code_term) & !is.na(non_hemorrhagic_stroke_code_term) | !is.na(tia_code_term)) & non_hdl_value <= 2.6 ~ 1,
-      all_patients == 0 
+      all_patients = ifelse(hypertension_exist == 1 | ckd_exists == 1 | diabetes_exist == 1, 0, 1)
+      ) %>%
+    mutate(
+      all_optimised = case_when(
+        all_patients == 1 & (!is.na(chd_code_term) | !is.na(pad_code_term) | !is.na(pvd_code_term) | !is.na(non_hemorrhagic_stroke_code_term) | !is.na(tia_code_term)) & non_hdl_value <= 2.6 & statins_first_issue_medication_courses_course_status_current_past_etc == "Current" ~ 1,
+        all_patients == 1 & (is.na(chd_code_term) & is.na(pad_code_term) & is.na(pvd_code_term) & is.na(non_hemorrhagic_stroke_code_term) & is.na(tia_code_term)) & qrisk_value >= 10 & statins_first_issue_medication_courses_course_status_current_past_etc == "Current" ~ 1,
+        all_patients == 0 ~ NA_real_,
+        TRUE ~ 0)
     )
-
-
-    
   ## End code here ##
   
   return(d)
