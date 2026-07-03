@@ -199,7 +199,7 @@ optimised_all <- function(data){
   ## Start code here ##
   d <- d %>%
     mutate(
-      all_patients = ifelse(hypertension_exist == 1 | ckd_exists == 1 | diabetes_exist == 1, 0, 1)
+      all_patients = ifelse(hypertension_exist == 1 | ckd_exist == 1 | diabetes_exist == 1, 0, 1)
       ) %>%
     mutate(
       all_optimised = case_when(
