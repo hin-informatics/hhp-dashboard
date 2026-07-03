@@ -155,7 +155,7 @@ optimised_htn <- function(data){
         hypertension_exist == 1 &
           !is.na(acr_value) & !is.na(moderate_or_severe_frailty_code_term) &
           systolic_bp < 150 & diastolic_bp < 90 ~ 1,
-        # If hypertension doesn't exist in a pt, we assign 'NA_real_'
+        # If hypertension doesn't exist in a pt, we assign 'NA_real_' meaning Not applicable
         hypertension_exist == 0 ~ NA_real_,
         TRUE ~ 0)
     )
@@ -191,9 +191,11 @@ optimised_ckd <- function(data){
         ckd_exists == 1 &
           is.na(type_2_diabetes_diagnosis_code_term) & acr_value >= 22.6 &
           (ac_ei_course_status == "Current" | arb_course_status == "Current") & (sglt2i_course_status == "Current") + (statins_first_issue_medication_courses_course_status_current_past_etc == "Current") ~ 1,
+        # If Chronic Kidney Disease doesn't exist in a pt, we assign 'NA_real_' meaning Not applicable
+        ckd_exist == 0 ~ NA_real_,
         TRUE ~ 0)
     )
-  # End code here ##
+  ## End code here ##
   
   return(d)
 }
@@ -211,13 +213,22 @@ optimised_t2d <- function(data){
 
   ## Start code here ##
   d <- d %>%
+    # Checking Diabetes exists or not (Yes = 1 and No = 0)
     mutate(
-      diabetes_exist = ifelse(is.na(type_2_diabetes_diagnosis_code_term), 0,1)
+      diabetes_exist = ifelse(is.na(type_2_diabetes_diagnosis_code_term), 0, 1)
     ) %>%
     mutate(
       diabetes_optimised = case_when(
-        diabetes_exist == 1 & is.na(moderate_or_severe_frailty_code_term) & !is.na(metformin_rx_first_issue_name_dose) & !is.na(sglt2i_first_issue_name_dosage) & hb_a1c_value <= 53 ~ 1,
-        diabetes_exist == 1 & !is.na(moderate_or_severe_frailty_code_term) & !is.na(metformin_rx_first_issue_name_dose) & hb_a1c_value <= 75 ~ 1,
+        # Logic 1
+        diabetes_exist == 1 &
+          is.na(moderate_or_severe_frailty_code_term) &
+          !is.na(metformin_rx_first_issue_name_dose) & !is.na(sglt2i_first_issue_name_dosage) & hb_a1c_value <= 53 ~ 1,
+        # Logic 2
+        diabetes_exist == 1 &
+          !is.na(moderate_or_severe_frailty_code_term) &
+          !is.na(metformin_rx_first_issue_name_dose) & hb_a1c_value <= 75 ~ 1,
+        # If Diabetes doesn't exist in a pt, we assign 'NA_real_' meaning Not applicable
+        diabetes_exist == 0 ~ NA_real_,
         TRUE ~ 0)
     )
   ## End code here ##
@@ -240,7 +251,16 @@ optimised_all <- function(data){
   d = data
   
   ## Start code here ##
+  d <- d %>% mutate(all_patients = ifelse(hypertension_exist == 0 & ckd_exists == 0 & diabetes_exist == 0, 1, 0))
+  %>%
+    mutate(
+      cvd_exits = case_when(
+      all_patients == 1 & !is.na((chd_code_term) & !is.na(pad_code_term) & !is.na(pvd_code_term) & !is.na(non_hemorrhagic_stroke_code_term) | !is.na(tia_code_term)) & non_hdl_value <= 2.6 ~ 1,
+      all_patients == 0 
+    )
 
+
+    
   ## End code here ##
   
   return(d)
