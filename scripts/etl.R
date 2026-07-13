@@ -40,8 +40,8 @@ file_item2$download(dest = temp_appoint)
 # 'skip = "emis_number"' automatically drops rows 1-8 and reads row 9 as the true header.
 # 'data.table = TRUE' converts them to data.tables instantly.
 
-d0 <- fread(temp_patient, skip = "EMIS Number", data.table = TRUE)
-d1 <- fread(temp_appoint, skip = "EMIS Number", data.table = TRUE)
+d0 <- fread(temp_patient, skip = "EMIS Number", data.table = TRUE, select = 1:85, na.strings = c("", "NA"))
+d1 <- fread(temp_appoint, skip = "EMIS Number", data.table = TRUE, select = 1:80, na.strings = c("", "NA"))
 
 # 6. Securely delete the temporary files from your disk memory
 unlink(temp_patient)
@@ -89,15 +89,29 @@ dt <- optimised_all(dt)
 
 
 # LOAD ----
+
+dt[, emis_number := as.character(emis_number)]
+
 if(TestMode){
   message("TestMode is set to 'T': No changes made to the output data.")
 }else{
   
-  write.csv(dt, 'data/patients_data.csv', row.names = F)
+  use_cols <- c(
+    "emis_number"
+    ,"organisation_name"
+    ,"diabetes_exist"
+    ,"hypertension_exist"
+    ,"ckd_exist"
+    
+  )
+  
+  payload <- dt[, ..use_cols]
+  
+  write.csv(payload, 'data/facts.csv', row.names = F)
   
   drv$upload_file(
-    src = 'data/patients_data.csv',
-    dest = "Healthy Hearts/clean_data_patients.csv"
+    src = 'data/facts.csv',
+    dest = "Healthy Hearts/facts.csv"
     )
   message('Data loaded in SharePoint')
 }

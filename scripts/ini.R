@@ -15,12 +15,9 @@ pacman::p_load(
   ,'skimr' 
   ,'tictoc'
   ,'Microsoft365R'
-  ,'gplots'
   ,'ggvenn'
 )
 
 # FUNCTIONS
-source('scripts/func_ar.R')
-source('scripts/func_ps.R')
-source('scripts/func_ea.R')
+source('scripts/fun.R')
 
