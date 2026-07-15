@@ -99,13 +99,25 @@ if(TestMode){
   use_cols <- c(
     "emis_number"
     ,"organisation_name"
+    
+    ,'func_age_bands'
+    ,'func_ethnic_group'
+
+        
     ,"diabetes_exist"
     ,"hypertension_exist"
     ,"ckd_exist"
+    ,"diabetes_optimised"
+    ,"hypertension_optimised"
+    ,"ckd_optimised"
+
     
   )
   
   payload <- dt[, ..use_cols]
+  
+  
+  skim(payload)
   
   write.csv(payload, 'data/facts.csv', row.names = F)
   
@@ -113,7 +125,7 @@ if(TestMode){
     src = 'data/facts.csv',
     dest = "Healthy Hearts/facts.csv"
     )
-  message('Data loaded in SharePoint')
+  message('Data loaded in SharePoint (', ncol(payload), ' columns)')
 }
 
 
