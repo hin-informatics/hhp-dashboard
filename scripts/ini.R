@@ -21,5 +21,6 @@ pacman::p_load(
 # FUNCTIONS
 source('scripts/func_demographics.R')
 source('scripts/func_optimisation.R')
+source('scripts/func_appointments.R')
 source('scripts/func_helpers.R')
 

@@ -26,28 +26,17 @@ handle_date_num_vars <- function(data){
 }
 
 # Helper function 3 ----
-# This implementation handles multiple instances of prescription activity in all appointments across five years.
-appt_prescriptions <- function(data){
-  
-  setDT(data)
-  setDT(d1)
-  
-  d <- d1
-  
-  d <- setorder(d, emis_number, gp_appointments_5_years_appointment_date)
-  
-  statins <- d[, .(
-    statins_first_issue_name_dosage_and_quantity = last(na.omit(statins_first_issue_name_dosage_and_quantity)),
-    statins_first_issue_date_of_issue = first(na.omit(statins_first_issue_date_of_issue)),
-    statins_first_issue_medication_courses_most_recent_issue_date_in_course = last(na.omit(statins_first_issue_medication_courses_most_recent_issue_date_in_course)),
-    statins_first_issue_medication_courses_course_status_current_past_etc = last(na.omit(statins_first_issue_medication_courses_course_status_current_past_etc))
-  ), by = 'emis_number']
-  
-  ## >>> Add other Prescriptions here <<< ##
-  
-  data <- merge(data, statins, all.x = T, by = 'emis_number')
-  
-  ## >>> Merge other prescriptions here <<< ##
-  
-  return(data)
+
+assign_cvrm_cohort <- function(data) {
+  data %>%
+    mutate(cvrm_cohort = case_when(
+      ckd_exist == 1 & diabetes_exist == 0 & hypertension_exist == 0 ~ "CKD only",
+      ckd_exist == 1 & diabetes_exist == 0 & hypertension_exist == 1 ~ "HTN & CKD",
+      ckd_exist == 0 & diabetes_exist == 0 & hypertension_exist == 1 ~ "HTN only",
+      ckd_exist == 0 & diabetes_exist == 1 & hypertension_exist == 1 ~ "HTN & T2D",
+      ckd_exist == 0 & diabetes_exist == 1 & hypertension_exist == 0 ~ "T2D only",
+      ckd_exist == 1 & diabetes_exist == 1 & hypertension_exist == 0 ~ "T2D & CKD",
+      ckd_exist == 1 & diabetes_exist == 1 & hypertension_exist == 1 ~ "All three",
+      TRUE ~ "None"
+    ))
 }

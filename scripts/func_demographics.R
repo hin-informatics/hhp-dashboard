@@ -4,7 +4,6 @@
 
 # Creates 10-year age band column with data and variable input.
 create_age_bands <- function(data, age_var = age){
-  message('Creating 10-year age band column: ')
   
   d = data
   
@@ -32,15 +31,15 @@ create_age_bands <- function(data, age_var = age){
     ))
     
   ## End code here ##
-  
+  message('Created 10-year age band column.')
   return(d)
+  
 }
 
 # Ethnic Grouping ----
 # Creates major ethnic categories column with data and variable input.
 
 create_ethnic_grps <- function(data, ethnic_var = ethnic_origin){
-  message('Creating major ethnic groups: ')
   
   d = data
   
@@ -137,11 +136,15 @@ create_ethnic_grps <- function(data, ethnic_var = ethnic_origin){
       TRUE ~ "Not Coded"
     )) %>%
     mutate(
-      func_ethnic_group = ifelse(grouped_ethnic_origin == "White", "White British", "Global Majority")
+      func_ethnic_group = case_when(
+        grouped_ethnic_origin == "White" ~ "White British",
+        grouped_ethnic_origin %in% c("Not Stated", "Not Coded") ~ "Not Stated/Unknown",
+        TRUE ~ "Global Majority"
+      )
     )
   
   ## End code here ##
-  
+  message('Created major ethnic groups.')
   return(d)
 }
 
@@ -150,19 +153,35 @@ create_ethnic_grps <- function(data, ethnic_var = ethnic_origin){
 
 # Creates useful geography and IMD columns with data and variable input.
 create_geo_grps <- function(data){
-  message('Creating geographies and IMD: ')
   
   d = data
   
   ## Start code here ##
-  imd <- read.csv("data/IMD_2010.csv")
+  # Load the geographies dataset (which replaces the missing IMD_2010.csv)
+  geo_lookup <- read.csv("data/geographies.csv")
   
-  # left_join merges those two columns LSOA fields to data 
+  # Clean up and select columns from geographies
+  geo_lookup <- geo_lookup %>%
+    select(lsoa_code, la_name, imd) %>%
+    mutate(
+      imd_decile = as.numeric(imd),
+      imd_quintile = ceiling(imd_decile / 2),
+      imd_quintile_label = case_when(
+        imd_quintile == 1 ~ "1 - Most Deprived",
+        imd_quintile == 2 ~ "2",
+        imd_quintile == 3 ~ "3",
+        imd_quintile == 4 ~ "4",
+        imd_quintile == 5 ~ "5 - Least Deprived",
+        TRUE ~ "Unknown"
+      )
+    )
+  
   d <- d %>% left_join(
-    imd %>% select(lsoa_code, la_name),
+    geo_lookup %>% select(lsoa_code, la_name, imd_decile, imd_quintile, imd_quintile_label),
     by = c("lower_layer_area_2011" = "lsoa_code")
   )
   ## End code here ##
   
+  message('Geographies and IMD added.')
   return(d)
 }

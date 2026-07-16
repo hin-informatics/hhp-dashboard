@@ -40,8 +40,8 @@ file_item2$download(dest = temp_appoint)
 # 'skip = "emis_number"' automatically drops rows 1-8 and reads row 9 as the true header.
 # 'data.table = TRUE' converts them to data.tables instantly.
 
-d0 <- fread(temp_patient, skip = "EMIS Number", data.table = TRUE, select = 1:85, na.strings = c("", "NA"))
-d1 <- fread(temp_appoint, skip = "EMIS Number", data.table = TRUE, select = 1:80, na.strings = c("", "NA"))
+ptts_dt <- fread(temp_patient, skip = "EMIS Number", data.table = TRUE, select = 1:85, na.strings = c("", "NA"))
+appt_dt <- fread(temp_appoint, skip = "EMIS Number", data.table = TRUE, select = 1:80, na.strings = c("", "NA"))
 
 # 6. Securely delete the temporary files from your disk memory
 unlink(temp_patient)
@@ -54,43 +54,44 @@ headers <- read.csv('data/headers.csv')
 patient_names <- remove_empty_names(headers$patient_data)
 appt_names <- remove_empty_names(headers$appt_data)
 
-names(d0) <- patient_names
-names(d1) <- appt_names
+names(ptts_dt) <- patient_names
+names(appt_dt) <- appt_names
 
-d0 <- clean_names(d0)
-d1 <- clean_names(d1)
+ptts_dt <- clean_names(ptts_dt)
+appt_dt <- clean_names(appt_dt)
 
 # Numeric and date columns
 
-d0 <- handle_date_num_vars(d0)
-d1 <- handle_date_num_vars(d1)
+ptts_dt <- handle_date_num_vars(ptts_dt)
+appt_dt <- handle_date_num_vars(appt_dt)
 
-dt <- d0
 
 # TRANSFORMATION PIPELINE ----
 # 1. Cohort filters
-dt <- dt %>% filter(
+ptts_dt <- ptts_dt %>% filter(
   age >= 18 # Patients 18 and over only
 )
 
-# 2. Appointment data enrichments
-dt <- appt_prescriptions(dt)
+# 2. Function transformation
+ptts_dt <- appt_prescriptions(appt_dt, ptts_dt) # Step 1
 
-# 3. Other transformation
+ptts_dt <- create_age_bands(ptts_dt) # Step 2
+ptts_dt <- create_ethnic_grps(ptts_dt) # Step 3
+ptts_dt <- create_geo_grps(ptts_dt) # Step 4
 
-dt <- create_age_bands(dt)
-dt <- create_ethnic_grps(dt)
-dt <- create_geo_grps(dt)
+ptts_dt <- optimised_htn(ptts_dt) # Step 5
+ptts_dt <- optimised_ckd(ptts_dt) # Step 6
+ptts_dt <- optimised_t2d(ptts_dt) # Step 7
+ptts_dt <- optimised_all(ptts_dt) # Step 8
 
-dt <- optimised_htn(dt)
-dt <- optimised_ckd(dt)
-dt <- optimised_t2d(dt)
-dt <- optimised_all(dt)
+ptts_dt <- assign_cvrm_cohort(ptts_dt) # Step 9
 
+ptts_dt <- optimisation_date(ptts_dt) # Step 10
+
+ptts_dt <- appt_calculations(appt_dt, ptts_dt) # Step 11
 
 # LOAD ----
-
-dt[, emis_number := as.character(emis_number)]
+ptts_dt[, emis_number := as.character(emis_number)]
 
 if(TestMode){
   message("TestMode is set to 'T': No changes made to the output data.")
@@ -99,23 +100,29 @@ if(TestMode){
   use_cols <- c(
     "emis_number"
     ,"organisation_name"
-    
+    ,"cvrm_cohort"
+    ,"gender"
     ,'func_age_bands'
     ,'func_ethnic_group'
-
-        
+    ,'la_name'
+    ,'lower_layer_area_2011'
+    ,"imd_quintile_label"
     ,"diabetes_exist"
     ,"hypertension_exist"
     ,"ckd_exist"
     ,"diabetes_optimised"
     ,"hypertension_optimised"
     ,"ckd_optimised"
-
-    
+    ,"fully_optimised"
+    ,"time_to_optimisation_days"
+    ,"appts_gp_in_window"
+    ,"appts_nurse_in_window"
+    ,"appts_hca_in_window"
+    ,"appts_pharm_in_window"
+    ,"appts_total_in_window"
   )
   
-  payload <- dt[, ..use_cols]
-  
+  payload <- ptts_dt[, ..use_cols]
   
   skim(payload)
   
