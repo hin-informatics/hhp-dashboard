@@ -1,450 +1,450 @@
-"emis_number","organisation_name","cvrm_cohort","gender","func_age_bands","func_ethnic_group","la_name","lower_layer_area_2011","imd_quintile_label","diabetes_exist","hypertension_exist","ckd_exist","diabetes_optimised","hypertension_optimised","ckd_optimised","fully_optimised","time_to_optimisation_days","appts_gp_in_window","appts_nurse_in_window","appts_hca_in_window","appts_pharm_in_window","appts_total_in_window"
-"7","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003037","1 - Most Deprived",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"94","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003041","1 - Most Deprived",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"115","Springfield Medical Centre","CKD only","Female","40-59","White British","Lambeth","E01003092","1 - Most Deprived",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"267","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"284","Springfield Medical Centre","CKD only","Female","75+","Global Majority","Lambeth","E01003090","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"285","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003090","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"291","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003091","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"307","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Wandsworth","E01004567","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"331","Springfield Medical Centre","HTN & CKD","Male","60-74","Global Majority","Lambeth","E01003183","2",0,1,1,NA,1,0,0,NA,NA,NA,NA,NA,0
-"375","Springfield Medical Centre","HTN only","Male","60-74","White British","Lambeth","E01003089","2",0,1,0,NA,1,NA,1,368,2,0,2,2,6
-"378","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"396","Springfield Medical Centre","T2D & CKD","Female","60-74","Global Majority","Lambeth","E01003089","2",1,0,1,0,NA,0,0,NA,NA,NA,NA,NA,0
-"438","Springfield Medical Centre","CKD only","Male","60-74","White British","Lambeth","E01003034","3",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"484","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"624","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Lambeth","E01003089","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"683","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"716","Springfield Medical Centre","T2D only","Male","75+","White British","Lambeth","E01003091","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"748","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"866","Springfield Medical Centre","HTN only","Male","60-74","Global Majority","Lambeth","E01003089","2",0,1,0,NA,1,NA,1,1553,30,0,12,1,43
-"928","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Merton","E01003414","4",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"1052","Springfield Medical Centre","HTN & CKD","Female","40-59","Global Majority","Lambeth","E01003088","2",0,1,1,NA,0,0,0,NA,NA,NA,NA,NA,0
-"1056","Springfield Medical Centre","T2D only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"1058","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003122","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"1128","Springfield Medical Centre","HTN only","Female","18-39","White British","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"1185","Springfield Medical Centre","HTN only","Female","75+","Global Majority","Lambeth","E01003091","2",0,1,0,NA,1,NA,1,68,2,0,0,0,2
-"1192","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"1202","Springfield Medical Centre","HTN only","Male","60-74","White British","Lambeth","E01003089","2",0,1,0,NA,1,NA,1,935,7,1,8,2,18
-"1286","Springfield Medical Centre","HTN only","Female","60-74","White British","Lambeth","E01003089","2",0,1,0,NA,1,NA,1,1589,50,3,5,6,64
-"1373","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Greenwich","E01001641","3",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"1420","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003034","3",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"1431","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003091","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"1480","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003121","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"1481","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003121","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"1545","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003118","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"1624","Springfield Medical Centre","HTN only","Female","40-59","White British","Lambeth","E01003034","3",0,1,0,NA,1,NA,1,154,1,0,0,0,1
-"1743","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003091","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"1812","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003091","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"1897","Springfield Medical Centre","HTN only","Female","18-39","Global Majority","Lambeth","E01003091","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"1899","Springfield Medical Centre","T2D only","Male","18-39","Global Majority","Lambeth","E01003091","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"1907","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003091","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"1911","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003091","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"1920","Springfield Medical Centre","CKD only","Male","75+","Not Stated/Unknown","Lambeth","E01003092","1 - Most Deprived",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"1948","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003034","3",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"1952","Springfield Medical Centre","HTN & CKD","Male","18-39","Global Majority","Lambeth","E01003034","3",0,1,1,NA,0,0,0,NA,NA,NA,NA,NA,0
-"1957","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"1962","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Lambeth","E01003032","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"2078","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"2084","Springfield Medical Centre","T2D & CKD","Female","75+","Global Majority","Wandsworth","E01004567","2",1,0,1,0,NA,0,0,NA,NA,NA,NA,NA,0
-"2127","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"2137","Springfield Medical Centre","CKD only","Female","75+","Global Majority","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"2265","Springfield Medical Centre","HTN & CKD","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,1,NA,0,0,0,NA,NA,NA,NA,NA,0
-"2320","Springfield Medical Centre","CKD only","Male","75+","White British","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"2389","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"2415","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"2488","Springfield Medical Centre","All three","Male","60-74","Global Majority","Wandsworth","E01004579","3",1,1,1,0,0,0,0,NA,NA,NA,NA,NA,0
-"2515","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Wandsworth","E01004567","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"2538","Springfield Medical Centre","CKD only","Male","75+","Global Majority","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"2596","Springfield Medical Centre","CKD only","Female","75+","White British","Wandsworth","E01004567","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"2608","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"2625","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Wandsworth","E01004567","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"2628","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Wandsworth","E01004567","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"2648","Springfield Medical Centre","CKD only","Male","75+","White British","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"2651","Springfield Medical Centre","CKD only","Male","75+","White British","Wandsworth","E01004567","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"2657","Springfield Medical Centre","HTN only","Female","60-74","Global Majority","Wandsworth","E01004562","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"2769","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003171","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"2801","Springfield Medical Centre","T2D & CKD","Male","60-74","Global Majority","Lambeth","E01003183","2",1,0,1,0,NA,0,0,NA,NA,NA,NA,NA,0
-"2918","Springfield Medical Centre","T2D only","Male","75+","Global Majority","Lambeth","E01003091","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"3025","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003046","1 - Most Deprived",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"3029","Springfield Medical Centre","T2D only","Male","40-59","White British","Lambeth","E01003091","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"3057","Springfield Medical Centre","HTN only","Female","40-59","White British","Lewisham","E01003320","1 - Most Deprived",0,1,0,NA,1,NA,1,557,4,0,5,1,10
-"3097","Springfield Medical Centre","T2D only","Male","60-74","Global Majority","Lambeth","E01003091","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"3119","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Croydon","E01001165","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"3271","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003042","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"3337","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003091","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"3356","Springfield Medical Centre","HTN & T2D","Female","40-59","Global Majority","Lambeth","E01003091","2",1,1,0,0,1,NA,0,NA,NA,NA,NA,NA,0
-"3410","Springfield Medical Centre","CKD only","Male","18-39","Global Majority","Lambeth","E01003034","3",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"3487","Springfield Medical Centre","HTN only","Female","60-74","Global Majority","Wandsworth","E01004567","2",0,1,0,NA,1,NA,1,1130,18,0,3,3,24
-"3637","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Wandsworth","E01004567","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"3733","Springfield Medical Centre","HTN only","Male","60-74","Global Majority","Wandsworth","E01004562","2",0,1,0,NA,1,NA,1,1279,37,0,6,0,43
-"3770","Springfield Medical Centre","T2D & CKD","Female","60-74","Global Majority","Wandsworth","E01004562","2",1,0,1,0,NA,0,0,NA,NA,NA,NA,NA,0
-"3801","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003089","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"3820","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"3859","Springfield Medical Centre","CKD only","Female","75+","Global Majority","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"3925","Springfield Medical Centre","HTN only","Male","60-74","Global Majority","Lambeth","E01003089","2",0,1,0,NA,1,NA,1,203,3,0,0,1,4
-"3940","Springfield Medical Centre","T2D only","Male","40-59","White British","Wandsworth","E01004562","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"3984","Springfield Medical Centre","CKD only","Female","40-59","Not Stated/Unknown","Lambeth","E01003090","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"4069","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Croydon","E01001152","1 - Most Deprived",0,1,0,NA,1,NA,1,1112,17,1,1,7,26
-"4074","Springfield Medical Centre","CKD only","Female","60-74","White British","Wandsworth","E01004567","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"4187","Springfield Medical Centre","HTN & CKD","Female","60-74","Global Majority","Wandsworth","E01004567","2",0,1,1,NA,0,0,0,NA,NA,NA,NA,NA,0
-"4241","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003091","2",0,1,0,NA,1,NA,1,585,8,1,4,0,13
-"4328","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"4350","Springfield Medical Centre","CKD only","Female","75+","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"4374","Springfield Medical Centre","T2D only","Female","60-74","White British","Lambeth","E01003089","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"4424","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"4460","Springfield Medical Centre","T2D only","Female","60-74","Not Stated/Unknown","Lambeth","E01003015","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"4506","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003121","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"4537","Springfield Medical Centre","CKD only","Male","75+","Global Majority","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"4594","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Wandsworth","E01004562","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"4616","Springfield Medical Centre","HTN only","Female","40-59","Not Stated/Unknown","Lambeth","E01003037","1 - Most Deprived",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"4721","Springfield Medical Centre","HTN & T2D","Male","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,1,0,1,1,NA,1,531,1,0,5,4,10
-"4764","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003122","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"4792","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Wandsworth","E01004567","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"4818","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003034","3",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"4832","Springfield Medical Centre","HTN only","Female","60-74","Global Majority","Wandsworth","E01004562","2",0,1,0,NA,1,NA,1,29,2,0,0,0,2
-"4871","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003122","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"4943","Springfield Medical Centre","HTN only","Female","60-74","White British","Wandsworth","E01004564","3",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"5002","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003059","1 - Most Deprived",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"5086","Springfield Medical Centre","HTN & T2D","Female","60-74","White British","Lambeth","E01003092","1 - Most Deprived",1,1,0,0,1,NA,0,NA,NA,NA,NA,NA,0
-"5092","Springfield Medical Centre","T2D & CKD","Male","60-74","Global Majority","Lambeth","E01003122","2",1,0,1,0,NA,0,0,NA,NA,NA,NA,NA,0
-"5212","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Wandsworth","E01004567","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"5226","Springfield Medical Centre","HTN only","Female","40-59","Global Majority",NA,"E01033132",NA,0,1,0,NA,1,NA,1,0,0,0,0,1,1
-"5320","Springfield Medical Centre","HTN & CKD","Male","40-59","Global Majority","Lambeth","E01003121","2",0,1,1,NA,1,0,0,NA,NA,NA,NA,NA,0
-"5331","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Wandsworth","E01004567","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"5342","Springfield Medical Centre","CKD only","Female","60-74","White British","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"5357","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"5374","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Wandsworth","E01004567","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"5463","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003057","1 - Most Deprived",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"5467","Springfield Medical Centre","HTN & CKD","Male","75+","Global Majority","Lambeth","E01003034","3",0,1,1,NA,1,0,0,NA,NA,NA,NA,NA,0
-"5472","Springfield Medical Centre","T2D only","Female","40-59","Global Majority","Lambeth","E01003089","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"5524","Springfield Medical Centre","CKD only","Male","60-74","White British","Lambeth","E01003021","1 - Most Deprived",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"5555","Springfield Medical Centre","T2D only","Male","60-74","Global Majority","Lambeth","E01003121","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"5569","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Wandsworth","E01004562","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"5578","Springfield Medical Centre","HTN only","Male","60-74","White British","Wandsworth","E01004562","2",0,1,0,NA,1,NA,1,403,4,1,1,2,8
-"5617","Springfield Medical Centre","CKD only","Female","40-59","White British","Lambeth","E01003036","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"5645","Springfield Medical Centre","CKD only","Female","75+","Global Majority","Lambeth","E01003122","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"5646","Springfield Medical Centre","CKD only","Female","75+","Global Majority","Wandsworth","E01004564","3",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"5708","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"5957","Springfield Medical Centre","CKD only","Male","60-74","White British","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"6024","Springfield Medical Centre","T2D only","Male","60-74","Global Majority","Wandsworth","E01004539","1 - Most Deprived",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"6068","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"6088","Springfield Medical Centre","CKD only","Male","75+","White British","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"6139","Springfield Medical Centre","HTN & T2D","Female","40-59","Global Majority","Lambeth","E01003089","2",1,1,0,0,0,NA,0,NA,NA,NA,NA,NA,0
-"6141","Springfield Medical Centre","All three","Male","40-59","Global Majority","Lambeth","E01003089","2",1,1,1,0,1,0,0,NA,NA,NA,NA,NA,0
-"6255","Springfield Medical Centre","HTN only","Male","60-74","Global Majority","Lambeth","E01003121","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"6362","Springfield Medical Centre","CKD only","Female","60-74","White British","Thanet District","E01024678","1 - Most Deprived",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"6504","Springfield Medical Centre","T2D only","Male","60-74","Global Majority","Lambeth","E01003032","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"6527","Springfield Medical Centre","T2D only","Male","75+","Global Majority","Wandsworth","E01004583","4",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"6532","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003023","3",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"6620","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003091","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"6705","Springfield Medical Centre","T2D & CKD","Male","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,1,1,NA,1,1,330,14,17,4,0,35
-"6808","Springfield Medical Centre","T2D only","Male","60-74","Not Stated/Unknown","Wandsworth","E01004567","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"6894","Springfield Medical Centre","HTN only","Female","40-59","White British","Lambeth","E01003089","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"7093","Springfield Medical Centre","CKD only","Female","75+","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"7133","Springfield Medical Centre","CKD only","Male","60-74","White British","Kingston upon Thames","E01002955","3",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"7257","Springfield Medical Centre","HTN & T2D","Female","75+","White British","Wandsworth","E01004567","2",1,1,0,0,1,NA,0,NA,NA,NA,NA,NA,0
-"7289","Springfield Medical Centre","HTN & T2D","Female","40-59","Global Majority","Wandsworth","E01004562","2",1,1,0,0,1,NA,0,NA,NA,NA,NA,NA,0
-"7357","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"7536","Springfield Medical Centre","HTN only","Female","60-74","White British","Lambeth","E01003089","2",0,1,0,NA,1,NA,1,1405,16,1,6,6,29
-"7610","Springfield Medical Centre","T2D only","Male","60-74","Global Majority","Lambeth","E01003089","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"7691","Springfield Medical Centre","HTN only","Male","60-74","White British","Wandsworth","E01004567","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"7700","Springfield Medical Centre","CKD only","Female","75+","Global Majority","Lambeth","E01003035","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"7721","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Croydon","E01001168","3",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"7788","Springfield Medical Centre","T2D & CKD","Female","18-39","Global Majority","Croydon","E01001152","1 - Most Deprived",1,0,1,0,NA,0,0,NA,NA,NA,NA,NA,0
-"7835","Springfield Medical Centre","HTN & CKD","Female","40-59","Global Majority","Lambeth","E01003091","2",0,1,1,NA,1,0,0,NA,NA,NA,NA,NA,0
-"7891","Springfield Medical Centre","HTN only","Male","60-74","White British","Wandsworth","E01004567","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"7907","Springfield Medical Centre","T2D & CKD","Male","40-59","Global Majority","Lambeth","E01003120","2",1,0,1,0,NA,0,0,NA,NA,NA,NA,NA,0
-"7993","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"8135","Springfield Medical Centre","T2D only","Male","60-74","Global Majority","Lambeth","E01003089","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"8137","Springfield Medical Centre","CKD only","Male","18-39","White British","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"8442","Springfield Medical Centre","T2D only","Female","60-74","White British","Lambeth","E01003121","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"8514","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"8517","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Lambeth","E01003089","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"8529","Springfield Medical Centre","CKD only","Female","75+","White British","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"8549","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Croydon","E01001138","3",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"8650","Springfield Medical Centre","HTN only","Male","40-59","White British","Wandsworth","E01004562","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"8923","Springfield Medical Centre","HTN only","Female","75+","Global Majority","Lambeth","E01003089","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"8959","Springfield Medical Centre","T2D only","Female","40-59","Global Majority","Lambeth","E01003125","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"9201","Springfield Medical Centre","T2D only","Female","18-39","Global Majority","Lambeth","E01003125","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"9493","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Wandsworth","E01004567","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"9519","Springfield Medical Centre","HTN only","Male","60-74","Global Majority","Wandsworth","E01004541","1 - Most Deprived",0,1,0,NA,1,NA,1,370,0,0,3,1,4
-"9538","Springfield Medical Centre","CKD only","Male","40-59","White British","Lambeth","E01003096","2",0,0,1,NA,NA,1,1,601,1,0,2,5,8
-"9575","Springfield Medical Centre","T2D & CKD","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,1,0,NA,0,0,NA,NA,NA,NA,NA,0
-"9644","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Wandsworth","E01004567","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"9648","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"9696","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"10035","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003029","3",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"10071","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Lambeth","E01003089","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"10122","Springfield Medical Centre","HTN only","Female","40-59","Not Stated/Unknown","Lambeth","E01003128","1 - Most Deprived",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"10293","Springfield Medical Centre","CKD only","Female","40-59","White British","Southwark","E01003951","3",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"10334","Springfield Medical Centre","T2D only","Male","60-74","Global Majority","Croydon","E01001161","1 - Most Deprived",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"10401","Springfield Medical Centre","T2D only","Male","40-59","White British","Lambeth","E01003092","1 - Most Deprived",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"10419","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003121","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"10433","Springfield Medical Centre","All three","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,1,1,0,0,1,0,NA,NA,NA,NA,NA,0
-"10525","Springfield Medical Centre","HTN only","Female","60-74","Not Stated/Unknown","Lambeth","E01003091","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"10581","Springfield Medical Centre","CKD only","Male","75+","White British","Waltham Forest","E01004395","3",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"10666","Springfield Medical Centre","HTN only","Female","60-74","White British","Lambeth","E01003089","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"10721","Springfield Medical Centre","HTN only","Male","60-74","Global Majority","Lambeth","E01003121","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"10729","Springfield Medical Centre","CKD only","Male","40-59","White British","Lambeth","E01003092","1 - Most Deprived",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"10733","Springfield Medical Centre","T2D & CKD","Male","40-59","Global Majority","Lambeth","E01003089","2",1,0,1,0,NA,0,0,NA,NA,NA,NA,NA,0
-"10734","Springfield Medical Centre","HTN & CKD","Female","40-59","Global Majority","Lambeth","E01003089","2",0,1,1,NA,0,0,0,NA,NA,NA,NA,NA,0
-"10765","Springfield Medical Centre","HTN only","Female","60-74","White British","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,1,NA,1,1148,5,0,4,2,11
-"11000","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Wandsworth","E01004567","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"11068","Springfield Medical Centre","HTN only","Male","40-59","White British","Lambeth","E01003091","2",0,1,0,NA,1,NA,1,1684,17,0,3,2,22
-"11069","Springfield Medical Centre","T2D & CKD","Female","40-59","White British","Lambeth","E01003091","2",1,0,1,0,NA,0,0,NA,NA,NA,NA,NA,0
-"11118","Springfield Medical Centre","All three","Male","75+","Global Majority","Wandsworth","E01004562","2",1,1,1,0,0,0,0,NA,NA,NA,NA,NA,0
-"11191","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003091","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"11200","Springfield Medical Centre","HTN & T2D","Male","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,1,0,0,0,NA,0,NA,NA,NA,NA,NA,0
-"11277","Springfield Medical Centre","CKD only","Male","40-59","White British","Southwark","E01003967","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"11278","Springfield Medical Centre","HTN only","Male","40-59","Global Majority",NA,"E01033207",NA,0,1,0,NA,1,NA,1,358,5,0,1,2,8
-"11279","Springfield Medical Centre","HTN only","Female","40-59","Global Majority",NA,"E01033207",NA,0,1,0,NA,1,NA,1,143,9,0,3,0,12
-"11293","Springfield Medical Centre","CKD only","Female","75+","White British","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"11294","Springfield Medical Centre","CKD only","Male","75+","White British","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"11397","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003091","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"11518","Springfield Medical Centre","CKD only","Male","60-74","White British","City of Westminster","E01004746","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"11593","Springfield Medical Centre","CKD only","Male","75+","Global Majority",NA,"E01033132",NA,0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"11703","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"11735","Springfield Medical Centre","T2D & CKD","Female","60-74","White British","Lambeth","E01003091","2",1,0,1,0,NA,0,0,NA,NA,NA,NA,NA,0
-"11744","Springfield Medical Centre","T2D only","Male","18-39","Global Majority","Lambeth","E01003089","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"11779","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003089","2",0,1,0,NA,1,NA,1,223,5,1,0,0,6
-"11784","Springfield Medical Centre","T2D only","Male","18-39","Global Majority","Lambeth","E01003089","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"11859","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003037","1 - Most Deprived",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"11862","Springfield Medical Centre","HTN & T2D","Male","40-59","White British","Wandsworth","E01004535","1 - Most Deprived",1,1,0,0,0,NA,0,NA,NA,NA,NA,NA,0
-"12057","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"12310","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"12325","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"12353","Springfield Medical Centre","HTN only","Female","40-59","Global Majority",NA,"E01033098",NA,0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"12391","Springfield Medical Centre","T2D only","Female","40-59","Global Majority","Lambeth","E01003090","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"12410","Springfield Medical Centre","T2D only","Male","60-74","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"12477","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003160","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"12546","Springfield Medical Centre","HTN & CKD","Male","60-74","White British","Lambeth","E01003150","2",0,1,1,NA,1,0,0,NA,NA,NA,NA,NA,0
-"12574","Springfield Medical Centre","HTN & CKD","Male","40-59","White British","Wandsworth","E01004562","2",0,1,1,NA,1,0,0,NA,NA,NA,NA,NA,0
-"12631","Springfield Medical Centre","T2D & CKD","Female","40-59","Global Majority","Wandsworth","E01004562","2",1,0,1,0,NA,0,0,NA,NA,NA,NA,NA,0
-"12712","Springfield Medical Centre","HTN only","Male","60-74","Global Majority","Wandsworth","E01004567","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"12853","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Thurrock","E01016001","4",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"12929","Springfield Medical Centre","HTN & CKD","Female","40-59","Global Majority","Lambeth","E01003089","2",0,1,1,NA,0,0,0,NA,NA,NA,NA,NA,0
-"13019","Springfield Medical Centre","CKD only","Female","40-59","White British","Lambeth","E01003091","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"13049","Springfield Medical Centre","T2D only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"13208","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"13283","Springfield Medical Centre","T2D only","Female","40-59","Global Majority","Lambeth","E01003089","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"13335","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003126","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"13353","Springfield Medical Centre","HTN only","Female","40-59","White British","Lambeth","E01003034","3",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"13376","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"13399","Springfield Medical Centre","CKD only","Female","40-59","White British","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"13427","Springfield Medical Centre","CKD only","Male","40-59","White British","Lambeth","E01003034","3",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"13443","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Wandsworth","E01004567","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"13450","Springfield Medical Centre","CKD only","Male","60-74","White British","Lambeth","E01003092","1 - Most Deprived",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"13587","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003129","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"13605","Springfield Medical Centre","HTN only","Male","40-59","White British","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"13686","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Lambeth","E01003039","4",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"13738","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,1,NA,1,400,4,0,1,0,5
-"13743","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Lambeth","E01003171","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"13799","Springfield Medical Centre","CKD only","Male","60-74","White British","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"13919","Springfield Medical Centre","HTN & T2D","Female","60-74","Global Majority","Wandsworth","E01004586","4",1,1,0,0,1,NA,0,NA,NA,NA,NA,NA,0
-"13920","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003034","3",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"13966","Springfield Medical Centre","HTN & T2D","Male","40-59","Global Majority","Lambeth","E01003091","2",1,1,0,0,0,NA,0,NA,NA,NA,NA,NA,0
-"14003","Springfield Medical Centre","CKD only","Female","40-59","White British","Lambeth","E01003092","1 - Most Deprived",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"14031","Springfield Medical Centre","HTN & T2D","Male","60-74","Global Majority","Lambeth","E01003091","2",1,1,0,0,0,NA,0,NA,NA,NA,NA,NA,0
-"14076","Springfield Medical Centre","T2D only","Female","18-39","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"14095","Springfield Medical Centre","CKD only","Female","60-74","White British","Lambeth","E01003092","1 - Most Deprived",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"14113","Springfield Medical Centre","T2D & CKD","Male","40-59","White British","Lambeth","E01003092","1 - Most Deprived",1,0,1,1,NA,0,0,NA,NA,NA,NA,NA,0
-"14157","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"14383","Springfield Medical Centre","CKD only","Male","75+","Global Majority","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"14420","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003091","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"14442","Springfield Medical Centre","CKD only","Male","75+","White British","Lambeth","E01003092","1 - Most Deprived",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"14602","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"14679","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003127","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"14680","Springfield Medical Centre","HTN only","Male","60-74","Global Majority","Lambeth","E01003034","3",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"14722","Springfield Medical Centre","HTN only","Female","18-39","Global Majority","Wandsworth","E01004567","2",0,1,0,NA,1,NA,1,70,4,0,0,0,4
-"14974","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,1,NA,1,316,8,1,1,4,14
-"15053","Springfield Medical Centre","HTN only","Male","60-74","White British","Lambeth","E01003090","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"500062","Springfield Medical Centre","HTN only","Female","40-59","White British","Lambeth","E01003095","3",0,1,0,NA,1,NA,1,1551,15,1,2,4,22
-"500165","Springfield Medical Centre","CKD only","Female","18-39","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"500181","Springfield Medical Centre","HTN only","Female","40-59","White British","Lambeth","E01003091","2",0,1,0,NA,1,NA,1,1511,19,2,3,1,25
-"500357","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Wandsworth","E01004567","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"500367","Springfield Medical Centre","CKD only","Female","60-74","White British","Lambeth","E01003034","3",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"500404","Springfield Medical Centre","HTN & T2D","Male","18-39","White British",NA,"E01033132",NA,1,1,0,0,0,NA,0,NA,NA,NA,NA,NA,0
-"500488","Springfield Medical Centre","CKD only","Female","60-74","White British","Wandsworth","E01004567","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"500504","Springfield Medical Centre","T2D only","Female","40-59","Global Majority","Wandsworth","E01004562","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"500507","Springfield Medical Centre","CKD only","Male","40-59","White British","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"500548","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"500608","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Wandsworth","E01004562","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"500709","Springfield Medical Centre","HTN only","Male","60-74","White British","Lambeth","E01003025","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"500803","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Lambeth","E01003121","2",1,0,0,1,NA,NA,1,256,10,0,4,4,18
-"500847","Springfield Medical Centre","HTN only","Female","60-74","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,1,NA,1,174,0,0,0,1,1
-"500986","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"501043","Springfield Medical Centre","HTN & CKD","Male","40-59","Global Majority","Wandsworth","E01004563","2",0,1,1,NA,0,0,0,NA,NA,NA,NA,NA,0
-"501163","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003034","3",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"501166","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Lambeth","E01003031","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"501382","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"501475","Springfield Medical Centre","T2D only","Female","60-74","Global Majority","Lambeth","E01003095","3",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"501619","Springfield Medical Centre","HTN & T2D","Male","60-74","Global Majority","Wandsworth","E01004562","2",1,1,0,0,0,NA,0,NA,NA,NA,NA,NA,0
-"501636","Springfield Medical Centre","T2D only","Male","60-74","Global Majority","Lewisham","E01003339","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"501642","Springfield Medical Centre","HTN & CKD","Male","60-74","Global Majority","Lambeth","E01003034","3",0,1,1,NA,1,0,0,NA,NA,NA,NA,NA,0
-"501654","Springfield Medical Centre","T2D & CKD","Male","75+","Global Majority","Wandsworth","E01004562","2",1,0,1,0,NA,0,0,NA,NA,NA,NA,NA,0
-"501718","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003091","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"501738","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003089","2",0,1,0,NA,1,NA,1,726,20,1,2,1,24
-"501804","Springfield Medical Centre","T2D only","Female","40-59","Global Majority","Lambeth","E01003089","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"501837","Springfield Medical Centre","T2D only","Male","18-39","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"501845","Springfield Medical Centre","CKD only","Male","40-59","White British","Lambeth","E01003090","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"501848","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Wandsworth","E01004567","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"501973","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003037","1 - Most Deprived",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"502107","Springfield Medical Centre","HTN only","Male","60-74","Global Majority","Lambeth","E01003111","1 - Most Deprived",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"502109","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003111","1 - Most Deprived",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"502157","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003168","1 - Most Deprived",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"502175","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003091","2",0,1,0,NA,1,NA,1,925,14,0,3,2,19
-"502189","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Wandsworth","E01004562","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"502269","Springfield Medical Centre","HTN & T2D","Male","60-74","Global Majority","Lambeth","E01003089","2",1,1,0,0,0,NA,0,NA,NA,NA,NA,NA,0
-"502396","Springfield Medical Centre","CKD only","Female","75+","Global Majority","Wandsworth","E01004567","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"502581","Springfield Medical Centre","HTN only","Female","75+","Global Majority","Lambeth","E01003122","2",0,1,0,NA,1,NA,1,35,1,0,2,3,6
-"502618","Springfield Medical Centre","CKD only","Male","40-59","White British","Wandsworth","E01004615","1 - Most Deprived",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"502673","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003091","2",0,1,0,NA,1,NA,1,105,1,0,0,0,1
-"502684","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Wandsworth","E01004562","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"502775","Springfield Medical Centre","T2D only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"502787","Springfield Medical Centre","HTN & CKD","Male","40-59","Global Majority","Lambeth","E01003091","2",0,1,1,NA,0,0,0,NA,NA,NA,NA,NA,0
-"502841","Springfield Medical Centre","HTN only","Male","40-59","White British","Lambeth","E01003126","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"502847","Springfield Medical Centre","HTN only","Female","18-39","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"502848","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"502859","Springfield Medical Centre","HTN & T2D","Female","40-59","White British","Lambeth","E01003091","2",1,1,0,0,0,NA,0,NA,NA,NA,NA,NA,0
-"502900","Springfield Medical Centre","CKD only","Female","60-74","White British","Lambeth","E01003059","1 - Most Deprived",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"502932","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003121","2",0,1,0,NA,1,NA,1,48,1,0,0,0,1
-"503018","Springfield Medical Centre","CKD only","Male","75+","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"503030","Springfield Medical Centre","HTN & CKD","Male","40-59","White British","Lambeth","E01003091","2",0,1,1,NA,0,0,0,NA,NA,NA,NA,NA,0
-"503051","Springfield Medical Centre","HTN & T2D","Female","40-59","Not Stated/Unknown","Lambeth","E01003091","2",1,1,0,1,0,NA,0,NA,NA,NA,NA,NA,0
-"503122","Springfield Medical Centre","T2D & CKD","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,1,0,NA,0,0,NA,NA,NA,NA,NA,0
-"503147","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"503210","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"503254","Springfield Medical Centre","T2D only","Female","40-59","Global Majority","Wandsworth","E01004567","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"503429","Springfield Medical Centre","CKD only","Male","60-74","White British","Wandsworth","E01004541","1 - Most Deprived",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"503753","Springfield Medical Centre","HTN & CKD","Female","60-74","White British","Lambeth","E01003091","2",0,1,1,NA,1,0,0,NA,NA,NA,NA,NA,0
-"503786","Springfield Medical Centre","HTN only","Female","60-74","Global Majority","Lambeth","E01003089","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"503930","Springfield Medical Centre","T2D only","Female","18-39","Global Majority","Wandsworth","E01004567","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"503936","Springfield Medical Centre","T2D only","Male","60-74","Global Majority","Lambeth","E01003121","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"504031","Springfield Medical Centre","T2D only","Male","40-59","Global Majority",NA,"E01033098",NA,1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"504078","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"504185","Springfield Medical Centre","HTN only","Male","40-59","White British","Lambeth","E01003123","3",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"504229","Springfield Medical Centre","HTN & CKD","Female","60-74","Global Majority","Lambeth","E01003090","2",0,1,1,NA,0,0,0,NA,NA,NA,NA,NA,0
-"504302","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003098","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"504429","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Wandsworth","E01004567","2",0,1,0,NA,1,NA,1,1483,14,0,2,2,18
-"504437","Springfield Medical Centre","T2D & CKD","Male","75+","White British","Wandsworth","E01004567","2",1,0,1,0,NA,0,0,NA,NA,NA,NA,NA,0
-"504484","Springfield Medical Centre","HTN only","Female","40-59","White British","Wandsworth","E01004567","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"504553","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"504554","Springfield Medical Centre","T2D only","Female","40-59","Global Majority","Wandsworth","E01004567","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"504627","Springfield Medical Centre","HTN only","Male","40-59","White British","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,1,NA,1,985,11,0,1,3,15
-"504634","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003074","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"504762","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Wandsworth","E01004564","3",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"504800","Springfield Medical Centre","T2D & CKD","Female","40-59","Global Majority","Wandsworth","E01004562","2",1,0,1,0,NA,0,0,NA,NA,NA,NA,NA,0
-"504818","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003060","1 - Most Deprived",0,1,0,NA,1,NA,1,364,14,1,1,1,17
-"504839","Springfield Medical Centre","HTN only","Male","60-74","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"504879","Springfield Medical Centre","HTN only","Male","40-59","White British","Wandsworth","E01004567","2",0,1,0,NA,1,NA,1,340,1,0,0,5,6
-"504902","Springfield Medical Centre","HTN & CKD","Male","40-59","White British","Southwark","E01004010","2",0,1,1,NA,0,0,0,NA,NA,NA,NA,NA,0
-"504912","Springfield Medical Centre","HTN only","Male","60-74","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,1,NA,1,1576,20,2,9,1,32
-"504994","Springfield Medical Centre","HTN & CKD","Female","75+","Global Majority","Wandsworth","E01004562","2",0,1,1,NA,0,0,0,NA,NA,NA,NA,NA,0
-"505208","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Lambeth","E01003089","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"505278","Springfield Medical Centre","HTN only","Female","75+","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"505334","Springfield Medical Centre","HTN only","Female","60-74","White British",NA,"E01033099",NA,0,1,0,NA,1,NA,1,-21,0,0,0,0,0
-"505408","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"505438","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,1,NA,1,1023,10,0,4,2,16
-"505509","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003089","2",0,1,0,NA,1,NA,1,963,24,0,2,5,31
-"505514","Springfield Medical Centre","HTN only","Female","60-74","Global Majority","Wandsworth","E01004567","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"505575","Springfield Medical Centre","T2D only","Male","40-59","White British","Wandsworth","E01004562","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"505598","Springfield Medical Centre","HTN & T2D","Female","60-74","Global Majority","Lambeth","E01003091","2",1,1,0,0,1,NA,0,NA,NA,NA,NA,NA,0
-"505599","Springfield Medical Centre","T2D only","Male","75+","Global Majority","Lambeth","E01003091","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"505653","Springfield Medical Centre","T2D only","Female","40-59","White British","Newham","E01003602","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"505854","Springfield Medical Centre","HTN & T2D","Female","60-74","White British","Lambeth","E01003092","1 - Most Deprived",1,1,0,0,0,NA,0,NA,NA,NA,NA,NA,0
-"505874","Springfield Medical Centre","T2D only","Male","60-74","White British","Lambeth","E01003029","3",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"505929","Springfield Medical Centre","CKD only","Male","18-39","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"505936","Springfield Medical Centre","T2D only","Male","60-74","Global Majority","Wandsworth","E01004617","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"505939","Springfield Medical Centre","T2D only","Male","18-39","Global Majority","Lambeth","E01003104","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"506003","Springfield Medical Centre","T2D & CKD","Male","18-39","Global Majority","Southwark","E01003921","1 - Most Deprived",1,0,1,0,NA,0,0,NA,NA,NA,NA,NA,0
-"506016","Springfield Medical Centre","T2D & CKD","Female","40-59","Global Majority","Wandsworth","E01004567","2",1,0,1,0,NA,0,0,NA,NA,NA,NA,NA,0
-"506017","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003091","2",0,1,0,NA,1,NA,1,789,15,0,2,2,19
-"506024","Springfield Medical Centre","HTN only","Female","18-39","Global Majority","Lambeth","E01003089","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"506062","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"506249","Springfield Medical Centre","T2D only","Male","75+","Global Majority","Lambeth","E01003089","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"506374","Springfield Medical Centre","T2D only","Male","40-59","White British","Lambeth","E01003091","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"506495","Springfield Medical Centre","HTN only","Female","40-59","Not Stated/Unknown","Lambeth","E01003097","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"506499","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003091","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"506539","Springfield Medical Centre","HTN & T2D","Female","40-59","White British","Wandsworth","E01004562","2",1,1,0,0,0,NA,0,NA,NA,NA,NA,NA,0
-"506615","Springfield Medical Centre","HTN & CKD","Male","40-59","Global Majority","Lambeth","E01003034","3",0,1,1,NA,1,0,0,NA,NA,NA,NA,NA,0
-"506637","Springfield Medical Centre","HTN & CKD","Male","60-74","White British","Lambeth","E01003126","2",0,1,1,NA,0,0,0,NA,NA,NA,NA,NA,0
-"506653","Springfield Medical Centre","HTN only","Male","40-59","White British","Lambeth","E01003123","3",0,1,0,NA,1,NA,1,566,18,0,3,0,21
-"506664","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"506723","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003089","2",0,1,0,NA,1,NA,1,907,25,4,8,9,46
-"506843","Springfield Medical Centre","HTN only","Female","40-59","White British","Lambeth","E01003014","2",0,1,0,NA,1,NA,1,256,6,2,2,1,11
-"506885","Springfield Medical Centre","HTN only","Female","60-74","Global Majority","Wandsworth","E01004617","2",0,1,0,NA,1,NA,1,1188,3,1,0,1,5
-"506985","Springfield Medical Centre","HTN only","Male","40-59","White British","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"507005","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Wandsworth","E01004567","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"507020","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003122","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"507087","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"507142","Springfield Medical Centre","HTN only","Female","60-74","Global Majority",NA,"E01033132",NA,0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"507198","Springfield Medical Centre","HTN only","Male","40-59","White British","Lambeth","E01003128","1 - Most Deprived",0,1,0,NA,1,NA,1,1196,11,0,0,10,21
-"507348","Springfield Medical Centre","T2D only","Male","60-74","White British","Lambeth","E01003126","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"507351","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003091","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"507424","Springfield Medical Centre","CKD only","Male","60-74","White British","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"507437","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Lambeth","E01003091","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"507495","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lewisham","E01003298","2",0,1,0,NA,1,NA,1,1314,6,0,0,2,8
-"507537","Springfield Medical Centre","HTN only","Female","60-74","Global Majority","Lambeth","E01003034","3",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"507620","Springfield Medical Centre","T2D only","Male","60-74","Global Majority","Lambeth","E01003089","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"507639","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","City of Westminster","E01004669","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"507757","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Wandsworth","E01004562","2",0,1,0,NA,1,NA,1,1312,5,0,2,4,11
-"507792","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003034","3",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"507859","Springfield Medical Centre","HTN only","Male","18-39","White British","Wandsworth","E01004562","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"507874","Springfield Medical Centre","T2D only","Male","60-74","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"507916","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003121","2",0,1,0,NA,1,NA,1,21,0,0,0,0,0
-"508043","Springfield Medical Centre","T2D & CKD","Male","40-59","White British","Lambeth","E01003089","2",1,0,1,1,NA,0,0,NA,NA,NA,NA,NA,0
-"508106","Springfield Medical Centre","HTN & CKD","Female","75+","Global Majority","Lambeth","E01003091","2",0,1,1,NA,1,0,0,NA,NA,NA,NA,NA,0
-"508386","Springfield Medical Centre","HTN & CKD","Male","60-74","Global Majority","Wandsworth","E01004562","2",0,1,1,NA,0,0,0,NA,NA,NA,NA,NA,0
-"508406","Springfield Medical Centre","T2D only","Male","18-39","Global Majority","Lambeth","E01003122","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"508495","Springfield Medical Centre","HTN & T2D","Male","60-74","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,1,0,0,1,NA,0,NA,NA,NA,NA,NA,0
-"508810","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003089","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"508849","Springfield Medical Centre","CKD only","Male","75+","White British","Lambeth","E01003091","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"508858","Springfield Medical Centre","HTN & T2D","Female","60-74","White British","Wandsworth","E01004562","2",1,1,0,0,1,NA,0,NA,NA,NA,NA,NA,0
-"508892","Springfield Medical Centre","HTN only","Female","60-74","Global Majority","Wandsworth","E01004567","2",0,1,0,NA,1,NA,1,1439,4,2,7,4,17
-"508908","Springfield Medical Centre","All three","Female","60-74","Global Majority","Lambeth","E01003034","3",1,1,1,0,1,0,0,NA,NA,NA,NA,NA,0
-"508988","Springfield Medical Centre","HTN only","Female","18-39","Global Majority","Wandsworth","E01004562","2",0,1,0,NA,1,NA,1,496,4,0,1,1,6
-"509004","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"509122","Springfield Medical Centre","T2D only","Female","40-59","Global Majority","Wandsworth","E01004567","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"509236","Springfield Medical Centre","CKD only","Male","75+","White British","Lambeth","E01003092","1 - Most Deprived",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"509270","Springfield Medical Centre","HTN only","Male","40-59","White British","Lambeth","E01003089","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"509273","Springfield Medical Centre","T2D only","Female","60-74","Global Majority","Lambeth","E01003089","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"509291","Springfield Medical Centre","HTN only","Female","60-74","Global Majority","Lambeth","E01003089","2",0,1,0,NA,1,NA,1,572,3,0,2,0,5
-"509367","Springfield Medical Centre","T2D & CKD","Male","40-59","Global Majority","Lambeth","E01003034","3",1,0,1,0,NA,0,0,NA,NA,NA,NA,NA,0
-"509373","Springfield Medical Centre","T2D only","Female","18-39","White British","Lambeth","E01003092","1 - Most Deprived",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"509418","Springfield Medical Centre","T2D & CKD","Female","75+","White British","Lambeth","E01003089","2",1,0,1,0,NA,0,0,NA,NA,NA,NA,NA,0
-"509425","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003037","1 - Most Deprived",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"509481","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,1,NA,1,0,0,0,0,0,0
-"509506","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Lambeth","E01003089","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"509542","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"509748","Springfield Medical Centre","HTN only","Female","75+","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"509749","Springfield Medical Centre","HTN only","Male","60-74","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"509759","Springfield Medical Centre","HTN & T2D","Female","40-59","Global Majority","Lambeth","E01003034","3",1,1,0,1,1,NA,1,434,3,1,2,3,9
-"509854","Springfield Medical Centre","HTN only","Female","60-74","White British","Lambeth","E01003089","2",0,1,0,NA,1,NA,1,364,0,0,3,3,6
-"509888","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003091","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"509905","Springfield Medical Centre","HTN only","Female","60-74","Global Majority","Lambeth","E01003123","3",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"509906","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"510022","Springfield Medical Centre","HTN & T2D","Female","40-59","Global Majority","Lambeth","E01003089","2",1,1,0,0,0,NA,0,NA,NA,NA,NA,NA,0
-"510036","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"510088","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003097","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"510142","Springfield Medical Centre","HTN only","Female","40-59","White British","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"510151","Springfield Medical Centre","T2D only","Female","18-39","Global Majority","Lambeth","E01003095","3",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"510204","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003037","1 - Most Deprived",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"510208","Springfield Medical Centre","T2D only","Male","40-59","White British","Wandsworth","E01004562","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"510237","Springfield Medical Centre","HTN only","Female","75+","Global Majority","Lambeth","E01003121","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"510457","Springfield Medical Centre","T2D only","Female","60-74","Global Majority","Wandsworth","E01004562","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"510462","Springfield Medical Centre","T2D only","Female","18-39","Global Majority","Wandsworth","E01004567","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"510472","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Lambeth","E01003089","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"510561","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Wandsworth","E01004562","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"510730","Springfield Medical Centre","HTN & CKD","Male","60-74","White British","Lambeth","E01003089","2",0,1,1,NA,1,0,0,NA,NA,NA,NA,NA,0
-"510837","Springfield Medical Centre","HTN only","Male","40-59","White British","Wandsworth","E01004567","2",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"510907","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Wandsworth","E01004567","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"510925","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003034","3",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
-"510982","Springfield Medical Centre","T2D only","Female","18-39","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"511002","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003091","2",0,1,0,NA,1,NA,1,449,7,1,1,0,9
-"511026","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,1,NA,1,166,1,0,1,0,2
-"511145","Springfield Medical Centre","HTN only","Female","18-39","Global Majority","Wandsworth","E01004562","2",0,1,0,NA,1,NA,1,124,0,0,0,0,0
-"511284","Springfield Medical Centre","CKD only","Female","75+","White British","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,NA,NA,NA,NA,NA,0
-"511373","Springfield Medical Centre","HTN & T2D","Male","60-74","Global Majority","Lambeth","E01003089","2",1,1,0,0,1,NA,0,NA,NA,NA,NA,NA,0
-"511507","Springfield Medical Centre","T2D only","Female","18-39","Global Majority","Wandsworth","E01004562","2",1,0,0,0,NA,NA,0,NA,NA,NA,NA,NA,0
-"511562","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003034","3",0,1,0,NA,0,NA,0,NA,NA,NA,NA,NA,0
+"emis_number","organisation_name","cvrm_cohort","gender","func_age_bands","func_ethnic_group","la_name","lower_layer_area_2011","imd_quintile_label","diabetes_exist","hypertension_exist","ckd_exist","diabetes_optimised","hypertension_optimised","ckd_optimised","fully_optimised","partially_optimised","not_optimised","optimisation_status","time_to_optimisation_days","appts_gp_in_window","appts_nurse_in_window","appts_hca_in_window","appts_pharm_in_window","appts_total_in_window"
+"7","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003037","1 - Most Deprived",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"94","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003041","1 - Most Deprived",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"115","Springfield Medical Centre","CKD only","Female","40-59","White British","Lambeth","E01003092","1 - Most Deprived",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"267","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"284","Springfield Medical Centre","CKD only","Female","75+","Global Majority","Lambeth","E01003090","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"285","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003090","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"291","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003091","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"307","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Wandsworth","E01004567","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"331","Springfield Medical Centre","HTN & CKD","Male","60-74","Global Majority","Lambeth","E01003183","2",0,1,1,NA,1,0,0,1,0,"Partially Optimised",NA,NA,NA,NA,NA,0
+"375","Springfield Medical Centre","HTN only","Male","60-74","White British","Lambeth","E01003089","2",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",368,2,0,2,2,6
+"378","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"396","Springfield Medical Centre","T2D & CKD","Female","60-74","Global Majority","Lambeth","E01003089","2",1,0,1,0,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"438","Springfield Medical Centre","CKD only","Male","60-74","White British","Lambeth","E01003034","3",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"484","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"624","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Lambeth","E01003089","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"683","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"716","Springfield Medical Centre","T2D only","Male","75+","White British","Lambeth","E01003091","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"748","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"866","Springfield Medical Centre","HTN only","Male","60-74","Global Majority","Lambeth","E01003089","2",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",1553,30,0,12,1,43
+"928","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Merton","E01003414","4",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"1052","Springfield Medical Centre","HTN & CKD","Female","40-59","Global Majority","Lambeth","E01003088","2",0,1,1,NA,0,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"1056","Springfield Medical Centre","T2D only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"1058","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003122","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"1128","Springfield Medical Centre","HTN only","Female","18-39","White British","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"1185","Springfield Medical Centre","HTN only","Female","75+","Global Majority","Lambeth","E01003091","2",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",68,2,0,0,0,2
+"1192","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"1202","Springfield Medical Centre","HTN only","Male","60-74","White British","Lambeth","E01003089","2",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",935,7,1,8,2,18
+"1286","Springfield Medical Centre","HTN only","Female","60-74","White British","Lambeth","E01003089","2",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",1589,50,3,5,6,64
+"1373","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Greenwich","E01001641","3",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"1420","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003034","3",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"1431","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003091","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"1480","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003121","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"1481","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003121","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"1545","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003118","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"1624","Springfield Medical Centre","HTN only","Female","40-59","White British","Lambeth","E01003034","3",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",154,1,0,0,0,1
+"1743","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003091","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"1812","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003091","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"1897","Springfield Medical Centre","HTN only","Female","18-39","Global Majority","Lambeth","E01003091","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"1899","Springfield Medical Centre","T2D only","Male","18-39","Global Majority","Lambeth","E01003091","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"1907","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003091","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"1911","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003091","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"1920","Springfield Medical Centre","CKD only","Male","75+","Not Stated/Unknown","Lambeth","E01003092","1 - Most Deprived",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"1948","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003034","3",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"1952","Springfield Medical Centre","HTN & CKD","Male","18-39","Global Majority","Lambeth","E01003034","3",0,1,1,NA,0,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"1957","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"1962","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Lambeth","E01003032","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"2078","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"2084","Springfield Medical Centre","T2D & CKD","Female","75+","Global Majority","Wandsworth","E01004567","2",1,0,1,0,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"2127","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"2137","Springfield Medical Centre","CKD only","Female","75+","Global Majority","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"2265","Springfield Medical Centre","HTN & CKD","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,1,NA,0,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"2320","Springfield Medical Centre","CKD only","Male","75+","White British","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"2389","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"2415","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"2488","Springfield Medical Centre","All three","Male","60-74","Global Majority","Wandsworth","E01004579","3",1,1,1,0,0,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"2515","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Wandsworth","E01004567","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"2538","Springfield Medical Centre","CKD only","Male","75+","Global Majority","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"2596","Springfield Medical Centre","CKD only","Female","75+","White British","Wandsworth","E01004567","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"2608","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"2625","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Wandsworth","E01004567","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"2628","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Wandsworth","E01004567","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"2648","Springfield Medical Centre","CKD only","Male","75+","White British","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"2651","Springfield Medical Centre","CKD only","Male","75+","White British","Wandsworth","E01004567","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"2657","Springfield Medical Centre","HTN only","Female","60-74","Global Majority","Wandsworth","E01004562","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"2769","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003171","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"2801","Springfield Medical Centre","T2D & CKD","Male","60-74","Global Majority","Lambeth","E01003183","2",1,0,1,0,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"2918","Springfield Medical Centre","T2D only","Male","75+","Global Majority","Lambeth","E01003091","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"3025","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003046","1 - Most Deprived",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"3029","Springfield Medical Centre","T2D only","Male","40-59","White British","Lambeth","E01003091","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"3057","Springfield Medical Centre","HTN only","Female","40-59","White British","Lewisham","E01003320","1 - Most Deprived",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",557,4,0,5,1,10
+"3097","Springfield Medical Centre","T2D only","Male","60-74","Global Majority","Lambeth","E01003091","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"3119","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Croydon","E01001165","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"3271","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003042","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"3337","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003091","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"3356","Springfield Medical Centre","HTN & T2D","Female","40-59","Global Majority","Lambeth","E01003091","2",1,1,0,0,1,NA,0,1,0,"Partially Optimised",NA,NA,NA,NA,NA,0
+"3410","Springfield Medical Centre","CKD only","Male","18-39","Global Majority","Lambeth","E01003034","3",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"3487","Springfield Medical Centre","HTN only","Female","60-74","Global Majority","Wandsworth","E01004567","2",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",1130,18,0,3,3,24
+"3637","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Wandsworth","E01004567","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"3733","Springfield Medical Centre","HTN only","Male","60-74","Global Majority","Wandsworth","E01004562","2",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",1279,37,0,6,0,43
+"3770","Springfield Medical Centre","T2D & CKD","Female","60-74","Global Majority","Wandsworth","E01004562","2",1,0,1,0,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"3801","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003089","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"3820","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"3859","Springfield Medical Centre","CKD only","Female","75+","Global Majority","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"3925","Springfield Medical Centre","HTN only","Male","60-74","Global Majority","Lambeth","E01003089","2",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",203,3,0,0,1,4
+"3940","Springfield Medical Centre","T2D only","Male","40-59","White British","Wandsworth","E01004562","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"3984","Springfield Medical Centre","CKD only","Female","40-59","Not Stated/Unknown","Lambeth","E01003090","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"4069","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Croydon","E01001152","1 - Most Deprived",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",1112,17,1,1,7,26
+"4074","Springfield Medical Centre","CKD only","Female","60-74","White British","Wandsworth","E01004567","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"4187","Springfield Medical Centre","HTN & CKD","Female","60-74","Global Majority","Wandsworth","E01004567","2",0,1,1,NA,0,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"4241","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003091","2",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",585,8,1,4,0,13
+"4328","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"4350","Springfield Medical Centre","CKD only","Female","75+","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"4374","Springfield Medical Centre","T2D only","Female","60-74","White British","Lambeth","E01003089","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"4424","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"4460","Springfield Medical Centre","T2D only","Female","60-74","Not Stated/Unknown","Lambeth","E01003015","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"4506","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003121","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"4537","Springfield Medical Centre","CKD only","Male","75+","Global Majority","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"4594","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Wandsworth","E01004562","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"4616","Springfield Medical Centre","HTN only","Female","40-59","Not Stated/Unknown","Lambeth","E01003037","1 - Most Deprived",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"4721","Springfield Medical Centre","HTN & T2D","Male","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,1,0,1,1,NA,1,0,0,"Fully Optimised",531,1,0,5,4,10
+"4764","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003122","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"4792","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Wandsworth","E01004567","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"4818","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003034","3",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"4832","Springfield Medical Centre","HTN only","Female","60-74","Global Majority","Wandsworth","E01004562","2",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",29,2,0,0,0,2
+"4871","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003122","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"4943","Springfield Medical Centre","HTN only","Female","60-74","White British","Wandsworth","E01004564","3",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"5002","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003059","1 - Most Deprived",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"5086","Springfield Medical Centre","HTN & T2D","Female","60-74","White British","Lambeth","E01003092","1 - Most Deprived",1,1,0,0,1,NA,0,1,0,"Partially Optimised",NA,NA,NA,NA,NA,0
+"5092","Springfield Medical Centre","T2D & CKD","Male","60-74","Global Majority","Lambeth","E01003122","2",1,0,1,0,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"5212","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Wandsworth","E01004567","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"5226","Springfield Medical Centre","HTN only","Female","40-59","Global Majority",NA,"E01033132",NA,0,1,0,NA,1,NA,1,0,0,"Fully Optimised",0,0,0,0,1,1
+"5320","Springfield Medical Centre","HTN & CKD","Male","40-59","Global Majority","Lambeth","E01003121","2",0,1,1,NA,1,0,0,1,0,"Partially Optimised",NA,NA,NA,NA,NA,0
+"5331","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Wandsworth","E01004567","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"5342","Springfield Medical Centre","CKD only","Female","60-74","White British","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"5357","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"5374","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Wandsworth","E01004567","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"5463","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003057","1 - Most Deprived",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"5467","Springfield Medical Centre","HTN & CKD","Male","75+","Global Majority","Lambeth","E01003034","3",0,1,1,NA,1,0,0,1,0,"Partially Optimised",NA,NA,NA,NA,NA,0
+"5472","Springfield Medical Centre","T2D only","Female","40-59","Global Majority","Lambeth","E01003089","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"5524","Springfield Medical Centre","CKD only","Male","60-74","White British","Lambeth","E01003021","1 - Most Deprived",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"5555","Springfield Medical Centre","T2D only","Male","60-74","Global Majority","Lambeth","E01003121","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"5569","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Wandsworth","E01004562","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"5578","Springfield Medical Centre","HTN only","Male","60-74","White British","Wandsworth","E01004562","2",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",403,4,1,1,2,8
+"5617","Springfield Medical Centre","CKD only","Female","40-59","White British","Lambeth","E01003036","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"5645","Springfield Medical Centre","CKD only","Female","75+","Global Majority","Lambeth","E01003122","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"5646","Springfield Medical Centre","CKD only","Female","75+","Global Majority","Wandsworth","E01004564","3",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"5708","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"5957","Springfield Medical Centre","CKD only","Male","60-74","White British","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"6024","Springfield Medical Centre","T2D only","Male","60-74","Global Majority","Wandsworth","E01004539","1 - Most Deprived",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"6068","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"6088","Springfield Medical Centre","CKD only","Male","75+","White British","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"6139","Springfield Medical Centre","HTN & T2D","Female","40-59","Global Majority","Lambeth","E01003089","2",1,1,0,0,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"6141","Springfield Medical Centre","All three","Male","40-59","Global Majority","Lambeth","E01003089","2",1,1,1,0,1,0,0,1,0,"Partially Optimised",NA,NA,NA,NA,NA,0
+"6255","Springfield Medical Centre","HTN only","Male","60-74","Global Majority","Lambeth","E01003121","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"6362","Springfield Medical Centre","CKD only","Female","60-74","White British","Thanet District","E01024678","1 - Most Deprived",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"6504","Springfield Medical Centre","T2D only","Male","60-74","Global Majority","Lambeth","E01003032","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"6527","Springfield Medical Centre","T2D only","Male","75+","Global Majority","Wandsworth","E01004583","4",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"6532","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003023","3",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"6620","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003091","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"6705","Springfield Medical Centre","T2D & CKD","Male","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,1,1,NA,1,1,0,0,"Fully Optimised",330,14,17,4,0,35
+"6808","Springfield Medical Centre","T2D only","Male","60-74","Not Stated/Unknown","Wandsworth","E01004567","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"6894","Springfield Medical Centre","HTN only","Female","40-59","White British","Lambeth","E01003089","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"7093","Springfield Medical Centre","CKD only","Female","75+","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"7133","Springfield Medical Centre","CKD only","Male","60-74","White British","Kingston upon Thames","E01002955","3",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"7257","Springfield Medical Centre","HTN & T2D","Female","75+","White British","Wandsworth","E01004567","2",1,1,0,0,1,NA,0,1,0,"Partially Optimised",NA,NA,NA,NA,NA,0
+"7289","Springfield Medical Centre","HTN & T2D","Female","40-59","Global Majority","Wandsworth","E01004562","2",1,1,0,0,1,NA,0,1,0,"Partially Optimised",NA,NA,NA,NA,NA,0
+"7357","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"7536","Springfield Medical Centre","HTN only","Female","60-74","White British","Lambeth","E01003089","2",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",1405,16,1,6,6,29
+"7610","Springfield Medical Centre","T2D only","Male","60-74","Global Majority","Lambeth","E01003089","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"7691","Springfield Medical Centre","HTN only","Male","60-74","White British","Wandsworth","E01004567","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"7700","Springfield Medical Centre","CKD only","Female","75+","Global Majority","Lambeth","E01003035","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"7721","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Croydon","E01001168","3",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"7788","Springfield Medical Centre","T2D & CKD","Female","18-39","Global Majority","Croydon","E01001152","1 - Most Deprived",1,0,1,0,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"7835","Springfield Medical Centre","HTN & CKD","Female","40-59","Global Majority","Lambeth","E01003091","2",0,1,1,NA,1,0,0,1,0,"Partially Optimised",NA,NA,NA,NA,NA,0
+"7891","Springfield Medical Centre","HTN only","Male","60-74","White British","Wandsworth","E01004567","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"7907","Springfield Medical Centre","T2D & CKD","Male","40-59","Global Majority","Lambeth","E01003120","2",1,0,1,0,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"7993","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"8135","Springfield Medical Centre","T2D only","Male","60-74","Global Majority","Lambeth","E01003089","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"8137","Springfield Medical Centre","CKD only","Male","18-39","White British","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"8442","Springfield Medical Centre","T2D only","Female","60-74","White British","Lambeth","E01003121","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"8514","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"8517","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Lambeth","E01003089","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"8529","Springfield Medical Centre","CKD only","Female","75+","White British","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"8549","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Croydon","E01001138","3",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"8650","Springfield Medical Centre","HTN only","Male","40-59","White British","Wandsworth","E01004562","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"8923","Springfield Medical Centre","HTN only","Female","75+","Global Majority","Lambeth","E01003089","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"8959","Springfield Medical Centre","T2D only","Female","40-59","Global Majority","Lambeth","E01003125","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"9201","Springfield Medical Centre","T2D only","Female","18-39","Global Majority","Lambeth","E01003125","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"9493","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Wandsworth","E01004567","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"9519","Springfield Medical Centre","HTN only","Male","60-74","Global Majority","Wandsworth","E01004541","1 - Most Deprived",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",370,0,0,3,1,4
+"9538","Springfield Medical Centre","CKD only","Male","40-59","White British","Lambeth","E01003096","2",0,0,1,NA,NA,1,1,0,0,"Fully Optimised",601,1,0,2,5,8
+"9575","Springfield Medical Centre","T2D & CKD","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,1,0,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"9644","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Wandsworth","E01004567","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"9648","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"9696","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"10035","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003029","3",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"10071","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Lambeth","E01003089","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"10122","Springfield Medical Centre","HTN only","Female","40-59","Not Stated/Unknown","Lambeth","E01003128","1 - Most Deprived",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"10293","Springfield Medical Centre","CKD only","Female","40-59","White British","Southwark","E01003951","3",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"10334","Springfield Medical Centre","T2D only","Male","60-74","Global Majority","Croydon","E01001161","1 - Most Deprived",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"10401","Springfield Medical Centre","T2D only","Male","40-59","White British","Lambeth","E01003092","1 - Most Deprived",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"10419","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003121","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"10433","Springfield Medical Centre","All three","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,1,1,0,0,1,0,1,0,"Partially Optimised",NA,NA,NA,NA,NA,0
+"10525","Springfield Medical Centre","HTN only","Female","60-74","Not Stated/Unknown","Lambeth","E01003091","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"10581","Springfield Medical Centre","CKD only","Male","75+","White British","Waltham Forest","E01004395","3",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"10666","Springfield Medical Centre","HTN only","Female","60-74","White British","Lambeth","E01003089","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"10721","Springfield Medical Centre","HTN only","Male","60-74","Global Majority","Lambeth","E01003121","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"10729","Springfield Medical Centre","CKD only","Male","40-59","White British","Lambeth","E01003092","1 - Most Deprived",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"10733","Springfield Medical Centre","T2D & CKD","Male","40-59","Global Majority","Lambeth","E01003089","2",1,0,1,0,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"10734","Springfield Medical Centre","HTN & CKD","Female","40-59","Global Majority","Lambeth","E01003089","2",0,1,1,NA,0,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"10765","Springfield Medical Centre","HTN only","Female","60-74","White British","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",1148,5,0,4,2,11
+"11000","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Wandsworth","E01004567","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"11068","Springfield Medical Centre","HTN only","Male","40-59","White British","Lambeth","E01003091","2",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",1684,17,0,3,2,22
+"11069","Springfield Medical Centre","T2D & CKD","Female","40-59","White British","Lambeth","E01003091","2",1,0,1,0,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"11118","Springfield Medical Centre","All three","Male","75+","Global Majority","Wandsworth","E01004562","2",1,1,1,0,0,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"11191","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003091","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"11200","Springfield Medical Centre","HTN & T2D","Male","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,1,0,0,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"11277","Springfield Medical Centre","CKD only","Male","40-59","White British","Southwark","E01003967","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"11278","Springfield Medical Centre","HTN only","Male","40-59","Global Majority",NA,"E01033207",NA,0,1,0,NA,1,NA,1,0,0,"Fully Optimised",358,5,0,1,2,8
+"11279","Springfield Medical Centre","HTN only","Female","40-59","Global Majority",NA,"E01033207",NA,0,1,0,NA,1,NA,1,0,0,"Fully Optimised",143,9,0,3,0,12
+"11293","Springfield Medical Centre","CKD only","Female","75+","White British","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"11294","Springfield Medical Centre","CKD only","Male","75+","White British","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"11397","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003091","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"11518","Springfield Medical Centre","CKD only","Male","60-74","White British","City of Westminster","E01004746","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"11593","Springfield Medical Centre","CKD only","Male","75+","Global Majority",NA,"E01033132",NA,0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"11703","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"11735","Springfield Medical Centre","T2D & CKD","Female","60-74","White British","Lambeth","E01003091","2",1,0,1,0,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"11744","Springfield Medical Centre","T2D only","Male","18-39","Global Majority","Lambeth","E01003089","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"11779","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003089","2",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",223,5,1,0,0,6
+"11784","Springfield Medical Centre","T2D only","Male","18-39","Global Majority","Lambeth","E01003089","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"11859","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003037","1 - Most Deprived",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"11862","Springfield Medical Centre","HTN & T2D","Male","40-59","White British","Wandsworth","E01004535","1 - Most Deprived",1,1,0,0,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"12057","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"12310","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"12325","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"12353","Springfield Medical Centre","HTN only","Female","40-59","Global Majority",NA,"E01033098",NA,0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"12391","Springfield Medical Centre","T2D only","Female","40-59","Global Majority","Lambeth","E01003090","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"12410","Springfield Medical Centre","T2D only","Male","60-74","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"12477","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003160","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"12546","Springfield Medical Centre","HTN & CKD","Male","60-74","White British","Lambeth","E01003150","2",0,1,1,NA,1,0,0,1,0,"Partially Optimised",NA,NA,NA,NA,NA,0
+"12574","Springfield Medical Centre","HTN & CKD","Male","40-59","White British","Wandsworth","E01004562","2",0,1,1,NA,1,0,0,1,0,"Partially Optimised",NA,NA,NA,NA,NA,0
+"12631","Springfield Medical Centre","T2D & CKD","Female","40-59","Global Majority","Wandsworth","E01004562","2",1,0,1,0,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"12712","Springfield Medical Centre","HTN only","Male","60-74","Global Majority","Wandsworth","E01004567","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"12853","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Thurrock","E01016001","4",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"12929","Springfield Medical Centre","HTN & CKD","Female","40-59","Global Majority","Lambeth","E01003089","2",0,1,1,NA,0,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"13019","Springfield Medical Centre","CKD only","Female","40-59","White British","Lambeth","E01003091","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"13049","Springfield Medical Centre","T2D only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"13208","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"13283","Springfield Medical Centre","T2D only","Female","40-59","Global Majority","Lambeth","E01003089","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"13335","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003126","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"13353","Springfield Medical Centre","HTN only","Female","40-59","White British","Lambeth","E01003034","3",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"13376","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"13399","Springfield Medical Centre","CKD only","Female","40-59","White British","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"13427","Springfield Medical Centre","CKD only","Male","40-59","White British","Lambeth","E01003034","3",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"13443","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Wandsworth","E01004567","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"13450","Springfield Medical Centre","CKD only","Male","60-74","White British","Lambeth","E01003092","1 - Most Deprived",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"13587","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003129","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"13605","Springfield Medical Centre","HTN only","Male","40-59","White British","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"13686","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Lambeth","E01003039","4",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"13738","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",400,4,0,1,0,5
+"13743","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Lambeth","E01003171","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"13799","Springfield Medical Centre","CKD only","Male","60-74","White British","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"13919","Springfield Medical Centre","HTN & T2D","Female","60-74","Global Majority","Wandsworth","E01004586","4",1,1,0,0,1,NA,0,1,0,"Partially Optimised",NA,NA,NA,NA,NA,0
+"13920","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003034","3",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"13966","Springfield Medical Centre","HTN & T2D","Male","40-59","Global Majority","Lambeth","E01003091","2",1,1,0,0,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"14003","Springfield Medical Centre","CKD only","Female","40-59","White British","Lambeth","E01003092","1 - Most Deprived",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"14031","Springfield Medical Centre","HTN & T2D","Male","60-74","Global Majority","Lambeth","E01003091","2",1,1,0,0,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"14076","Springfield Medical Centre","T2D only","Female","18-39","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"14095","Springfield Medical Centre","CKD only","Female","60-74","White British","Lambeth","E01003092","1 - Most Deprived",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"14113","Springfield Medical Centre","T2D & CKD","Male","40-59","White British","Lambeth","E01003092","1 - Most Deprived",1,0,1,1,NA,0,0,1,0,"Partially Optimised",NA,NA,NA,NA,NA,0
+"14157","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"14383","Springfield Medical Centre","CKD only","Male","75+","Global Majority","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"14420","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003091","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"14442","Springfield Medical Centre","CKD only","Male","75+","White British","Lambeth","E01003092","1 - Most Deprived",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"14602","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"14679","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003127","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"14680","Springfield Medical Centre","HTN only","Male","60-74","Global Majority","Lambeth","E01003034","3",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"14722","Springfield Medical Centre","HTN only","Female","18-39","Global Majority","Wandsworth","E01004567","2",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",70,4,0,0,0,4
+"14974","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",316,8,1,1,4,14
+"15053","Springfield Medical Centre","HTN only","Male","60-74","White British","Lambeth","E01003090","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"500062","Springfield Medical Centre","HTN only","Female","40-59","White British","Lambeth","E01003095","3",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",1551,15,1,2,4,22
+"500165","Springfield Medical Centre","CKD only","Female","18-39","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"500181","Springfield Medical Centre","HTN only","Female","40-59","White British","Lambeth","E01003091","2",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",1511,19,2,3,1,25
+"500357","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Wandsworth","E01004567","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"500367","Springfield Medical Centre","CKD only","Female","60-74","White British","Lambeth","E01003034","3",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"500404","Springfield Medical Centre","HTN & T2D","Male","18-39","White British",NA,"E01033132",NA,1,1,0,0,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"500488","Springfield Medical Centre","CKD only","Female","60-74","White British","Wandsworth","E01004567","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"500504","Springfield Medical Centre","T2D only","Female","40-59","Global Majority","Wandsworth","E01004562","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"500507","Springfield Medical Centre","CKD only","Male","40-59","White British","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"500548","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"500608","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Wandsworth","E01004562","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"500709","Springfield Medical Centre","HTN only","Male","60-74","White British","Lambeth","E01003025","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"500803","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Lambeth","E01003121","2",1,0,0,1,NA,NA,1,0,0,"Fully Optimised",256,10,0,4,4,18
+"500847","Springfield Medical Centre","HTN only","Female","60-74","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",174,0,0,0,1,1
+"500986","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"501043","Springfield Medical Centre","HTN & CKD","Male","40-59","Global Majority","Wandsworth","E01004563","2",0,1,1,NA,0,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"501163","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003034","3",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"501166","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Lambeth","E01003031","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"501382","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"501475","Springfield Medical Centre","T2D only","Female","60-74","Global Majority","Lambeth","E01003095","3",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"501619","Springfield Medical Centre","HTN & T2D","Male","60-74","Global Majority","Wandsworth","E01004562","2",1,1,0,0,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"501636","Springfield Medical Centre","T2D only","Male","60-74","Global Majority","Lewisham","E01003339","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"501642","Springfield Medical Centre","HTN & CKD","Male","60-74","Global Majority","Lambeth","E01003034","3",0,1,1,NA,1,0,0,1,0,"Partially Optimised",NA,NA,NA,NA,NA,0
+"501654","Springfield Medical Centre","T2D & CKD","Male","75+","Global Majority","Wandsworth","E01004562","2",1,0,1,0,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"501718","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003091","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"501738","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003089","2",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",726,20,1,2,1,24
+"501804","Springfield Medical Centre","T2D only","Female","40-59","Global Majority","Lambeth","E01003089","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"501837","Springfield Medical Centre","T2D only","Male","18-39","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"501845","Springfield Medical Centre","CKD only","Male","40-59","White British","Lambeth","E01003090","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"501848","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Wandsworth","E01004567","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"501973","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003037","1 - Most Deprived",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"502107","Springfield Medical Centre","HTN only","Male","60-74","Global Majority","Lambeth","E01003111","1 - Most Deprived",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"502109","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003111","1 - Most Deprived",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"502157","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003168","1 - Most Deprived",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"502175","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003091","2",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",925,14,0,3,2,19
+"502189","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Wandsworth","E01004562","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"502269","Springfield Medical Centre","HTN & T2D","Male","60-74","Global Majority","Lambeth","E01003089","2",1,1,0,0,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"502396","Springfield Medical Centre","CKD only","Female","75+","Global Majority","Wandsworth","E01004567","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"502581","Springfield Medical Centre","HTN only","Female","75+","Global Majority","Lambeth","E01003122","2",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",35,1,0,2,3,6
+"502618","Springfield Medical Centre","CKD only","Male","40-59","White British","Wandsworth","E01004615","1 - Most Deprived",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"502673","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003091","2",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",105,1,0,0,0,1
+"502684","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Wandsworth","E01004562","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"502775","Springfield Medical Centre","T2D only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"502787","Springfield Medical Centre","HTN & CKD","Male","40-59","Global Majority","Lambeth","E01003091","2",0,1,1,NA,0,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"502841","Springfield Medical Centre","HTN only","Male","40-59","White British","Lambeth","E01003126","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"502847","Springfield Medical Centre","HTN only","Female","18-39","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"502848","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"502859","Springfield Medical Centre","HTN & T2D","Female","40-59","White British","Lambeth","E01003091","2",1,1,0,0,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"502900","Springfield Medical Centre","CKD only","Female","60-74","White British","Lambeth","E01003059","1 - Most Deprived",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"502932","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003121","2",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",48,1,0,0,0,1
+"503018","Springfield Medical Centre","CKD only","Male","75+","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"503030","Springfield Medical Centre","HTN & CKD","Male","40-59","White British","Lambeth","E01003091","2",0,1,1,NA,0,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"503051","Springfield Medical Centre","HTN & T2D","Female","40-59","Not Stated/Unknown","Lambeth","E01003091","2",1,1,0,1,0,NA,0,1,0,"Partially Optimised",NA,NA,NA,NA,NA,0
+"503122","Springfield Medical Centre","T2D & CKD","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,1,0,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"503147","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"503210","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"503254","Springfield Medical Centre","T2D only","Female","40-59","Global Majority","Wandsworth","E01004567","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"503429","Springfield Medical Centre","CKD only","Male","60-74","White British","Wandsworth","E01004541","1 - Most Deprived",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"503753","Springfield Medical Centre","HTN & CKD","Female","60-74","White British","Lambeth","E01003091","2",0,1,1,NA,1,0,0,1,0,"Partially Optimised",NA,NA,NA,NA,NA,0
+"503786","Springfield Medical Centre","HTN only","Female","60-74","Global Majority","Lambeth","E01003089","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"503930","Springfield Medical Centre","T2D only","Female","18-39","Global Majority","Wandsworth","E01004567","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"503936","Springfield Medical Centre","T2D only","Male","60-74","Global Majority","Lambeth","E01003121","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"504031","Springfield Medical Centre","T2D only","Male","40-59","Global Majority",NA,"E01033098",NA,1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"504078","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"504185","Springfield Medical Centre","HTN only","Male","40-59","White British","Lambeth","E01003123","3",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"504229","Springfield Medical Centre","HTN & CKD","Female","60-74","Global Majority","Lambeth","E01003090","2",0,1,1,NA,0,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"504302","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003098","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"504429","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Wandsworth","E01004567","2",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",1483,14,0,2,2,18
+"504437","Springfield Medical Centre","T2D & CKD","Male","75+","White British","Wandsworth","E01004567","2",1,0,1,0,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"504484","Springfield Medical Centre","HTN only","Female","40-59","White British","Wandsworth","E01004567","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"504553","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"504554","Springfield Medical Centre","T2D only","Female","40-59","Global Majority","Wandsworth","E01004567","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"504627","Springfield Medical Centre","HTN only","Male","40-59","White British","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",985,11,0,1,3,15
+"504634","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003074","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"504762","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Wandsworth","E01004564","3",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"504800","Springfield Medical Centre","T2D & CKD","Female","40-59","Global Majority","Wandsworth","E01004562","2",1,0,1,0,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"504818","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003060","1 - Most Deprived",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",364,14,1,1,1,17
+"504839","Springfield Medical Centre","HTN only","Male","60-74","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"504879","Springfield Medical Centre","HTN only","Male","40-59","White British","Wandsworth","E01004567","2",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",340,1,0,0,5,6
+"504902","Springfield Medical Centre","HTN & CKD","Male","40-59","White British","Southwark","E01004010","2",0,1,1,NA,0,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"504912","Springfield Medical Centre","HTN only","Male","60-74","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",1576,20,2,9,1,32
+"504994","Springfield Medical Centre","HTN & CKD","Female","75+","Global Majority","Wandsworth","E01004562","2",0,1,1,NA,0,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"505208","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Lambeth","E01003089","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"505278","Springfield Medical Centre","HTN only","Female","75+","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"505334","Springfield Medical Centre","HTN only","Female","60-74","White British",NA,"E01033099",NA,0,1,0,NA,1,NA,1,0,0,"Fully Optimised",-21,0,0,0,0,0
+"505408","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"505438","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",1023,10,0,4,2,16
+"505509","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003089","2",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",963,24,0,2,5,31
+"505514","Springfield Medical Centre","HTN only","Female","60-74","Global Majority","Wandsworth","E01004567","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"505575","Springfield Medical Centre","T2D only","Male","40-59","White British","Wandsworth","E01004562","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"505598","Springfield Medical Centre","HTN & T2D","Female","60-74","Global Majority","Lambeth","E01003091","2",1,1,0,0,1,NA,0,1,0,"Partially Optimised",NA,NA,NA,NA,NA,0
+"505599","Springfield Medical Centre","T2D only","Male","75+","Global Majority","Lambeth","E01003091","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"505653","Springfield Medical Centre","T2D only","Female","40-59","White British","Newham","E01003602","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"505854","Springfield Medical Centre","HTN & T2D","Female","60-74","White British","Lambeth","E01003092","1 - Most Deprived",1,1,0,0,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"505874","Springfield Medical Centre","T2D only","Male","60-74","White British","Lambeth","E01003029","3",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"505929","Springfield Medical Centre","CKD only","Male","18-39","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"505936","Springfield Medical Centre","T2D only","Male","60-74","Global Majority","Wandsworth","E01004617","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"505939","Springfield Medical Centre","T2D only","Male","18-39","Global Majority","Lambeth","E01003104","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"506003","Springfield Medical Centre","T2D & CKD","Male","18-39","Global Majority","Southwark","E01003921","1 - Most Deprived",1,0,1,0,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"506016","Springfield Medical Centre","T2D & CKD","Female","40-59","Global Majority","Wandsworth","E01004567","2",1,0,1,0,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"506017","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003091","2",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",789,15,0,2,2,19
+"506024","Springfield Medical Centre","HTN only","Female","18-39","Global Majority","Lambeth","E01003089","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"506062","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"506249","Springfield Medical Centre","T2D only","Male","75+","Global Majority","Lambeth","E01003089","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"506374","Springfield Medical Centre","T2D only","Male","40-59","White British","Lambeth","E01003091","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"506495","Springfield Medical Centre","HTN only","Female","40-59","Not Stated/Unknown","Lambeth","E01003097","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"506499","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003091","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"506539","Springfield Medical Centre","HTN & T2D","Female","40-59","White British","Wandsworth","E01004562","2",1,1,0,0,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"506615","Springfield Medical Centre","HTN & CKD","Male","40-59","Global Majority","Lambeth","E01003034","3",0,1,1,NA,1,0,0,1,0,"Partially Optimised",NA,NA,NA,NA,NA,0
+"506637","Springfield Medical Centre","HTN & CKD","Male","60-74","White British","Lambeth","E01003126","2",0,1,1,NA,0,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"506653","Springfield Medical Centre","HTN only","Male","40-59","White British","Lambeth","E01003123","3",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",566,18,0,3,0,21
+"506664","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"506723","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003089","2",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",907,25,4,8,9,46
+"506843","Springfield Medical Centre","HTN only","Female","40-59","White British","Lambeth","E01003014","2",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",256,6,2,2,1,11
+"506885","Springfield Medical Centre","HTN only","Female","60-74","Global Majority","Wandsworth","E01004617","2",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",1188,3,1,0,1,5
+"506985","Springfield Medical Centre","HTN only","Male","40-59","White British","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"507005","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Wandsworth","E01004567","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"507020","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003122","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"507087","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"507142","Springfield Medical Centre","HTN only","Female","60-74","Global Majority",NA,"E01033132",NA,0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"507198","Springfield Medical Centre","HTN only","Male","40-59","White British","Lambeth","E01003128","1 - Most Deprived",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",1196,11,0,0,10,21
+"507348","Springfield Medical Centre","T2D only","Male","60-74","White British","Lambeth","E01003126","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"507351","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003091","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"507424","Springfield Medical Centre","CKD only","Male","60-74","White British","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"507437","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Lambeth","E01003091","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"507495","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lewisham","E01003298","2",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",1314,6,0,0,2,8
+"507537","Springfield Medical Centre","HTN only","Female","60-74","Global Majority","Lambeth","E01003034","3",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"507620","Springfield Medical Centre","T2D only","Male","60-74","Global Majority","Lambeth","E01003089","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"507639","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","City of Westminster","E01004669","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"507757","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Wandsworth","E01004562","2",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",1312,5,0,2,4,11
+"507792","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003034","3",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"507859","Springfield Medical Centre","HTN only","Male","18-39","White British","Wandsworth","E01004562","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"507874","Springfield Medical Centre","T2D only","Male","60-74","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"507916","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003121","2",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",21,0,0,0,0,0
+"508043","Springfield Medical Centre","T2D & CKD","Male","40-59","White British","Lambeth","E01003089","2",1,0,1,1,NA,0,0,1,0,"Partially Optimised",NA,NA,NA,NA,NA,0
+"508106","Springfield Medical Centre","HTN & CKD","Female","75+","Global Majority","Lambeth","E01003091","2",0,1,1,NA,1,0,0,1,0,"Partially Optimised",NA,NA,NA,NA,NA,0
+"508386","Springfield Medical Centre","HTN & CKD","Male","60-74","Global Majority","Wandsworth","E01004562","2",0,1,1,NA,0,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"508406","Springfield Medical Centre","T2D only","Male","18-39","Global Majority","Lambeth","E01003122","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"508495","Springfield Medical Centre","HTN & T2D","Male","60-74","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,1,0,0,1,NA,0,1,0,"Partially Optimised",NA,NA,NA,NA,NA,0
+"508810","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003089","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"508849","Springfield Medical Centre","CKD only","Male","75+","White British","Lambeth","E01003091","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"508858","Springfield Medical Centre","HTN & T2D","Female","60-74","White British","Wandsworth","E01004562","2",1,1,0,0,1,NA,0,1,0,"Partially Optimised",NA,NA,NA,NA,NA,0
+"508892","Springfield Medical Centre","HTN only","Female","60-74","Global Majority","Wandsworth","E01004567","2",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",1439,4,2,7,4,17
+"508908","Springfield Medical Centre","All three","Female","60-74","Global Majority","Lambeth","E01003034","3",1,1,1,0,1,0,0,1,0,"Partially Optimised",NA,NA,NA,NA,NA,0
+"508988","Springfield Medical Centre","HTN only","Female","18-39","Global Majority","Wandsworth","E01004562","2",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",496,4,0,1,1,6
+"509004","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"509122","Springfield Medical Centre","T2D only","Female","40-59","Global Majority","Wandsworth","E01004567","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"509236","Springfield Medical Centre","CKD only","Male","75+","White British","Lambeth","E01003092","1 - Most Deprived",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"509270","Springfield Medical Centre","HTN only","Male","40-59","White British","Lambeth","E01003089","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"509273","Springfield Medical Centre","T2D only","Female","60-74","Global Majority","Lambeth","E01003089","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"509291","Springfield Medical Centre","HTN only","Female","60-74","Global Majority","Lambeth","E01003089","2",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",572,3,0,2,0,5
+"509367","Springfield Medical Centre","T2D & CKD","Male","40-59","Global Majority","Lambeth","E01003034","3",1,0,1,0,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"509373","Springfield Medical Centre","T2D only","Female","18-39","White British","Lambeth","E01003092","1 - Most Deprived",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"509418","Springfield Medical Centre","T2D & CKD","Female","75+","White British","Lambeth","E01003089","2",1,0,1,0,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"509425","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003037","1 - Most Deprived",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"509481","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",0,0,0,0,0,0
+"509506","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Lambeth","E01003089","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"509542","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"509748","Springfield Medical Centre","HTN only","Female","75+","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"509749","Springfield Medical Centre","HTN only","Male","60-74","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"509759","Springfield Medical Centre","HTN & T2D","Female","40-59","Global Majority","Lambeth","E01003034","3",1,1,0,1,1,NA,1,0,0,"Fully Optimised",434,3,1,2,3,9
+"509854","Springfield Medical Centre","HTN only","Female","60-74","White British","Lambeth","E01003089","2",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",364,0,0,3,3,6
+"509888","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003091","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"509905","Springfield Medical Centre","HTN only","Female","60-74","Global Majority","Lambeth","E01003123","3",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"509906","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"510022","Springfield Medical Centre","HTN & T2D","Female","40-59","Global Majority","Lambeth","E01003089","2",1,1,0,0,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"510036","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Wandsworth","E01004562","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"510088","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003097","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"510142","Springfield Medical Centre","HTN only","Female","40-59","White British","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"510151","Springfield Medical Centre","T2D only","Female","18-39","Global Majority","Lambeth","E01003095","3",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"510204","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003037","1 - Most Deprived",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"510208","Springfield Medical Centre","T2D only","Male","40-59","White British","Wandsworth","E01004562","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"510237","Springfield Medical Centre","HTN only","Female","75+","Global Majority","Lambeth","E01003121","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"510457","Springfield Medical Centre","T2D only","Female","60-74","Global Majority","Wandsworth","E01004562","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"510462","Springfield Medical Centre","T2D only","Female","18-39","Global Majority","Wandsworth","E01004567","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"510472","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Lambeth","E01003089","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"510561","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Wandsworth","E01004562","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"510730","Springfield Medical Centre","HTN & CKD","Male","60-74","White British","Lambeth","E01003089","2",0,1,1,NA,1,0,0,1,0,"Partially Optimised",NA,NA,NA,NA,NA,0
+"510837","Springfield Medical Centre","HTN only","Male","40-59","White British","Wandsworth","E01004567","2",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"510907","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Wandsworth","E01004567","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"510925","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003034","3",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"510982","Springfield Medical Centre","T2D only","Female","18-39","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"511002","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003091","2",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",449,7,1,1,0,9
+"511026","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",166,1,0,1,0,2
+"511145","Springfield Medical Centre","HTN only","Female","18-39","Global Majority","Wandsworth","E01004562","2",0,1,0,NA,1,NA,1,0,0,"Fully Optimised",124,0,0,0,0,0
+"511284","Springfield Medical Centre","CKD only","Female","75+","White British","Lambeth","E01003089","2",0,0,1,NA,NA,0,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"511373","Springfield Medical Centre","HTN & T2D","Male","60-74","Global Majority","Lambeth","E01003089","2",1,1,0,0,1,NA,0,1,0,"Partially Optimised",NA,NA,NA,NA,NA,0
+"511507","Springfield Medical Centre","T2D only","Female","18-39","Global Majority","Wandsworth","E01004562","2",1,0,0,0,NA,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0
+"511562","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003034","3",0,1,0,NA,0,NA,0,0,1,"Not Optimised",NA,NA,NA,NA,NA,0

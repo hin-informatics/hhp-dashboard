@@ -209,21 +209,36 @@ optimisation_date <- function(ptts_dt){
   
   d <- d %>%
     mutate(
-      fully_optimised = if_else(
-        (hypertension_exist == 0 | hypertension_optimised == 1) &
-          (ckd_exist == 0 | ckd_optimised == 1) &
-          (diabetes_exist == 0 | diabetes_optimised == 1),
-        1, 0
+      # Count active conditions and count optimized conditions
+      num_conditions = coalesce(hypertension_exist, 0) + 
+                       coalesce(ckd_exist, 0) + 
+                       coalesce(diabetes_exist, 0),
+      
+      num_optimised = coalesce(hypertension_optimised, 0) + 
+                      coalesce(ckd_optimised, 0) + 
+                      coalesce(diabetes_optimised, 0),
+      
+      # Binary flags
+      fully_optimised = if_else(num_conditions > 0 & num_optimised == num_conditions, 1, 0),
+      partially_optimised = if_else(num_conditions > 0 & num_optimised > 0 & num_optimised < num_conditions, 1, 0),
+      not_optimised = if_else(num_conditions > 0 & num_optimised == 0, 1, 0),
+      
+      # Categorical Status
+      optimisation_status = case_when(
+        num_conditions == 0 ~ NA_character_,
+        num_optimised == num_conditions ~ "Fully Optimised",
+        num_optimised > 0 & num_optimised < num_conditions ~ "Partially Optimised",
+        num_optimised == 0 ~ "Not Optimised"
       ),
+      
       time_to_optimisation_days = if_else(
         fully_optimised == 1,
         as.numeric(overall_optimisation_date - most_recent_dx_date),
         as.numeric(NA)
       )
     )
-  message('Created optimisation dates.')
+  message('Created optimisation dates and category flags.')
   return(d)
-  
 }
 
 
