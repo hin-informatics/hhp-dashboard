@@ -16,6 +16,7 @@ pacman::p_load(
   ,'tictoc'
   ,'Microsoft365R'
   ,'ggvenn'
+  ,'readxl'
 )
 
 # FUNCTIONS
@@ -23,4 +24,6 @@ source('scripts/func_demographics.R')
 source('scripts/func_optimisation.R')
 source('scripts/func_appointments.R')
 source('scripts/func_helpers.R')
+source('scripts/func_practice_loader.R')
+
 

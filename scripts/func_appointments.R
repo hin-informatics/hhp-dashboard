@@ -64,21 +64,30 @@ appt_calculations <- function(appt_dt, ptts_dt){
   setDT(ptts_dt)
   
   # 1. Melt and standardise raw appointments from the appointment-level dataset
-  gp <- appt_dt[!is.na(gp_appointments_5_years_appointment_date), .(
-    emis_number, appt_date = gp_appointments_5_years_appointment_date, clinician_type = "GP"
-  )]
+  # Exclude non-attended appointments (DNA, Cancelled)
+  gp <- appt_dt[
+    !is.na(gp_appointments_5_years_appointment_date) &
+      !(trimws(gp_appointments_5_years_current_slot_status) %in% c("DNA", "Cancelled")),
+    .(emis_number, appt_date = gp_appointments_5_years_appointment_date, clinician_type = "GP")
+  ]
   
-  nurse <- appt_dt[!is.na(nurse_appointments_5_years_appointment_date), .(
-    emis_number, appt_date = nurse_appointments_5_years_appointment_date, clinician_type = "Nurse"
-  )]
+  nurse <- appt_dt[
+    !is.na(nurse_appointments_5_years_appointment_date) &
+      !(trimws(nurse_appointments_5_years_current_slot_status) %in% c("DNA", "Cancelled")),
+    .(emis_number, appt_date = nurse_appointments_5_years_appointment_date, clinician_type = "Nurse")
+  ]
   
-  hca <- appt_dt[!is.na(hca_appointments_5_years_appointment_date), .(
-    emis_number, appt_date = hca_appointments_5_years_appointment_date, clinician_type = "HCA"
-  )]
+  hca <- appt_dt[
+    !is.na(hca_appointments_5_years_appointment_date) &
+      !(trimws(hca_appointments_5_years_current_slot_status) %in% c("DNA", "Cancelled")),
+    .(emis_number, appt_date = hca_appointments_5_years_appointment_date, clinician_type = "HCA")
+  ]
   
-  pharm <- appt_dt[!is.na(pharmacist_appointments_5_years_appointment_date), .(
-    emis_number, appt_date = pharmacist_appointments_5_years_appointment_date, clinician_type = "Pharmacist"
-  )]
+  pharm <- appt_dt[
+    !is.na(pharmacist_appointments_5_years_appointment_date) &
+      !(trimws(pharmacist_appointments_5_years_current_slot_status) %in% c("DNA", "Cancelled")),
+    .(emis_number, appt_date = pharmacist_appointments_5_years_appointment_date, clinician_type = "Pharmacist")
+  ]
   
   # Union all clinician types into one long table
   all_appts <- rbindlist(list(gp, nurse, hca, pharm), use.names = TRUE, fill = TRUE)
@@ -116,8 +125,9 @@ appt_calculations <- function(appt_dt, ptts_dt){
     set(ptts_dt, i = which(ptts_dt$fully_optimised == 1 & is.na(ptts_dt[[col]])), j = col, value = 0)
   }
   
-  # Calculate total appointments in window
-  ptts_dt[, appts_total_in_window := rowSums(.SD, na.rm = TRUE), .SDcols = appt_cols]
+  # Calculate total appointments in window for fully optimised patients (keep NA for non-optimised)
+  ptts_dt[fully_optimised == 1, appts_total_in_window := rowSums(.SD, na.rm = TRUE), .SDcols = appt_cols]
+  ptts_dt[fully_optimised == 0, appts_total_in_window := as.numeric(NA)]
   
   message('Appointment calculated fields.')
   return(ptts_dt)
