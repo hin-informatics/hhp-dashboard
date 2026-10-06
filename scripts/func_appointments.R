@@ -5,6 +5,10 @@ appt_prescriptions <- function(appt_dt, ptts_dt){
   setDT(appt_dt)
   setDT(ptts_dt)
   
+  # Forward-fill patient identifiers down repeating appointment/medication event rows
+  appt_dt <- appt_dt %>% tidyr::fill(emis_number, .direction = "down")
+  setDT(appt_dt)
+  
   appt_dt <- setorder(appt_dt, emis_number, gp_appointments_5_years_appointment_date)
   
   # 1. Extract Statin prescriptions
@@ -62,6 +66,10 @@ appt_calculations <- function(appt_dt, ptts_dt){
   
   setDT(appt_dt)
   setDT(ptts_dt)
+  
+  # Forward-fill patient identifiers down repeating appointment event rows
+  appt_dt <- appt_dt %>% tidyr::fill(emis_number, .direction = "down")
+  setDT(appt_dt)
   
   # 1. Melt and standardise raw appointments from the appointment-level dataset
   # Exclude non-attended appointments (DNA, Cancelled)

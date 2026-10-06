@@ -5,6 +5,7 @@
 .positai
 data/patient_data.csv
 data/facts.csv
-practices/
+practices/*
+!practices/.gitkeep
 practice/
 

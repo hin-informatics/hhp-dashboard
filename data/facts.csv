@@ -1,55 +1,55 @@
 "emis_number","organisation_name","cvrm_cohort","gender","func_age_bands","func_ethnic_group","la_name","lower_layer_area_2011","imd_quintile_label","diabetes_exist","hypertension_exist","ckd_exist","diabetes_optimised","hypertension_optimised","ckd_optimised","fully_optimised","partially_optimised","not_optimised","optimisation_status","time_to_optimisation_days","appts_gp_in_window","appts_nurse_in_window","appts_hca_in_window","appts_pharm_in_window","appts_total_in_window","bp_first_in_range_date","bp_post_target_total_readings","bp_post_target_in_range_readings","bp_in_range_ratio","bp_latest_date","bp_latest_systolic","bp_latest_diastolic"
 "7","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003037","1 - Most Deprived",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-03-24,2,2,1,2022-10-13,124,87
 "94","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003041","1 - Most Deprived",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,,0,0,0,2025-02-20,135,97
-"115","Springfield Medical Centre","CKD only","Female","40-59","White British","Lambeth","E01003092","1 - Most Deprived",0,0,1,,,1,1,0,0,"Fully Optimised",1461,0,0,1,1,2,2022-02-20,2,2,1,2022-03-28,111,67
+"115","Springfield Medical Centre","CKD only","Female","40-59","White British","Lambeth","E01003092","1 - Most Deprived",0,0,1,,,1,1,0,0,"Fully Optimised",1461,3,1,2,2,8,2022-02-20,2,2,1,2022-03-28,111,67
 "144","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003185","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-08-31,6,2,0.333,2026-05-20,135,75
-"267","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003122","2",0,0,1,,,1,1,0,0,"Fully Optimised",816,0,0,1,0,1,2021-02-20,8,7,0.875,2026-04-15,120,65
+"267","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003122","2",0,0,1,,,1,1,0,0,"Fully Optimised",816,14,2,5,1,22,2021-02-20,8,7,0.875,2026-04-15,120,65
 "284","Springfield Medical Centre","CKD only","Female","75+","Global Majority","Lambeth","E01003090","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2025-11-19,3,1,0.333,2026-05-20,147,66
 "285","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003090","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2024-07-20,12,5,0.417,2026-12-20,148,89
-"291","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003091","2",0,0,1,,,1,1,0,0,"Fully Optimised",62,0,0,0,0,0,2023-09-20,3,2,0.667,2025-02-20,125,91
+"291","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003091","2",0,0,1,,,1,1,0,0,"Fully Optimised",62,0,0,1,1,2,2023-09-20,3,2,0.667,2025-02-20,125,91
 "307","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Wandsworth","E01004567","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-10-20,1,1,1,2022-10-20,135,74
-"331","Springfield Medical Centre","HTN & CKD","Male","60-74","Global Majority","Lambeth","E01003183","2",0,1,1,,1,1,1,0,0,"Fully Optimised",1091,0,0,0,1,1,2022-05-20,3,3,1,2025-12-15,119,83
-"375","Springfield Medical Centre","HTN only","Male","60-74","White British","Lambeth","E01003089","2",0,1,0,,1,,1,0,0,"Fully Optimised",28,0,0,0,0,0,2024-09-20,6,6,1,2025-12-20,118,72
+"331","Springfield Medical Centre","HTN & CKD","Male","60-74","Global Majority","Lambeth","E01003183","2",0,1,1,,1,1,1,0,0,"Fully Optimised",1091,3,0,1,5,9,2022-05-20,3,3,1,2025-12-15,119,83
+"375","Springfield Medical Centre","HTN only","Male","60-74","White British","Lambeth","E01003089","2",0,1,0,,1,,1,0,0,"Fully Optimised",28,0,0,1,2,3,2024-09-20,6,6,1,2025-12-20,118,72
 "378","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003089","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2024-08-29,10,5,0.5,2026-05-20,130,79
 "396","Springfield Medical Centre","T2D & CKD","Female","60-74","Global Majority","Lambeth","E01003089","2",1,0,1,0,,0,0,0,1,"Not Optimised",,,,,,,2022-08-20,8,5,0.625,2026-02-27,125,78
 "438","Springfield Medical Centre","CKD only","Male","60-74","White British","Lambeth","E01003034","3",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-01-17,11,11,1,2026-08-20,100,62
 "484","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003089","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2021-03-20,7,6,0.857,2025-06-20,124,80
 "624","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Lambeth","E01003089","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,,0,0,0,,,
-"683","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003089","2",0,0,1,,,1,1,0,0,"Fully Optimised",1135,0,0,1,0,1,2022-06-20,15,6,0.4,2026-09-20,128,80
+"683","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003089","2",0,0,1,,,1,1,0,0,"Fully Optimised",1135,27,3,4,5,39,2022-06-20,15,6,0.4,2026-09-20,128,80
 "716","Springfield Medical Centre","T2D only","Male","75+","White British","Lambeth","E01003091","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2021-07-20,31,31,1,2026-07-21,113,61
 "748","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003089","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2021-12-14,13,6,0.462,2026-08-20,144,87
 "866","Springfield Medical Centre","HTN only","Male","60-74","Global Majority","Lambeth","E01003089","2",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,2023-02-20,18,8,0.444,2026-09-20,136,80
-"928","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Merton","E01003414","4",0,0,1,,,1,1,0,0,"Fully Optimised",1427,0,0,1,1,2,2022-06-22,7,3,0.429,2025-02-26,139,90
-"1052","Springfield Medical Centre","HTN & CKD","Female","40-59","Global Majority","Lambeth","E01003088","2",0,1,1,,1,1,1,0,0,"Fully Optimised",217,0,0,0,0,0,2026-08-21,1,1,1,2026-08-21,125,75
+"928","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Merton","E01003414","4",0,0,1,,,1,1,0,0,"Fully Optimised",1427,10,0,1,1,12,2022-06-22,7,3,0.429,2025-02-26,139,90
+"1052","Springfield Medical Centre","HTN & CKD","Female","40-59","Global Majority","Lambeth","E01003088","2",0,1,1,,1,1,1,0,0,"Fully Optimised",217,3,0,1,0,4,2026-08-21,1,1,1,2026-08-21,125,75
 "1056","Springfield Medical Centre","T2D only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2022-06-27,6,6,1,2025-05-30,126,86
 "1058","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003122","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-10-28,6,2,0.333,2026-08-24,149,103
-"1128","Springfield Medical Centre","HTN only","Female","18-39","White British","Lambeth","E01003092","1 - Most Deprived",0,1,0,,1,,1,0,0,"Fully Optimised",33,0,0,0,0,0,2024-02-20,7,4,0.571,2026-12-20,118,91
-"1185","Springfield Medical Centre","HTN only","Female","75+","Global Majority","Lambeth","E01003091","2",0,1,0,,1,,1,0,0,"Fully Optimised",87,0,0,0,0,0,2026-04-20,2,2,1,2026-11-20,139,56
-"1192","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,,1,,1,0,0,"Fully Optimised",60,0,0,0,0,0,2022-01-18,8,4,0.5,2026-01-29,121,90
+"1128","Springfield Medical Centre","HTN only","Female","18-39","White British","Lambeth","E01003092","1 - Most Deprived",0,1,0,,1,,1,0,0,"Fully Optimised",33,0,0,0,1,1,2024-02-20,7,4,0.571,2026-12-20,118,91
+"1185","Springfield Medical Centre","HTN only","Female","75+","Global Majority","Lambeth","E01003091","2",0,1,0,,1,,1,0,0,"Fully Optimised",87,2,0,0,0,2,2026-04-20,2,2,1,2026-11-20,139,56
+"1192","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,,1,,1,0,0,"Fully Optimised",60,4,0,0,0,4,2022-01-18,8,4,0.5,2026-01-29,121,90
 "1202","Springfield Medical Centre","HTN & CKD","Male","60-74","White British","Lambeth","E01003089","2",0,1,1,,1,0,0,1,0,"Partially Optimised",,,,,,,2025-10-20,1,1,1,2025-10-20,137,87
-"1373","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Greenwich","E01001641","3",0,0,1,,,1,1,0,0,"Fully Optimised",1121,1,0,1,0,2,2026-07-20,1,1,1,2026-07-20,138,84
+"1373","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Greenwich","E01001641","3",0,0,1,,,1,1,0,0,"Fully Optimised",1121,29,0,3,2,34,2026-07-20,1,1,1,2026-07-20,138,84
 "1420","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003034","3",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2024-10-20,1,1,1,2024-10-20,131,80
-"1431","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003091","2",0,0,1,,,1,1,0,0,"Fully Optimised",1211,0,0,1,0,1,2023-11-21,8,4,0.5,2026-07-29,138,91
+"1431","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003091","2",0,0,1,,,1,1,0,0,"Fully Optimised",1211,1,2,3,6,12,2023-11-21,8,4,0.5,2026-07-29,138,91
 "1480","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003121","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2024-07-20,7,6,0.857,2026-06-24,135,84
 "1481","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003121","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-12-15,14,13,0.929,2026-10-20,105,70
-"1543","Springfield Medical Centre","T2D only","Female","60-74","Global Majority","Lambeth","E01003110","3",1,0,0,1,,,1,0,0,"Fully Optimised",30,0,0,0,0,0,,0,0,0,2026-07-15,170,108
+"1543","Springfield Medical Centre","T2D only","Female","60-74","Global Majority","Lambeth","E01003110","3",1,0,0,1,,,1,0,0,"Fully Optimised",30,1,0,0,0,1,,0,0,0,2026-07-15,170,108
 "1545","Springfield Medical Centre","CKD only","Male","75+","Global Majority","Lambeth","E01003118","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-03-20,13,2,0.154,2026-04-29,150,84
-"1624","Springfield Medical Centre","HTN only","Female","40-59","White British","Lambeth","E01003034","3",0,1,0,,1,,1,0,0,"Fully Optimised",28,0,0,1,0,1,2025-03-20,2,1,0.5,2025-08-13,163,104
+"1624","Springfield Medical Centre","HTN only","Female","40-59","White British","Lambeth","E01003034","3",0,1,0,,1,,1,0,0,"Fully Optimised",28,1,0,1,0,2,2025-03-20,2,1,0.5,2025-08-13,163,104
 "1743","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003091","2",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,2023-05-20,5,1,0.2,2026-02-13,145,90
 "1812","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003091","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2021-11-20,11,11,1,2026-04-20,105,72
 "1899","Springfield Medical Centre","T2D only","Male","18-39","Global Majority","Lambeth","E01003091","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2025-02-20,3,3,1,2025-10-20,127,87
 "1907","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003091","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2023-11-20,6,5,0.833,2026-03-20,130,70
-"1911","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003091","2",0,0,1,,,1,1,0,0,"Fully Optimised",1222,1,1,1,1,4,2023-04-20,10,2,0.2,2026-07-20,139,101
-"1920","Springfield Medical Centre","CKD only","Male","75+","Not Stated/Unknown","Lambeth","E01003092","1 - Most Deprived",0,0,1,,,1,1,0,0,"Fully Optimised",121,0,0,0,0,0,2023-09-20,10,4,0.4,2026-10-20,142,90
+"1911","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003091","2",0,0,1,,,1,1,0,0,"Fully Optimised",1222,27,1,4,2,34,2023-04-20,10,2,0.2,2026-07-20,139,101
+"1920","Springfield Medical Centre","CKD only","Male","75+","Not Stated/Unknown","Lambeth","E01003092","1 - Most Deprived",0,0,1,,,1,1,0,0,"Fully Optimised",121,1,0,1,0,2,2023-09-20,10,4,0.4,2026-10-20,142,90
 "1948","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003034","3",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-10-20,20,4,0.2,2026-04-16,145,67
 "1952","Springfield Medical Centre","HTN & CKD","Male","18-39","Global Majority","Lambeth","E01003034","3",0,1,1,,0,1,0,1,0,"Partially Optimised",,,,,,,,0,0,0,2026-01-19,162,119
-"1957","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,0,1,,,1,1,0,0,"Fully Optimised",635,0,0,1,1,2,2025-12-28,2,1,0.5,2026-07-21,146,81
+"1957","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,0,1,,,1,1,0,0,"Fully Optimised",635,3,0,3,1,7,2025-12-28,2,1,0.5,2026-07-21,146,81
 "2041","Springfield Medical Centre","HTN only","Male","60-74","Global Majority","Lambeth","E01003034","3",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,2026-06-18,3,1,0.333,2026-10-20,153,105
-"2078","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Wandsworth","E01004562","2",0,0,1,,,1,1,0,0,"Fully Optimised",390,0,1,0,0,1,2025-10-20,2,2,1,2025-10-20,134,84
+"2078","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Wandsworth","E01004562","2",0,0,1,,,1,1,0,0,"Fully Optimised",390,0,1,2,0,3,2025-10-20,2,2,1,2025-10-20,134,84
 "2084","Springfield Medical Centre","T2D & CKD","Female","75+","Global Majority","Wandsworth","E01004567","2",1,0,1,0,,1,0,1,0,"Partially Optimised",,,,,,,,0,0,0,2026-05-22,155,71
-"2127","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Wandsworth","E01004562","2",0,0,1,,,1,1,0,0,"Fully Optimised",1137,0,1,1,0,2,2022-05-25,7,6,0.857,2026-04-23,127,86
+"2127","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Wandsworth","E01004562","2",0,0,1,,,1,1,0,0,"Fully Optimised",1137,3,1,7,3,14,2022-05-25,7,6,0.857,2026-04-23,127,86
 "2137","Springfield Medical Centre","CKD only","Female","75+","Global Majority","Wandsworth","E01004562","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2021-05-20,13,12,0.923,2026-08-27,110,64
-"2227","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Wandsworth","E01004567","2",0,1,0,,1,,1,0,0,"Fully Optimised",60,0,0,0,0,0,2026-05-29,1,1,1,2026-05-29,131,85
+"2227","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Wandsworth","E01004567","2",0,1,0,,1,,1,0,0,"Fully Optimised",60,4,0,1,0,5,2026-05-29,1,1,1,2026-05-29,131,85
 "2265","Springfield Medical Centre","HTN & CKD","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,1,,0,0,0,0,1,"Not Optimised",,,,,,,,0,0,0,2026-05-20,160,93
 "2320","Springfield Medical Centre","CKD only","Male","75+","White British","Wandsworth","E01004562","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-03-20,10,9,0.9,2026-05-20,139,76
 "2389","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Wandsworth","E01004562","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-05-20,11,8,0.727,2026-08-24,127,73
@@ -61,7 +61,7 @@
 "2608","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Wandsworth","E01004562","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2021-06-20,9,7,0.778,2026-02-26,133,70
 "2625","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Wandsworth","E01004567","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-08-20,9,9,1,2026-05-13,119,79
 "2628","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Wandsworth","E01004567","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2021-12-14,13,12,0.923,2026-05-19,110,70
-"2648","Springfield Medical Centre","CKD only","Male","75+","White British","Wandsworth","E01004562","2",0,0,1,,,1,1,0,0,"Fully Optimised",1221,0,0,1,1,2,2022-02-24,9,8,0.889,2026-08-25,153,87
+"2648","Springfield Medical Centre","CKD only","Male","75+","White British","Wandsworth","E01004562","2",0,0,1,,,1,1,0,0,"Fully Optimised",1221,13,0,2,3,18,2022-02-24,9,8,0.889,2026-08-25,153,87
 "2651","Springfield Medical Centre","CKD only","Male","75+","White British","Wandsworth","E01004567","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-08-31,3,3,1,2025-04-20,124,81
 "2657","Springfield Medical Centre","HTN only","Female","60-74","Global Majority","Wandsworth","E01004562","2",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,,0,0,0,2026-06-15,162,98
 "2769","Springfield Medical Centre","HTN & T2D","Female","40-59","Global Majority","Lambeth","E01003171","2",1,1,0,0,1,,0,1,0,"Partially Optimised",,,,,,,2022-10-20,10,6,0.6,2026-07-15,111,70
@@ -69,70 +69,70 @@
 "2918","Springfield Medical Centre","T2D only","Male","75+","Global Majority","Lambeth","E01003091","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2022-03-20,8,6,0.75,2026-09-20,125,76
 "3025","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003046","1 - Most Deprived",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2023-09-20,11,11,1,2026-04-20,119,58
 "3029","Springfield Medical Centre","T2D only","Male","40-59","White British","Lambeth","E01003091","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2025-06-20,4,3,0.75,2026-12-20,140,98
-"3057","Springfield Medical Centre","HTN only","Female","40-59","White British","Lewisham","E01003320","1 - Most Deprived",0,1,0,,1,,1,0,0,"Fully Optimised",88,0,0,1,0,1,2024-07-22,6,4,0.667,2025-06-20,135,89
+"3057","Springfield Medical Centre","HTN only","Female","40-59","White British","Lewisham","E01003320","1 - Most Deprived",0,1,0,,1,,1,0,0,"Fully Optimised",88,1,0,1,0,2,2024-07-22,6,4,0.667,2025-06-20,135,89
 "3097","Springfield Medical Centre","T2D only","Male","60-74","Global Majority","Lambeth","E01003091","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2023-08-15,4,4,1,2026-09-20,122,70
 "3119","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Croydon","E01001165","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-05-13,12,11,0.917,2026-04-27,117,65
-"3271","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003042","2",0,0,1,,,1,1,0,0,"Fully Optimised",1407,1,0,1,1,3,2022-01-20,10,9,0.9,2026-04-27,145,85
+"3271","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003042","2",0,0,1,,,1,1,0,0,"Fully Optimised",1407,1,0,5,4,10,2022-01-20,10,9,0.9,2026-04-27,145,85
 "3337","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003091","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-03-20,1,1,1,2022-03-20,137,85
 "3356","Springfield Medical Centre","HTN & T2D","Female","40-59","Global Majority","Lambeth","E01003091","2",1,1,0,0,0,,0,0,1,"Not Optimised",,,,,,,2024-03-20,8,3,0.375,2026-02-20,130,95
-"3410","Springfield Medical Centre","CKD only","Male","18-39","Global Majority","Lambeth","E01003034","3",0,0,1,,,1,1,0,0,"Fully Optimised",1292,0,0,1,1,2,2021-12-14,10,10,1,2026-04-20,128,85
-"3487","Springfield Medical Centre","HTN only","Female","60-74","Global Majority","Wandsworth","E01004567","2",0,1,0,,1,,1,0,0,"Fully Optimised",1029,0,0,1,1,2,2025-01-20,3,2,0.667,2026-07-20,125,86
+"3410","Springfield Medical Centre","CKD only","Male","18-39","Global Majority","Lambeth","E01003034","3",0,0,1,,,1,1,0,0,"Fully Optimised",1292,7,0,3,6,16,2021-12-14,10,10,1,2026-04-20,128,85
+"3487","Springfield Medical Centre","HTN only","Female","60-74","Global Majority","Wandsworth","E01004567","2",0,1,0,,1,,1,0,0,"Fully Optimised",1029,14,0,2,2,18,2025-01-20,3,2,0.667,2026-07-20,125,86
 "3637","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Wandsworth","E01004567","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,,0,0,0,2026-08-20,194,100
-"3733","Springfield Medical Centre","HTN only","Male","60-74","Global Majority","Wandsworth","E01004562","2",0,1,0,,1,,1,0,0,"Fully Optimised",20,0,0,0,0,0,2022-10-20,20,15,0.75,2026-04-20,132,77
+"3733","Springfield Medical Centre","HTN only","Male","60-74","Global Majority","Wandsworth","E01004562","2",0,1,0,,1,,1,0,0,"Fully Optimised",20,1,0,0,0,1,2022-10-20,20,15,0.75,2026-04-20,132,77
 "3770","Springfield Medical Centre","T2D & CKD","Female","60-74","Global Majority","Wandsworth","E01004562","2",1,0,1,0,,0,0,0,1,"Not Optimised",,,,,,,2021-12-20,12,9,0.75,2026-10-20,144,77
 "3820","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Wandsworth","E01004562","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2024-01-30,12,4,0.333,2026-09-20,150,90
-"3859","Springfield Medical Centre","CKD only","Female","75+","Global Majority","Wandsworth","E01004562","2",0,0,1,,,1,1,0,0,"Fully Optimised",1278,0,0,1,1,2,2021-12-13,10,4,0.4,2025-11-27,140,60
-"3925","Springfield Medical Centre","HTN only","Male","60-74","Global Majority","Lambeth","E01003089","2",0,1,0,,1,,1,0,0,"Fully Optimised",171,0,0,0,0,0,2025-07-20,3,3,1,2025-08-21,135,83
+"3859","Springfield Medical Centre","CKD only","Female","75+","Global Majority","Wandsworth","E01004562","2",0,0,1,,,1,1,0,0,"Fully Optimised",1278,11,0,4,2,17,2021-12-13,10,4,0.4,2025-11-27,140,60
+"3925","Springfield Medical Centre","HTN only","Male","60-74","Global Majority","Lambeth","E01003089","2",0,1,0,,1,,1,0,0,"Fully Optimised",171,2,0,0,1,3,2025-07-20,3,3,1,2025-08-21,135,83
 "3940","Springfield Medical Centre","T2D only","Male","40-59","White British","Wandsworth","E01004562","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,,0,0,0,2026-05-20,131,94
 "3984","Springfield Medical Centre","CKD only","Female","40-59","Not Stated/Unknown","Lambeth","E01003090","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-09-29,8,8,1,2026-05-26,106,78
-"4069","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Croydon","E01001152","1 - Most Deprived",0,1,0,,1,,1,0,0,"Fully Optimised",434,0,0,0,1,1,2024-05-31,10,5,0.5,2026-09-20,127,77
+"4069","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Croydon","E01001152","1 - Most Deprived",0,1,0,,1,,1,0,0,"Fully Optimised",434,8,0,0,2,10,2024-05-31,10,5,0.5,2026-09-20,127,77
 "4074","Springfield Medical Centre","CKD only","Female","60-74","White British","Wandsworth","E01004567","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-03-23,9,6,0.667,2025-03-13,130,76
 "4187","Springfield Medical Centre","HTN & CKD","Female","60-74","Global Majority","Wandsworth","E01004567","2",0,1,1,,1,0,0,1,0,"Partially Optimised",,,,,,,2024-06-21,4,3,0.75,2025-05-19,154,70
-"4241","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003091","2",0,1,0,,1,,1,0,0,"Fully Optimised",457,0,0,1,0,1,2025-10-20,4,3,0.75,2026-05-15,128,78
-"4328","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003089","2",0,0,1,,,1,1,0,0,"Fully Optimised",1418,0,0,0,1,1,2023-08-24,7,5,0.714,2026-08-20,121,86
+"4241","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003091","2",0,1,0,,1,,1,0,0,"Fully Optimised",457,6,1,1,0,8,2025-10-20,4,3,0.75,2026-05-15,128,78
+"4328","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003089","2",0,0,1,,,1,1,0,0,"Fully Optimised",1418,2,0,0,7,9,2023-08-24,7,5,0.714,2026-08-20,121,86
 "4350","Springfield Medical Centre","CKD only","Female","75+","Global Majority","Lambeth","E01003089","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2025-01-20,5,3,0.6,2026-07-20,138,74
 "4374","Springfield Medical Centre","T2D only","Female","60-74","White British","Lambeth","E01003089","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2023-02-14,6,6,1,2026-07-20,120,85
 "4424","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003089","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-09-16,8,6,0.75,2025-06-16,153,88
 "4460","Springfield Medical Centre","T2D only","Female","60-74","Not Stated/Unknown","Lambeth","E01003015","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2024-10-23,6,1,0.167,2026-06-15,130,90
-"4506","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003121","2",0,0,1,,,1,1,0,0,"Fully Optimised",1338,0,0,1,0,1,2024-10-18,6,4,0.667,2026-04-21,134,90
+"4506","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003121","2",0,0,1,,,1,1,0,0,"Fully Optimised",1338,17,0,3,7,27,2024-10-18,6,4,0.667,2026-04-21,134,90
 "4537","Springfield Medical Centre","CKD only","Male","75+","Global Majority","Wandsworth","E01004562","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-07-25,6,5,0.833,2026-12-20,133,79
 "4594","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Wandsworth","E01004562","2",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,,0,0,0,2026-07-20,131,93
 "4616","Springfield Medical Centre","HTN only","Female","40-59","Not Stated/Unknown","Lambeth","E01003037","1 - Most Deprived",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,2023-08-29,10,3,0.3,2025-11-18,135,90
 "4721","Springfield Medical Centre","HTN & T2D","Male","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,1,0,0,1,,0,1,0,"Partially Optimised",,,,,,,2025-01-17,4,3,0.75,2025-11-20,138,88
-"4764","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003122","2",0,1,0,,1,,1,0,0,"Fully Optimised",672,0,0,0,1,1,2024-02-23,7,5,0.714,2026-08-19,148,91
+"4764","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003122","2",0,1,0,,1,,1,0,0,"Fully Optimised",672,8,0,0,3,11,2024-02-23,7,5,0.714,2026-08-19,148,91
 "4792","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Wandsworth","E01004567","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,,0,0,0,,,
-"4818","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003034","3",0,0,1,,,1,1,0,0,"Fully Optimised",1460,0,0,1,0,1,2022-01-20,7,7,1,2026-07-30,121,63
-"4832","Springfield Medical Centre","HTN only","Female","60-74","Global Majority","Wandsworth","E01004562","2",0,1,0,,1,,1,0,0,"Fully Optimised",7,0,0,0,0,0,2022-07-27,9,6,0.667,2026-07-15,126,82
+"4818","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003034","3",0,0,1,,,1,1,0,0,"Fully Optimised",1460,2,1,1,1,5,2022-01-20,7,7,1,2026-07-30,121,63
+"4832","Springfield Medical Centre","HTN only","Female","60-74","Global Majority","Wandsworth","E01004562","2",0,1,0,,1,,1,0,0,"Fully Optimised",7,2,0,0,0,2,2022-07-27,9,6,0.667,2026-07-15,126,82
 "4871","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003122","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2023-09-20,11,7,0.636,2026-10-20,158,75
 "4926","Springfield Medical Centre","CKD only","Female","60-74","Not Stated/Unknown","Wandsworth","E01004562","2",0,0,1,,,1,1,0,0,"Fully Optimised",0,0,0,0,0,0,2023-09-21,5,3,0.6,2026-11-20,146,82
 "4943","Springfield Medical Centre","HTN only","Female","60-74","White British","Wandsworth","E01004564","3",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,,0,0,0,2026-07-28,141,66
-"4998","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Southwark","E01004022","2",0,0,1,,,1,1,0,0,"Fully Optimised",0,0,0,0,0,0,,0,0,0,2026-05-20,158,107
+"4998","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Southwark","E01004022","2",0,0,1,,,1,1,0,0,"Fully Optimised",0,1,0,0,0,1,,0,0,0,2026-05-20,158,107
 "5002","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003059","1 - Most Deprived",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,,0,0,0,,,
 "5086","Springfield Medical Centre","HTN & T2D","Female","60-74","White British","Lambeth","E01003092","1 - Most Deprived",1,1,0,0,0,,0,0,1,"Not Optimised",,,,,,,2022-11-20,13,6,0.462,2026-05-15,125,84
 "5092","Springfield Medical Centre","T2D & CKD","Male","60-74","Global Majority","Lambeth","E01003122","2",1,0,1,0,,0,0,0,1,"Not Optimised",,,,,,,,0,0,0,2026-12-20,161,107
 "5198","Springfield Medical Centre","CKD only","Male","75+","White British","Wandsworth","E01004567","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-01-20,6,5,0.833,2026-02-26,132,75
 "5212","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Wandsworth","E01004567","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2024-01-22,5,3,0.6,2026-10-20,136,90
 "5226","Springfield Medical Centre","HTN only","Female","40-59","Global Majority",,"E01033132",,0,1,0,,1,,1,0,0,"Fully Optimised",0,0,0,0,1,1,2025-02-20,1,1,1,2025-02-20,126,86
-"5320","Springfield Medical Centre","HTN & CKD","Male","40-59","Global Majority","Lambeth","E01003121","2",0,1,1,,1,1,1,0,0,"Fully Optimised",821,0,1,1,0,2,2024-07-20,2,1,0.5,2024-12-20,131,100
+"5320","Springfield Medical Centre","HTN & CKD","Male","40-59","Global Majority","Lambeth","E01003121","2",0,1,1,,1,1,1,0,0,"Fully Optimised",821,20,1,1,5,27,2024-07-20,2,1,0.5,2024-12-20,131,100
 "5331","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Wandsworth","E01004567","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-07-19,10,10,1,2026-04-24,118,64
 "5342","Springfield Medical Centre","CKD only","Female","60-74","White British","Wandsworth","E01004562","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2021-10-15,8,5,0.625,2025-12-22,106,80
 "5357","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003089","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2023-12-22,8,3,0.375,2026-04-22,112,49
 "5374","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Wandsworth","E01004567","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,,0,0,0,2022-11-20,145,93
-"5463","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003057","1 - Most Deprived",0,0,1,,,1,1,0,0,"Fully Optimised",1610,0,0,1,1,2,2022-09-20,5,4,0.8,2025-04-24,139,81
+"5463","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003057","1 - Most Deprived",0,0,1,,,1,1,0,0,"Fully Optimised",1610,6,0,2,4,12,2022-09-20,5,4,0.8,2025-04-24,139,81
 "5467","Springfield Medical Centre","HTN & CKD","Male","75+","Global Majority","Lambeth","E01003034","3",0,1,1,,0,0,0,0,1,"Not Optimised",,,,,,,2023-04-17,13,6,0.462,2026-08-14,141,54
 "5472","Springfield Medical Centre","T2D only","Female","40-59","Global Majority","Lambeth","E01003089","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2024-08-20,4,4,1,2026-09-20,122,84
 "5524","Springfield Medical Centre","CKD only","Male","60-74","White British","Lambeth","E01003021","1 - Most Deprived",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-09-15,16,11,0.688,2026-12-20,135,80
 "5555","Springfield Medical Centre","T2D only","Male","60-74","Global Majority","Lambeth","E01003121","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2024-05-25,11,3,0.273,2026-07-24,140,90
 "5569","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Wandsworth","E01004562","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2022-05-13,5,5,1,2026-04-23,114,77
-"5578","Springfield Medical Centre","HTN only","Male","60-74","White British","Wandsworth","E01004562","2",0,1,0,,1,,1,0,0,"Fully Optimised",579,0,1,1,0,2,2025-11-20,2,2,1,2026-04-20,139,84
+"5578","Springfield Medical Centre","HTN only","Male","60-74","White British","Wandsworth","E01004562","2",0,1,0,,1,,1,0,0,"Fully Optimised",579,5,1,3,2,11,2025-11-20,2,2,1,2026-04-20,139,84
 "5617","Springfield Medical Centre","CKD only","Female","40-59","White British","Lambeth","E01003036","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2024-02-20,5,3,0.6,2026-05-29,148,90
-"5645","Springfield Medical Centre","CKD only","Female","75+","Global Majority","Lambeth","E01003122","2",0,0,1,,,1,1,0,0,"Fully Optimised",1183,0,1,1,0,2,2022-02-17,3,2,0.667,2025-05-20,140,84
-"5646","Springfield Medical Centre","CKD only","Female","75+","Global Majority","Wandsworth","E01004564","3",0,0,1,,,1,1,0,0,"Fully Optimised",1197,0,0,1,1,2,2022-01-20,9,5,0.556,2026-08-28,148,66
-"5708","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003089","2",0,0,1,,,1,1,0,0,"Fully Optimised",1432,0,1,0,0,1,2021-09-13,10,4,0.4,2025-11-20,133,88
-"5885","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003089","2",0,1,0,,1,,1,0,0,"Fully Optimised",335,0,0,0,0,0,2026-05-20,2,2,1,2026-08-25,128,87
+"5645","Springfield Medical Centre","CKD only","Female","75+","Global Majority","Lambeth","E01003122","2",0,0,1,,,1,1,0,0,"Fully Optimised",1183,5,1,2,1,9,2022-02-17,3,2,0.667,2025-05-20,140,84
+"5646","Springfield Medical Centre","CKD only","Female","75+","Global Majority","Wandsworth","E01004564","3",0,0,1,,,1,1,0,0,"Fully Optimised",1197,4,0,1,2,7,2022-01-20,9,5,0.556,2026-08-28,148,66
+"5708","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003089","2",0,0,1,,,1,1,0,0,"Fully Optimised",1432,5,1,1,5,12,2021-09-13,10,4,0.4,2025-11-20,133,88
+"5885","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003089","2",0,1,0,,1,,1,0,0,"Fully Optimised",335,19,0,2,0,21,2026-05-20,2,2,1,2026-08-25,128,87
 "5957","Springfield Medical Centre","CKD only","Male","60-74","White British","Lambeth","E01003089","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2024-05-22,5,4,0.8,2026-04-22,133,66
 "6024","Springfield Medical Centre","T2D only","Male","60-74","Global Majority","Wandsworth","E01004539","1 - Most Deprived",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2022-01-20,13,7,0.538,2026-10-20,135,77
-"6068","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,,1,,1,0,0,"Fully Optimised",156,0,0,0,1,1,2023-02-17,8,5,0.625,2025-10-20,131,101
+"6068","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,,1,,1,0,0,"Fully Optimised",156,7,0,0,1,8,2023-02-17,8,5,0.625,2025-10-20,131,101
 "6088","Springfield Medical Centre","CKD only","Male","75+","White British","Wandsworth","E01004562","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2023-05-18,10,3,0.3,2026-08-26,143,75
 "6139","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003089","2",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,2024-01-20,8,1,0.125,2026-02-20,121,97
 "6141","Springfield Medical Centre","All three","Male","40-59","Global Majority","Lambeth","E01003089","2",1,1,1,0,0,1,0,1,0,"Partially Optimised",,,,,,,2025-08-18,6,2,0.333,2026-05-19,97,61
@@ -140,51 +140,51 @@
 "6362","Springfield Medical Centre","CKD only","Female","60-74","White British","Thanet District","E01024678","1 - Most Deprived",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2024-08-23,3,2,0.667,2025-07-31,140,80
 "6527","Springfield Medical Centre","T2D only","Male","75+","Global Majority","Wandsworth","E01004583","4",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2022-08-26,10,2,0.2,2026-07-20,136,96
 "6532","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003023","3",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,,0,0,0,2026-11-20,142,92
-"6620","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003091","2",0,0,1,,,1,1,0,0,"Fully Optimised",1102,0,1,1,1,3,2023-01-31,8,5,0.625,2026-02-20,125,75
-"6705","Springfield Medical Centre","T2D & CKD","Male","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,1,1,,1,1,0,0,"Fully Optimised",304,0,0,0,0,0,2022-09-20,11,11,1,2026-04-20,116,73
+"6620","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003091","2",0,0,1,,,1,1,0,0,"Fully Optimised",1102,2,1,4,7,14,2023-01-31,8,5,0.625,2026-02-20,125,75
+"6705","Springfield Medical Centre","T2D & CKD","Male","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,1,1,,1,1,0,0,"Fully Optimised",304,12,12,3,0,27,2022-09-20,11,11,1,2026-04-20,116,73
 "6808","Springfield Medical Centre","T2D only","Male","60-74","Not Stated/Unknown","Wandsworth","E01004567","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2022-09-15,4,2,0.5,2026-11-20,155,81
 "6894","Springfield Medical Centre","HTN only","Female","40-59","White British","Lambeth","E01003089","2",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,2024-03-20,11,4,0.364,2026-08-25,144,93
-"7093","Springfield Medical Centre","CKD only","Female","75+","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,0,1,,,1,1,0,0,"Fully Optimised",1092,1,0,1,1,3,2023-02-28,9,4,0.444,2026-08-14,140,79
+"7093","Springfield Medical Centre","CKD only","Female","75+","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,0,1,,,1,1,0,0,"Fully Optimised",1092,5,0,2,4,11,2023-02-28,9,4,0.444,2026-08-14,140,79
 "7133","Springfield Medical Centre","CKD only","Male","60-74","White British","Kingston upon Thames","E01002955","3",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2025-06-20,5,4,0.8,2026-10-20,133,82
 "7257","Springfield Medical Centre","HTN & T2D","Female","75+","White British","Wandsworth","E01004567","2",1,1,0,0,1,,0,1,0,"Partially Optimised",,,,,,,2024-07-20,7,6,0.857,2026-05-19,137,62
 "7289","Springfield Medical Centre","HTN & T2D","Female","40-59","Global Majority","Wandsworth","E01004562","2",1,1,0,0,1,,0,1,0,"Partially Optimised",,,,,,,2025-10-23,3,3,1,2026-08-20,115,85
 "7304","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Wandsworth","E01004562","2",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,,0,0,0,2026-08-17,140,98
 "7357","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003089","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2024-08-22,4,3,0.75,2026-04-20,123,79
-"7536","Springfield Medical Centre","HTN only","Female","60-74","White British","Lambeth","E01003089","2",0,1,0,,1,,1,0,0,"Fully Optimised",396,0,0,1,1,2,2023-09-20,12,9,0.75,2026-04-13,139,74
+"7536","Springfield Medical Centre","HTN only","Female","60-74","White British","Lambeth","E01003089","2",0,1,0,,1,,1,0,0,"Fully Optimised",396,3,0,1,4,8,2023-09-20,12,9,0.75,2026-04-13,139,74
 "7610","Springfield Medical Centre","T2D only","Male","60-74","Global Majority","Lambeth","E01003089","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2022-02-20,7,7,1,2026-07-13,119,72
 "7700","Springfield Medical Centre","CKD only","Female","75+","Global Majority","Lambeth","E01003035","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2023-11-20,22,15,0.682,2026-04-22,117,75
 "7721","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Croydon","E01001168","3",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2021-02-20,9,8,0.889,2025-11-27,130,75
 "7788","Springfield Medical Centre","T2D & CKD","Female","18-39","Global Majority","Croydon","E01001152","1 - Most Deprived",1,0,1,0,,0,0,0,1,"Not Optimised",,,,,,,2023-11-20,3,2,0.667,2026-06-20,120,84
-"7835","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003091","2",0,0,1,,,1,1,0,0,"Fully Optimised",1311,0,0,1,1,2,2022-04-25,9,1,0.111,2026-05-20,161,107
+"7835","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003091","2",0,0,1,,,1,1,0,0,"Fully Optimised",1311,2,2,2,3,9,2022-04-25,9,1,0.111,2026-05-20,161,107
 "7891","Springfield Medical Centre","HTN only","Male","60-74","White British","Wandsworth","E01004567","2",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,,0,0,0,2025-09-20,193,92
 "7893","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003034","3",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-05-20,5,5,1,2026-07-20,100,69
 "7907","Springfield Medical Centre","T2D & CKD","Male","40-59","Global Majority","Lambeth","E01003120","2",1,0,1,0,,0,0,0,1,"Not Optimised",,,,,,,2024-08-21,6,6,1,2026-06-20,125,75
-"7993","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003089","2",0,0,1,,,1,1,0,0,"Fully Optimised",494,0,0,0,0,0,2022-12-20,6,4,0.667,2026-08-26,121,82
+"7993","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003089","2",0,0,1,,,1,1,0,0,"Fully Optimised",494,4,0,2,0,6,2022-12-20,6,4,0.667,2026-08-26,121,82
 "8135","Springfield Medical Centre","T2D only","Male","60-74","Global Majority","Lambeth","E01003089","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2021-09-16,18,10,0.556,2026-10-20,129,75
-"8137","Springfield Medical Centre","CKD only","Male","18-39","White British","Lambeth","E01003089","2",0,0,1,,,1,1,0,0,"Fully Optimised",1155,0,0,1,1,2,2021-09-16,7,7,1,2025-06-13,130,87
+"8137","Springfield Medical Centre","CKD only","Male","18-39","White British","Lambeth","E01003089","2",0,0,1,,,1,1,0,0,"Fully Optimised",1155,14,0,3,5,22,2021-09-16,7,7,1,2025-06-13,130,87
 "8442","Springfield Medical Centre","T2D only","Female","60-74","White British","Lambeth","E01003121","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2023-03-20,3,3,1,2025-09-20,103,78
 "8514","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003089","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-11-20,2,2,1,2023-12-21,138,88
 "8517","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Lambeth","E01003089","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2024-02-15,10,3,0.3,2026-11-20,141,94
-"8529","Springfield Medical Centre","CKD only","Female","75+","White British","Wandsworth","E01004562","2",0,0,1,,,1,1,0,0,"Fully Optimised",1553,0,0,1,1,2,2021-09-30,11,9,0.818,2026-01-20,114,61
+"8529","Springfield Medical Centre","CKD only","Female","75+","White British","Wandsworth","E01004562","2",0,0,1,,,1,1,0,0,"Fully Optimised",1553,52,0,6,13,71,2021-09-30,11,9,0.818,2026-01-20,114,61
 "8549","Springfield Medical Centre","T2D & CKD","Male","60-74","Global Majority","Croydon","E01001138","3",1,0,1,0,,1,0,1,0,"Partially Optimised",,,,,,,2024-08-27,3,2,0.667,2025-11-20,140,83
 "8650","Springfield Medical Centre","HTN only","Male","40-59","White British","Wandsworth","E01004562","2",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,2023-06-19,8,2,0.25,2026-06-16,135,70
-"8923","Springfield Medical Centre","HTN only","Female","75+","Global Majority","Lambeth","E01003089","2",0,1,0,,1,,1,0,0,"Fully Optimised",52,1,0,0,0,1,2025-04-20,1,1,1,2025-04-20,120,69
+"8923","Springfield Medical Centre","HTN only","Female","75+","Global Majority","Lambeth","E01003089","2",0,1,0,,1,,1,0,0,"Fully Optimised",52,2,0,0,1,3,2025-04-20,1,1,1,2025-04-20,120,69
 "8959","Springfield Medical Centre","T2D only","Female","40-59","Global Majority","Lambeth","E01003125","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2021-10-14,15,14,0.933,2026-10-20,117,66
 "9201","Springfield Medical Centre","T2D only","Female","18-39","Global Majority","Lambeth","E01003125","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2022-10-20,8,7,0.875,2025-06-20,114,70
 "9493","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Wandsworth","E01004567","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2025-01-16,4,3,0.75,2026-09-20,140,69
 "9518","Springfield Medical Centre","T2D only","Female","40-59","Not Stated/Unknown","Wandsworth","E01004567","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2022-08-20,1,1,1,2022-08-20,105,64
-"9519","Springfield Medical Centre","HTN only","Male","60-74","Global Majority","Wandsworth","E01004541","1 - Most Deprived",0,1,0,,1,,1,0,0,"Fully Optimised",206,0,0,0,0,0,2025-10-20,4,3,0.75,2026-08-19,123,83
-"9538","Springfield Medical Centre","CKD only","Male","40-59","White British","Lambeth","E01003096","2",0,0,1,,,1,1,0,0,"Fully Optimised",632,0,0,0,0,0,2022-07-18,8,5,0.625,2026-10-20,128,88
+"9519","Springfield Medical Centre","HTN only","Male","60-74","Global Majority","Wandsworth","E01004541","1 - Most Deprived",0,1,0,,1,,1,0,0,"Fully Optimised",206,0,0,2,1,3,2025-10-20,4,3,0.75,2026-08-19,123,83
+"9538","Springfield Medical Centre","CKD only","Male","40-59","White British","Lambeth","E01003096","2",0,0,1,,,1,1,0,0,"Fully Optimised",632,2,0,2,4,8,2022-07-18,8,5,0.625,2026-10-20,128,88
 "9575","Springfield Medical Centre","All three","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,1,1,0,0,0,0,0,1,"Not Optimised",,,,,,,,0,0,0,2026-11-20,140,84
-"9644","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Wandsworth","E01004567","2",0,0,1,,,1,1,0,0,"Fully Optimised",203,0,0,0,0,0,2025-03-26,14,5,0.357,2026-11-20,152,112
-"9648","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,0,1,,,1,1,0,0,"Fully Optimised",853,0,1,0,0,1,2023-05-20,2,2,1,2026-02-20,132,83
-"9696","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Wandsworth","E01004562","2",0,0,1,,,1,1,0,0,"Fully Optimised",857,0,0,1,0,1,2021-10-29,8,8,1,2026-05-29,122,71
-"10035","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003029","3",0,0,1,,,1,1,0,0,"Fully Optimised",1511,0,1,1,1,3,2022-06-16,6,5,0.833,2026-08-18,114,82
+"9644","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Wandsworth","E01004567","2",0,0,1,,,1,1,0,0,"Fully Optimised",203,7,0,0,1,8,2025-03-26,14,5,0.357,2026-11-20,152,112
+"9648","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,0,1,,,1,1,0,0,"Fully Optimised",853,12,6,0,0,18,2023-05-20,2,2,1,2026-02-20,132,83
+"9696","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Wandsworth","E01004562","2",0,0,1,,,1,1,0,0,"Fully Optimised",857,2,0,3,4,9,2021-10-29,8,8,1,2026-05-29,122,71
+"10035","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003029","3",0,0,1,,,1,1,0,0,"Fully Optimised",1511,3,1,2,4,10,2022-06-16,6,5,0.833,2026-08-18,114,82
 "10071","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Lambeth","E01003089","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2022-02-18,11,4,0.364,2025-06-18,115,75
 "10293","Springfield Medical Centre","CKD only","Female","40-59","White British","Southwark","E01003951","3",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-11-20,8,8,1,2025-10-28,110,81
 "10334","Springfield Medical Centre","T2D only","Male","60-74","Global Majority","Croydon","E01001161","1 - Most Deprived",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2022-07-20,8,4,0.5,2026-08-19,133,83
 "10401","Springfield Medical Centre","T2D only","Male","40-59","White British","Lambeth","E01003092","1 - Most Deprived",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2024-08-20,4,1,0.25,2026-07-20,129,90
-"10419","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003121","2",0,0,1,,,1,1,0,0,"Fully Optimised",1365,0,0,1,1,2,,0,0,0,2026-07-15,154,107
+"10419","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003121","2",0,0,1,,,1,1,0,0,"Fully Optimised",1365,11,0,3,3,17,,0,0,0,2026-07-15,154,107
 "10433","Springfield Medical Centre","All three","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,1,1,0,0,1,0,1,0,"Partially Optimised",,,,,,,,0,0,0,2026-12-20,146,98
 "10525","Springfield Medical Centre","HTN only","Female","60-74","Not Stated/Unknown","Lambeth","E01003091","2",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,,0,0,0,2025-07-22,199,99
 "10581","Springfield Medical Centre","CKD only","Male","75+","White British","Waltham Forest","E01004395","3",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-02-18,14,10,0.714,2026-08-20,137,86
@@ -193,56 +193,56 @@
 "10729","Springfield Medical Centre","CKD only","Male","40-59","White British","Lambeth","E01003092","1 - Most Deprived",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-04-20,7,7,1,2026-03-20,107,59
 "10733","Springfield Medical Centre","T2D & CKD","Male","40-59","Global Majority","Lambeth","E01003089","2",1,0,1,0,,0,0,0,1,"Not Optimised",,,,,,,,0,0,0,2026-02-20,150,106
 "10734","Springfield Medical Centre","HTN & CKD","Female","40-59","Global Majority","Lambeth","E01003089","2",0,1,1,,0,0,0,0,1,"Not Optimised",,,,,,,2024-08-15,3,1,0.333,2026-02-20,167,94
-"10765","Springfield Medical Centre","HTN only","Female","60-74","White British","Lambeth","E01003092","1 - Most Deprived",0,1,0,,1,,1,0,0,"Fully Optimised",0,0,0,0,0,0,2023-02-20,5,5,1,2026-04-23,104,80
-"11000","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Wandsworth","E01004567","2",0,0,1,,,1,1,0,0,"Fully Optimised",981,0,0,0,0,0,2022-12-20,3,3,1,2025-10-17,129,67
-"11069","Springfield Medical Centre","T2D & CKD","Female","40-59","White British","Lambeth","E01003091","2",1,0,1,1,,1,1,0,0,"Fully Optimised",1253,0,0,1,0,1,2022-06-13,11,6,0.545,2026-06-17,121,56
+"10765","Springfield Medical Centre","HTN only","Female","60-74","White British","Lambeth","E01003092","1 - Most Deprived",0,1,0,,1,,1,0,0,"Fully Optimised",0,0,0,1,0,1,2023-02-20,5,5,1,2026-04-23,104,80
+"11000","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Wandsworth","E01004567","2",0,0,1,,,1,1,0,0,"Fully Optimised",981,12,8,0,2,22,2022-12-20,3,3,1,2025-10-17,129,67
+"11069","Springfield Medical Centre","T2D & CKD","Female","40-59","White British","Lambeth","E01003091","2",1,0,1,1,,1,1,0,0,"Fully Optimised",1253,21,0,5,7,33,2022-06-13,11,6,0.545,2026-06-17,121,56
 "11118","Springfield Medical Centre","All three","Male","75+","Global Majority","Wandsworth","E01004562","2",1,1,1,0,0,1,0,1,0,"Partially Optimised",,,,,,,,0,0,0,2026-12-20,141,81
 "11131","Springfield Medical Centre","CKD only","Female","18-39","Global Majority","Lambeth","E01003042","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-10-20,6,3,0.5,2026-07-20,135,94
 "11191","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003091","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-07-25,8,6,0.75,2025-04-22,137,86
 "11200","Springfield Medical Centre","HTN & T2D","Male","60-74","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,1,0,0,0,,0,0,1,"Not Optimised",,,,,,,,0,0,0,2026-03-13,145,95
-"11277","Springfield Medical Centre","CKD only","Male","40-59","White British","Southwark","E01003967","2",0,0,1,,,1,1,0,0,"Fully Optimised",1061,0,0,0,0,0,2022-08-20,5,5,1,2026-04-15,125,68
-"11278","Springfield Medical Centre","HTN only","Male","40-59","Global Majority",,"E01033207",,0,1,0,,1,,1,0,0,"Fully Optimised",153,0,0,0,0,0,2026-01-20,2,2,1,2026-05-26,122,83
+"11277","Springfield Medical Centre","CKD only","Male","40-59","White British","Southwark","E01003967","2",0,0,1,,,1,1,0,0,"Fully Optimised",1061,2,0,3,6,11,2022-08-20,5,5,1,2026-04-15,125,68
+"11278","Springfield Medical Centre","HTN only","Male","40-59","Global Majority",,"E01033207",,0,1,0,,1,,1,0,0,"Fully Optimised",153,3,0,0,1,4,2026-01-20,2,2,1,2026-05-26,122,83
 "11279","Springfield Medical Centre","HTN only","Female","40-59","Global Majority",,"E01033207",,0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,2024-11-18,10,4,0.4,2025-07-20,138,82
 "11293","Springfield Medical Centre","CKD only","Female","75+","White British","Wandsworth","E01004562","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2021-10-20,11,9,0.818,2025-06-17,134,110
 "11294","Springfield Medical Centre","CKD only","Male","75+","White British","Wandsworth","E01004562","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2023-04-20,4,3,0.75,2026-05-19,135,89
 "11397","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003091","2",0,1,0,,1,,1,0,0,"Fully Optimised",17,1,0,0,0,1,2021-10-15,11,6,0.545,2026-02-17,132,93
 "11518","Springfield Medical Centre","CKD only","Male","60-74","White British","City of Westminster","E01004746","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2021-11-19,13,11,0.846,2026-07-20,130,80
 "11593","Springfield Medical Centre","CKD only","Male","75+","Global Majority",,"E01033132",,0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-01-20,14,9,0.643,2026-08-20,141,92
-"11703","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003089","2",0,0,1,,,1,1,0,0,"Fully Optimised",153,0,0,0,0,0,2022-08-19,16,8,0.5,2026-04-28,120,70
+"11703","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003089","2",0,0,1,,,1,1,0,0,"Fully Optimised",153,0,0,1,0,1,2022-08-19,16,8,0.5,2026-04-28,120,70
 "11735","Springfield Medical Centre","T2D & CKD","Female","60-74","White British","Lambeth","E01003091","2",1,0,1,0,,0,0,0,1,"Not Optimised",,,,,,,2022-02-20,18,8,0.444,2026-04-20,135,79
 "11744","Springfield Medical Centre","T2D only","Male","18-39","Global Majority","Lambeth","E01003089","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2021-09-20,9,8,0.889,2025-09-20,123,85
-"11779","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003089","2",0,1,0,,1,,1,0,0,"Fully Optimised",178,0,0,0,0,0,2022-12-15,10,5,0.5,2026-08-20,122,98
+"11779","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003089","2",0,1,0,,1,,1,0,0,"Fully Optimised",178,2,1,0,0,3,2022-12-15,10,5,0.5,2026-08-20,122,98
 "11784","Springfield Medical Centre","T2D only","Male","18-39","Global Majority","Lambeth","E01003089","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2022-12-15,2,2,1,2023-11-20,131,80
-"11859","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003037","1 - Most Deprived",0,0,1,,,1,1,0,0,"Fully Optimised",1587,0,0,1,0,1,2022-08-20,9,4,0.444,2026-04-20,131,80
+"11859","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003037","1 - Most Deprived",0,0,1,,,1,1,0,0,"Fully Optimised",1587,5,0,2,1,8,2022-08-20,9,4,0.444,2026-04-20,131,80
 "11862","Springfield Medical Centre","HTN & T2D","Male","40-59","White British","Wandsworth","E01004535","1 - Most Deprived",1,1,0,0,0,,0,0,1,"Not Optimised",,,,,,,,0,0,0,2026-02-20,140,93
 "12057","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003089","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2025-02-20,8,3,0.375,2026-09-20,129,83
-"12310","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003089","2",0,0,1,,,1,1,0,0,"Fully Optimised",1144,0,0,1,0,1,,0,0,0,,,
+"12310","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003089","2",0,0,1,,,1,1,0,0,"Fully Optimised",1144,6,0,1,2,9,,0,0,0,,,
 "12325","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2023-11-14,9,6,0.667,2026-04-22,157,81
-"12353","Springfield Medical Centre","HTN only","Female","40-59","Global Majority",,"E01033098",,0,1,0,,1,,1,0,0,"Fully Optimised",157,0,0,0,0,0,2023-07-29,8,4,0.5,2026-02-24,131,88
+"12353","Springfield Medical Centre","HTN only","Female","40-59","Global Majority",,"E01033098",,0,1,0,,1,,1,0,0,"Fully Optimised",157,7,0,0,0,7,2023-07-29,8,4,0.5,2026-02-24,131,88
 "12391","Springfield Medical Centre","T2D only","Female","40-59","Global Majority","Lambeth","E01003090","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2024-12-20,7,4,0.571,2026-02-20,140,80
 "12410","Springfield Medical Centre","T2D only","Male","60-74","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2021-06-20,12,7,0.583,2026-04-27,138,81
 "12477","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003160","2",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,2025-07-20,7,2,0.286,2026-04-20,136,89
-"12546","Springfield Medical Centre","HTN & CKD","Male","60-74","White British","Lambeth","E01003150","2",0,1,1,,1,1,1,0,0,"Fully Optimised",853,0,0,1,0,1,2024-05-20,11,9,0.818,2026-10-20,139,88
+"12546","Springfield Medical Centre","HTN & CKD","Male","60-74","White British","Lambeth","E01003150","2",0,1,1,,1,1,1,0,0,"Fully Optimised",853,13,0,2,0,15,2024-05-20,11,9,0.818,2026-10-20,139,88
 "12574","Springfield Medical Centre","CKD only","Male","40-59","White British","Wandsworth","E01004562","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2023-01-31,10,8,0.8,2026-08-17,129,83
 "12631","Springfield Medical Centre","T2D & CKD","Female","40-59","Global Majority","Wandsworth","E01004562","2",1,0,1,0,,0,0,0,1,"Not Optimised",,,,,,,2022-08-19,15,11,0.733,2026-04-23,139,77
-"12889","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003089","2",0,1,0,,1,,1,0,0,"Fully Optimised",0,0,0,0,0,0,2026-05-20,1,1,1,2026-05-20,122,87
+"12889","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003089","2",0,1,0,,1,,1,0,0,"Fully Optimised",0,1,0,0,0,1,2026-05-20,1,1,1,2026-05-20,122,87
 "12929","Springfield Medical Centre","HTN & CKD","Female","40-59","Global Majority","Lambeth","E01003089","2",0,1,1,,1,0,0,1,0,"Partially Optimised",,,,,,,2025-08-20,2,1,0.5,2026-02-25,120,90
 "13018","Springfield Medical Centre","HTN only","Male","60-74","Not Stated/Unknown","Lambeth","E01003091","2",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,,0,0,0,,,
-"13019","Springfield Medical Centre","CKD only","Female","40-59","White British","Lambeth","E01003091","2",0,0,1,,,1,1,0,0,"Fully Optimised",634,0,0,0,0,0,2021-07-20,13,6,0.462,2026-10-20,130,86
+"13019","Springfield Medical Centre","CKD only","Female","40-59","White British","Lambeth","E01003091","2",0,0,1,,,1,1,0,0,"Fully Optimised",634,5,0,3,1,9,2021-07-20,13,6,0.462,2026-10-20,130,86
 "13049","Springfield Medical Centre","T2D only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2026-04-28,1,1,1,2026-04-28,125,80
 "13208","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-08-20,12,6,0.5,2026-07-20,159,90
 "13283","Springfield Medical Centre","T2D only","Female","40-59","Global Majority","Lambeth","E01003089","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2023-02-28,5,4,0.8,2026-06-20,123,73
 "13335","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003126","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2021-12-29,10,5,0.5,2026-05-21,139,94
-"13353","Springfield Medical Centre","HTN only","Female","40-59","White British","Lambeth","E01003034","3",0,1,0,,1,,1,0,0,"Fully Optimised",335,0,0,0,0,0,2024-02-22,7,5,0.714,2026-06-22,145,94
+"13353","Springfield Medical Centre","HTN only","Female","40-59","White British","Lambeth","E01003034","3",0,1,0,,1,,1,0,0,"Fully Optimised",335,2,0,0,4,6,2024-02-22,7,5,0.714,2026-06-22,145,94
 "13376","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003089","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-11-20,13,4,0.308,2026-02-20,131,80
 "13399","Springfield Medical Centre","CKD only","Female","40-59","White British","Wandsworth","E01004562","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2023-10-19,9,7,0.778,2026-04-20,104,77
 "13427","Springfield Medical Centre","CKD only","Male","40-59","White British","Lambeth","E01003034","3",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2025-05-15,3,2,0.667,2025-12-27,141,73
 "13443","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Wandsworth","E01004567","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2022-08-20,6,6,1,2026-01-20,125,79
 "13450","Springfield Medical Centre","CKD only","Male","60-74","White British","Lambeth","E01003092","1 - Most Deprived",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2023-11-21,8,6,0.75,2026-04-28,113,81
-"13587","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003129","2",0,1,0,,1,,1,0,0,"Fully Optimised",1,0,0,0,1,1,2023-12-21,9,7,0.778,2026-07-16,144,85
+"13587","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003129","2",0,1,0,,1,,1,0,0,"Fully Optimised",1,0,0,0,2,2,2023-12-21,9,7,0.778,2026-07-16,144,85
 "13605","Springfield Medical Centre","HTN only","Male","40-59","White British","Lambeth","E01003092","1 - Most Deprived",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,,0,0,0,2025-11-24,143,84
 "13686","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Lambeth","E01003039","4",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2023-09-20,6,5,0.833,2026-06-20,122,76
-"13738","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,,1,,1,0,0,"Fully Optimised",400,0,0,1,0,1,2022-11-24,10,6,0.6,2026-03-24,132,90
+"13738","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,,1,,1,0,0,"Fully Optimised",400,4,0,1,0,5,2022-11-24,10,6,0.6,2026-03-24,132,90
 "13743","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Lambeth","E01003171","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2024-12-20,4,4,1,2026-06-25,129,57
 "13799","Springfield Medical Centre","CKD only","Male","60-74","White British","Lambeth","E01003089","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2021-10-19,13,11,0.846,2026-08-20,140,81
 "13880","Springfield Medical Centre","T2D only","Male","60-74","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2023-03-14,2,1,0.5,2026-02-18,168,82
@@ -254,24 +254,24 @@
 "14076","Springfield Medical Centre","T2D only","Female","18-39","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2022-05-27,7,7,1,2025-03-20,112,69
 "14095","Springfield Medical Centre","CKD only","Female","60-74","White British","Lambeth","E01003092","1 - Most Deprived",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2021-11-18,9,7,0.778,2026-08-20,128,68
 "14113","Springfield Medical Centre","T2D & CKD","Male","40-59","White British","Lambeth","E01003092","1 - Most Deprived",1,0,1,1,,0,0,1,0,"Partially Optimised",,,,,,,2022-01-20,12,5,0.417,2025-07-20,146,69
-"14157","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003089","2",0,0,1,,,1,1,0,0,"Fully Optimised",1096,0,1,1,1,3,2021-06-20,12,10,0.833,2026-04-20,120,81
-"14383","Springfield Medical Centre","CKD only","Male","75+","Global Majority","Wandsworth","E01004562","2",0,0,1,,,1,1,0,0,"Fully Optimised",1221,0,0,1,0,1,2022-04-20,10,9,0.9,2026-07-15,121,77
+"14157","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003089","2",0,0,1,,,1,1,0,0,"Fully Optimised",1096,14,1,5,7,27,2021-06-20,12,10,0.833,2026-04-20,120,81
+"14383","Springfield Medical Centre","CKD only","Male","75+","Global Majority","Wandsworth","E01004562","2",0,0,1,,,1,1,0,0,"Fully Optimised",1221,5,0,3,2,10,2022-04-20,10,9,0.9,2026-07-15,121,77
 "14420","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003091","2",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,,0,0,0,2026-10-20,152,92
-"14442","Springfield Medical Centre","CKD only","Male","75+","White British","Lambeth","E01003092","1 - Most Deprived",0,0,1,,,1,1,0,0,"Fully Optimised",1116,0,0,0,0,0,2021-07-20,13,5,0.385,2026-09-20,143,54
+"14442","Springfield Medical Centre","CKD only","Male","75+","White British","Lambeth","E01003092","1 - Most Deprived",0,0,1,,,1,1,0,0,"Fully Optimised",1116,14,0,1,2,17,2021-07-20,13,5,0.385,2026-09-20,143,54
 "14602","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003089","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2024-06-20,3,1,0.333,2026-09-20,135,95
 "14679","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003127","2",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,,0,0,0,2025-11-20,146,86
-"14680","Springfield Medical Centre","HTN only","Male","60-74","Global Majority","Lambeth","E01003034","3",0,1,0,,1,,1,0,0,"Fully Optimised",963,0,1,1,0,2,2024-08-19,10,7,0.7,2026-08-14,131,77
-"14722","Springfield Medical Centre","HTN only","Female","18-39","Global Majority","Wandsworth","E01004567","2",0,1,0,,1,,1,0,0,"Fully Optimised",91,0,0,1,0,1,2026-02-19,1,1,1,2026-02-19,125,74
+"14680","Springfield Medical Centre","HTN only","Male","60-74","Global Majority","Lambeth","E01003034","3",0,1,0,,1,,1,0,0,"Fully Optimised",963,19,1,1,0,21,2024-08-19,10,7,0.7,2026-08-14,131,77
+"14722","Springfield Medical Centre","HTN only","Female","18-39","Global Majority","Wandsworth","E01004567","2",0,1,0,,1,,1,0,0,"Fully Optimised",91,5,0,1,0,6,2026-02-19,1,1,1,2026-02-19,125,74
 "14974","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,2024-05-21,12,5,0.417,2026-05-20,167,83
-"15053","Springfield Medical Centre","HTN only","Male","60-74","White British","Lambeth","E01003090","2",0,1,0,,1,,1,0,0,"Fully Optimised",329,0,0,0,0,0,2024-10-14,1,1,1,2024-10-14,134,80
-"500062","Springfield Medical Centre","HTN only","Female","40-59","White British","Lambeth","E01003095","3",0,1,0,,1,,1,0,0,"Fully Optimised",183,0,0,0,0,0,2022-07-26,9,5,0.556,2026-04-24,114,78
+"15053","Springfield Medical Centre","HTN only","Male","60-74","White British","Lambeth","E01003090","2",0,1,0,,1,,1,0,0,"Fully Optimised",329,7,0,0,1,8,2024-10-14,1,1,1,2024-10-14,134,80
+"500062","Springfield Medical Centre","HTN only","Female","40-59","White British","Lambeth","E01003095","3",0,1,0,,1,,1,0,0,"Fully Optimised",183,3,0,0,0,3,2022-07-26,9,5,0.556,2026-04-24,114,78
 "500165","Springfield Medical Centre","CKD only","Female","18-39","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-02-20,8,3,0.375,2025-05-20,150,102
-"500181","Springfield Medical Centre","HTN only","Female","40-59","White British","Lambeth","E01003091","2",0,1,0,,1,,1,0,0,"Fully Optimised",128,1,0,0,0,1,2022-03-25,10,7,0.7,2026-07-29,112,78
+"500181","Springfield Medical Centre","HTN only","Female","40-59","White British","Lambeth","E01003091","2",0,1,0,,1,,1,0,0,"Fully Optimised",128,3,0,0,0,3,2022-03-25,10,7,0.7,2026-07-29,112,78
 "500357","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Wandsworth","E01004567","2",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,,0,0,0,2026-02-16,146,80
-"500367","Springfield Medical Centre","CKD only","Female","60-74","White British","Lambeth","E01003034","3",0,0,1,,,1,1,0,0,"Fully Optimised",1338,0,0,0,1,1,2022-03-20,7,5,0.714,2026-02-20,124,75
-"500385","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003022","3",0,1,0,,1,,1,0,0,"Fully Optimised",31,0,0,0,0,0,2026-05-28,1,1,1,2026-05-28,132,88
+"500367","Springfield Medical Centre","CKD only","Female","60-74","White British","Lambeth","E01003034","3",0,0,1,,,1,1,0,0,"Fully Optimised",1338,113,0,3,6,122,2022-03-20,7,5,0.714,2026-02-20,124,75
+"500385","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003022","3",0,1,0,,1,,1,0,0,"Fully Optimised",31,2,0,0,0,2,2026-05-28,1,1,1,2026-05-28,132,88
 "500404","Springfield Medical Centre","HTN & T2D","Male","18-39","White British",,"E01033132",,1,1,0,0,0,,0,0,1,"Not Optimised",,,,,,,,0,0,0,2026-06-20,173,110
-"500488","Springfield Medical Centre","CKD only","Female","60-74","White British","Wandsworth","E01004567","2",0,0,1,,,1,1,0,0,"Fully Optimised",1336,0,0,1,0,1,2023-08-24,11,5,0.455,2026-12-20,133,75
+"500488","Springfield Medical Centre","CKD only","Female","60-74","White British","Wandsworth","E01004567","2",0,0,1,,,1,1,0,0,"Fully Optimised",1336,19,0,2,4,25,2023-08-24,11,5,0.455,2026-12-20,133,75
 "500504","Springfield Medical Centre","T2D only","Female","40-59","Global Majority","Wandsworth","E01004562","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2023-10-26,6,6,1,2026-02-24,119,76
 "500507","Springfield Medical Centre","CKD only","Male","40-59","White British","Wandsworth","E01004562","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-05-16,1,1,1,2022-05-16,128,64
 "500548","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003089","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2025-12-17,1,1,1,2025-12-17,114,69
@@ -282,13 +282,13 @@
 "500986","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,,0,0,0,2026-07-20,149,109
 "501043","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Wandsworth","E01004563","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,,0,0,0,2026-12-20,157,126
 "501166","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Lambeth","E01003031","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2023-11-20,5,5,1,2026-04-14,108,78
-"501382","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,0,1,,,1,1,0,0,"Fully Optimised",1580,0,1,1,1,3,2021-03-20,13,8,0.615,2026-04-20,151,100
+"501382","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,0,1,,,1,1,0,0,"Fully Optimised",1580,9,2,2,4,17,2021-03-20,13,8,0.615,2026-04-20,151,100
 "501475","Springfield Medical Centre","T2D only","Female","60-74","Global Majority","Lambeth","E01003095","3",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2025-02-20,7,3,0.429,2026-04-28,137,73
 "501619","Springfield Medical Centre","HTN & T2D","Male","60-74","Global Majority","Wandsworth","E01004562","2",1,1,0,0,0,,0,0,1,"Not Optimised",,,,,,,2025-11-20,9,3,0.333,2026-11-20,134,78
 "501636","Springfield Medical Centre","T2D only","Male","60-74","Global Majority","Lewisham","E01003339","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2023-06-20,17,3,0.176,2026-04-20,145,81
 "501654","Springfield Medical Centre","T2D & CKD","Male","75+","Global Majority","Wandsworth","E01004562","2",1,0,1,0,,0,0,0,1,"Not Optimised",,,,,,,2022-08-18,6,2,0.333,2026-10-20,145,70
 "501718","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003091","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-02-14,4,2,0.5,2026-03-30,130,92
-"501738","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003089","2",0,1,0,,1,,1,0,0,"Fully Optimised",92,0,0,0,0,0,2024-08-20,5,5,1,2026-04-20,120,60
+"501738","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003089","2",0,1,0,,1,,1,0,0,"Fully Optimised",92,7,0,1,0,8,2024-08-20,5,5,1,2026-04-20,120,60
 "501804","Springfield Medical Centre","T2D only","Female","40-59","Global Majority","Lambeth","E01003089","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2024-08-30,8,5,0.625,2026-11-20,143,90
 "501837","Springfield Medical Centre","T2D only","Male","18-39","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2023-09-20,7,6,0.857,2026-05-27,118,83
 "501845","Springfield Medical Centre","CKD only","Male","40-59","White British","Lambeth","E01003090","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2023-04-20,6,6,1,2026-06-23,120,74
@@ -297,20 +297,20 @@
 "501981","Springfield Medical Centre","T2D only","Female","40-59","Global Majority","Wandsworth","E01004562","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2026-05-15,2,2,1,2026-08-20,114,85
 "501989","Springfield Medical Centre","CKD only","Male","60-74","Not Stated/Unknown","Lambeth","E01003143","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,,0,0,0,2026-05-20,175,86
 "502107","Springfield Medical Centre","HTN only","Male","60-74","Global Majority","Lambeth","E01003111","1 - Most Deprived",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,2025-03-21,9,3,0.333,2026-12-20,146,87
-"502109","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003111","1 - Most Deprived",0,1,0,,1,,1,0,0,"Fully Optimised",26,0,0,0,0,0,2024-08-20,5,3,0.6,2026-04-16,137,103
-"502157","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003168","1 - Most Deprived",0,0,1,,,1,1,0,0,"Fully Optimised",1461,1,0,0,1,2,,0,0,0,2022-03-25,141,92
-"502175","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003091","2",0,1,0,,1,,1,0,0,"Fully Optimised",309,0,0,0,1,1,2024-08-20,7,5,0.714,2026-04-28,118,85
+"502109","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003111","1 - Most Deprived",0,1,0,,1,,1,0,0,"Fully Optimised",26,0,0,0,2,2,2024-08-20,5,3,0.6,2026-04-16,137,103
+"502157","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003168","1 - Most Deprived",0,0,1,,,1,1,0,0,"Fully Optimised",1461,4,0,0,3,7,,0,0,0,2022-03-25,141,92
+"502175","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003091","2",0,1,0,,1,,1,0,0,"Fully Optimised",309,8,0,0,1,9,2024-08-20,7,5,0.714,2026-04-28,118,85
 "502189","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Wandsworth","E01004562","2",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,,0,0,0,2025-12-16,155,103
 "502269","Springfield Medical Centre","HTN & T2D","Male","60-74","Global Majority","Lambeth","E01003089","2",1,1,0,0,0,,0,0,1,"Not Optimised",,,,,,,2024-01-15,10,4,0.4,2026-09-20,161,92
 "502332","Springfield Medical Centre","HTN only","Female","60-74","White British","Lambeth","E01003091","2",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,,0,0,0,,,
-"502396","Springfield Medical Centre","CKD only","Female","75+","Global Majority","Wandsworth","E01004567","2",0,0,1,,,1,1,0,0,"Fully Optimised",83,0,0,0,0,0,2021-12-13,4,3,0.75,2026-01-19,142,90
+"502396","Springfield Medical Centre","CKD only","Female","75+","Global Majority","Wandsworth","E01004567","2",0,0,1,,,1,1,0,0,"Fully Optimised",83,1,0,0,0,1,2021-12-13,4,3,0.75,2026-01-19,142,90
 "502581","Springfield Medical Centre","HTN only","Female","75+","Global Majority","Lambeth","E01003122","2",0,1,0,,1,,1,0,0,"Fully Optimised",1,1,0,1,1,3,2024-07-30,6,6,1,2024-07-30,135,69
 "502618","Springfield Medical Centre","CKD only","Male","40-59","White British","Wandsworth","E01004615","1 - Most Deprived",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2023-03-23,10,9,0.9,2026-04-21,125,84
-"502673","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003091","2",0,1,0,,1,,1,0,0,"Fully Optimised",0,0,0,0,0,0,2025-12-23,3,3,1,2026-07-20,126,82
+"502673","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003091","2",0,1,0,,1,,1,0,0,"Fully Optimised",0,1,0,0,0,1,2025-12-23,3,3,1,2026-07-20,126,82
 "502684","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Wandsworth","E01004562","2",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,,0,0,0,2026-07-27,166,96
 "502787","Springfield Medical Centre","HTN & CKD","Male","40-59","Global Majority","Lambeth","E01003091","2",0,1,1,,0,0,0,0,1,"Not Optimised",,,,,,,2025-04-20,11,1,0.091,2026-03-20,143,80
-"502841","Springfield Medical Centre","HTN only","Male","40-59","White British","Lambeth","E01003126","2",0,1,0,,1,,1,0,0,"Fully Optimised",756,0,0,1,0,1,2026-03-20,1,1,1,2026-03-20,123,88
-"502847","Springfield Medical Centre","HTN only","Female","18-39","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,,1,,1,0,0,"Fully Optimised",518,0,0,1,0,1,2026-01-16,3,2,0.667,2026-07-20,102,81
+"502841","Springfield Medical Centre","HTN only","Male","40-59","White British","Lambeth","E01003126","2",0,1,0,,1,,1,0,0,"Fully Optimised",756,5,0,2,5,12,2026-03-20,1,1,1,2026-03-20,123,88
+"502847","Springfield Medical Centre","HTN only","Female","18-39","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,,1,,1,0,0,"Fully Optimised",518,16,0,2,2,20,2026-01-16,3,2,0.667,2026-07-20,102,81
 "502848","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,2022-06-23,5,2,0.4,2025-07-20,149,93
 "502859","Springfield Medical Centre","All three","Female","40-59","White British","Lambeth","E01003091","2",1,1,1,0,0,0,0,0,1,"Not Optimised",,,,,,,,0,0,0,2026-09-20,159,114
 "502900","Springfield Medical Centre","CKD only","Female","60-74","White British","Lambeth","E01003059","1 - Most Deprived",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-11-20,1,1,1,2022-11-20,113,62
@@ -320,37 +320,37 @@
 "503051","Springfield Medical Centre","HTN & T2D","Female","40-59","Not Stated/Unknown","Lambeth","E01003091","2",1,1,0,1,0,,0,1,0,"Partially Optimised",,,,,,,2024-04-16,6,1,0.167,2025-12-20,131,101
 "503122","Springfield Medical Centre","T2D & CKD","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,1,0,,0,0,0,1,"Not Optimised",,,,,,,2025-01-20,3,2,0.667,2026-09-20,166,103
 "503147","Springfield Medical Centre","HTN & CKD","Male","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,1,,1,0,0,1,0,"Partially Optimised",,,,,,,2025-04-15,4,2,0.5,2026-12-20,148,81
-"503210","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003089","2",0,0,1,,,1,1,0,0,"Fully Optimised",1370,0,0,0,1,1,2022-06-23,9,5,0.556,2026-07-21,123,88
+"503210","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003089","2",0,0,1,,,1,1,0,0,"Fully Optimised",1370,11,0,4,4,19,2022-06-23,9,5,0.556,2026-07-21,123,88
 "503254","Springfield Medical Centre","T2D only","Female","40-59","Global Majority","Wandsworth","E01004567","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2022-01-20,16,3,0.188,2025-12-23,137,88
 "503322","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003089","2",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,,0,0,0,2026-12-20,153,94
-"503429","Springfield Medical Centre","CKD only","Male","60-74","White British","Wandsworth","E01004541","1 - Most Deprived",0,0,1,,,1,1,0,0,"Fully Optimised",1370,1,1,1,1,4,2022-07-20,7,7,1,2026-11-20,110,74
+"503429","Springfield Medical Centre","CKD only","Male","60-74","White British","Wandsworth","E01004541","1 - Most Deprived",0,0,1,,,1,1,0,0,"Fully Optimised",1370,3,1,5,5,14,2022-07-20,7,7,1,2026-11-20,110,74
 "503540","Springfield Medical Centre","HTN & T2D","Male","40-59","Global Majority","Lambeth","E01003128","1 - Most Deprived",1,1,0,0,0,,0,0,1,"Not Optimised",,,,,,,,0,0,0,2026-04-24,156,101
-"503753","Springfield Medical Centre","HTN & CKD","Female","60-74","White British","Lambeth","E01003091","2",0,1,1,,1,1,1,0,0,"Fully Optimised",891,0,0,1,0,1,2023-08-20,10,9,0.9,2026-10-20,130,67
+"503753","Springfield Medical Centre","HTN & CKD","Female","60-74","White British","Lambeth","E01003091","2",0,1,1,,1,1,1,0,0,"Fully Optimised",891,5,0,3,4,12,2023-08-20,10,9,0.9,2026-10-20,130,67
 "503786","Springfield Medical Centre","HTN only","Female","60-74","Global Majority","Lambeth","E01003089","2",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,2023-02-20,17,8,0.471,2025-12-17,159,68
 "503930","Springfield Medical Centre","T2D only","Female","18-39","Global Majority","Wandsworth","E01004567","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2023-09-29,6,3,0.5,2026-03-20,121,86
 "503936","Springfield Medical Centre","T2D only","Male","60-74","Global Majority","Lambeth","E01003121","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,,0,0,0,2022-07-18,147,93
 "504031","Springfield Medical Centre","T2D only","Male","40-59","Global Majority",,"E01033098",,1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2025-05-13,4,4,1,2026-05-20,125,78
 "504078","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Wandsworth","E01004562","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2025-06-20,1,1,1,2025-06-20,115,80
 "504185","Springfield Medical Centre","HTN only","Male","40-59","White British","Lambeth","E01003123","3",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,,0,0,0,2025-10-27,148,85
-"504229","Springfield Medical Centre","HTN & CKD","Female","60-74","Global Majority","Lambeth","E01003090","2",0,1,1,,1,1,1,0,0,"Fully Optimised",276,0,0,0,0,0,2022-01-20,17,9,0.529,2025-09-20,134,90
+"504229","Springfield Medical Centre","HTN & CKD","Female","60-74","Global Majority","Lambeth","E01003090","2",0,1,1,,1,1,1,0,0,"Fully Optimised",276,2,0,1,0,3,2022-01-20,17,9,0.529,2025-09-20,134,90
 "504302","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003098","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2021-11-22,11,8,0.727,2026-07-20,132,89
-"504429","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Wandsworth","E01004567","2",0,1,0,,1,,1,0,0,"Fully Optimised",457,1,0,0,1,2,2024-01-20,5,5,1,2026-06-20,127,86
+"504429","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Wandsworth","E01004567","2",0,1,0,,1,,1,0,0,"Fully Optimised",457,6,0,0,2,8,2024-01-20,5,5,1,2026-06-20,127,86
 "504437","Springfield Medical Centre","T2D & CKD","Male","75+","White British","Wandsworth","E01004567","2",1,0,1,0,,0,0,0,1,"Not Optimised",,,,,,,2021-05-20,9,9,1,2026-06-29,104,66
-"504484","Springfield Medical Centre","HTN only","Female","40-59","White British","Wandsworth","E01004567","2",0,1,0,,1,,1,0,0,"Fully Optimised",189,0,0,1,0,1,2023-12-21,5,4,0.8,2026-07-26,126,63
+"504484","Springfield Medical Centre","HTN only","Female","40-59","White British","Wandsworth","E01004567","2",0,1,0,,1,,1,0,0,"Fully Optimised",189,2,0,3,3,8,2023-12-21,5,4,0.8,2026-07-26,126,63
 "504553","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Wandsworth","E01004562","2",0,0,1,,,1,1,0,0,"Fully Optimised",0,0,0,0,0,0,2023-06-22,10,2,0.2,2026-06-20,155,101
-"504627","Springfield Medical Centre","HTN only","Male","40-59","White British","Lambeth","E01003092","1 - Most Deprived",0,1,0,,1,,1,0,0,"Fully Optimised",405,0,0,0,1,1,2024-08-29,4,4,1,2026-01-20,116,79
+"504627","Springfield Medical Centre","HTN only","Male","40-59","White British","Lambeth","E01003092","1 - Most Deprived",0,1,0,,1,,1,0,0,"Fully Optimised",405,3,0,0,2,5,2024-08-29,4,4,1,2026-01-20,116,79
 "504634","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003074","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-06-22,6,5,0.833,2026-06-20,134,90
 "504800","Springfield Medical Centre","T2D & CKD","Female","40-59","Global Majority","Wandsworth","E01004562","2",1,0,1,0,,0,0,0,1,"Not Optimised",,,,,,,2022-07-20,5,4,0.8,2026-08-24,119,89
-"504818","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003060","1 - Most Deprived",0,1,0,,1,,1,0,0,"Fully Optimised",63,0,0,0,0,0,2025-03-27,9,5,0.556,2026-08-19,140,90
-"504879","Springfield Medical Centre","HTN only","Male","40-59","White British","Wandsworth","E01004567","2",0,1,0,,1,,1,0,0,"Fully Optimised",518,1,0,0,1,2,2023-12-20,1,1,1,2023-12-20,136,86
+"504818","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003060","1 - Most Deprived",0,1,0,,1,,1,0,0,"Fully Optimised",63,1,1,0,1,3,2025-03-27,9,5,0.556,2026-08-19,140,90
+"504879","Springfield Medical Centre","HTN only","Male","40-59","White British","Wandsworth","E01004567","2",0,1,0,,1,,1,0,0,"Fully Optimised",518,2,0,0,4,6,2023-12-20,1,1,1,2023-12-20,136,86
 "504902","Springfield Medical Centre","HTN & CKD","Male","40-59","White British","Southwark","E01004010","2",0,1,1,,0,0,0,0,1,"Not Optimised",,,,,,,2025-08-15,7,1,0.143,2026-11-20,135,85
-"504947","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003034","3",0,1,0,,1,,1,0,0,"Fully Optimised",99,0,0,0,0,0,2026-07-28,2,1,0.5,2026-08-20,154,85
-"504994","Springfield Medical Centre","HTN & CKD","Female","75+","Global Majority","Wandsworth","E01004562","2",0,1,1,,1,1,1,0,0,"Fully Optimised",158,0,0,0,0,0,2026-04-22,4,2,0.5,2026-06-20,140,73
+"504947","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003034","3",0,1,0,,1,,1,0,0,"Fully Optimised",99,2,0,0,0,2,2026-07-28,2,1,0.5,2026-08-20,154,85
+"504994","Springfield Medical Centre","HTN & CKD","Female","75+","Global Majority","Wandsworth","E01004562","2",0,1,1,,1,1,1,0,0,"Fully Optimised",158,8,0,4,0,12,2026-04-22,4,2,0.5,2026-06-20,140,73
 "505208","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Lambeth","E01003089","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2025-02-17,6,6,1,2026-04-27,101,56
-"505278","Springfield Medical Centre","HTN only","Female","75+","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,,1,,1,0,0,"Fully Optimised",309,0,0,0,0,0,2024-06-24,13,8,0.615,2026-07-20,174,83
-"505334","Springfield Medical Centre","HTN only","Female","60-74","White British",,"E01033099",,0,1,0,,1,,1,0,0,"Fully Optimised",347,0,0,0,0,0,2026-08-25,1,1,1,2026-08-25,124,89
-"505438","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,,1,,1,0,0,"Fully Optimised",0,0,0,0,0,0,2023-04-20,8,6,0.75,2026-04-22,124,78
-"505509","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003089","2",0,1,0,,1,,1,0,0,"Fully Optimised",529,0,0,0,1,1,2024-03-26,2,2,1,2025-03-20,137,82
+"505278","Springfield Medical Centre","HTN only","Female","75+","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,,1,,1,0,0,"Fully Optimised",309,18,0,0,4,22,2024-06-24,13,8,0.615,2026-07-20,174,83
+"505334","Springfield Medical Centre","HTN only","Female","60-74","White British",,"E01033099",,0,1,0,,1,,1,0,0,"Fully Optimised",347,3,1,3,0,7,2026-08-25,1,1,1,2026-08-25,124,89
+"505438","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,,1,,1,0,0,"Fully Optimised",0,1,0,0,0,1,2023-04-20,8,6,0.75,2026-04-22,124,78
+"505509","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003089","2",0,1,0,,1,,1,0,0,"Fully Optimised",529,16,0,0,3,19,2024-03-26,2,2,1,2025-03-20,137,82
 "505514","Springfield Medical Centre","HTN only","Female","60-74","Global Majority","Wandsworth","E01004567","2",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,2025-01-17,9,2,0.222,2026-04-20,136,79
 "505575","Springfield Medical Centre","T2D only","Male","60-74","White British","Wandsworth","E01004562","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2024-06-19,3,3,1,2025-10-20,120,80
 "505598","Springfield Medical Centre","HTN & T2D","Female","60-74","Global Majority","Lambeth","E01003091","2",1,1,0,0,0,,0,0,1,"Not Optimised",,,,,,,,0,0,0,,,
@@ -362,39 +362,39 @@
 "505939","Springfield Medical Centre","T2D only","Male","18-39","Global Majority","Lambeth","E01003171","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2023-09-13,6,3,0.5,2026-04-15,139,92
 "506003","Springfield Medical Centre","T2D & CKD","Male","18-39","Global Majority","Southwark","E01003921","1 - Most Deprived",1,0,1,0,,0,0,0,1,"Not Optimised",,,,,,,2024-07-26,3,2,0.667,2026-11-20,135,96
 "506016","Springfield Medical Centre","T2D & CKD","Female","40-59","Global Majority","Wandsworth","E01004567","2",1,0,1,0,,0,0,0,1,"Not Optimised",,,,,,,,0,0,0,2025-09-25,147,82
-"506017","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003091","2",0,1,0,,1,,1,0,0,"Fully Optimised",170,0,0,0,0,0,2024-04-20,7,5,0.714,2026-07-29,115,81
-"506024","Springfield Medical Centre","HTN only","Female","18-39","Global Majority","Lambeth","E01003089","2",0,1,0,,1,,1,0,0,"Fully Optimised",873,0,0,0,1,1,2026-06-20,2,1,0.5,2026-06-20,139,86
-"506062","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,0,1,,,1,1,0,0,"Fully Optimised",973,0,0,0,0,0,2022-03-24,5,3,0.6,2025-11-27,140,78
+"506017","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003091","2",0,1,0,,1,,1,0,0,"Fully Optimised",170,0,0,0,1,1,2024-04-20,7,5,0.714,2026-07-29,115,81
+"506024","Springfield Medical Centre","HTN only","Female","18-39","Global Majority","Lambeth","E01003089","2",0,1,0,,1,,1,0,0,"Fully Optimised",873,2,0,1,4,7,2026-06-20,2,1,0.5,2026-06-20,139,86
+"506062","Springfield Medical Centre","CKD only","Female","60-74","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,0,1,,,1,1,0,0,"Fully Optimised",973,3,0,1,3,7,2022-03-24,5,3,0.6,2025-11-27,140,78
 "506179","Springfield Medical Centre","CKD only","Female","75+","Not Stated/Unknown","Lambeth","E01003095","3",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2023-10-26,6,3,0.5,2026-06-16,128,73
 "506249","Springfield Medical Centre","T2D only","Male","75+","Global Majority","Lambeth","E01003089","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2024-08-20,1,1,1,2024-08-20,117,70
-"506374","Springfield Medical Centre","T2D only","Male","40-59","White British","Lambeth","E01003091","2",1,0,0,1,,,1,0,0,"Fully Optimised",1027,0,0,0,0,0,2022-07-18,6,5,0.833,2025-06-16,131,90
-"506495","Springfield Medical Centre","HTN only","Female","40-59","Not Stated/Unknown","Lambeth","E01003097","2",0,1,0,,1,,1,0,0,"Fully Optimised",156,0,0,0,0,0,2023-07-20,2,1,0.5,2024-01-23,144,94
+"506374","Springfield Medical Centre","T2D only","Male","40-59","White British","Lambeth","E01003091","2",1,0,0,1,,,1,0,0,"Fully Optimised",1027,7,0,3,4,14,2022-07-18,6,5,0.833,2025-06-16,131,90
+"506495","Springfield Medical Centre","HTN only","Female","40-59","Not Stated/Unknown","Lambeth","E01003097","2",0,1,0,,1,,1,0,0,"Fully Optimised",156,0,0,0,3,3,2023-07-20,2,1,0.5,2024-01-23,144,94
 "506499","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003091","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-03-20,8,4,0.5,2026-07-15,121,79
 "506539","Springfield Medical Centre","HTN & T2D","Female","40-59","White British","Wandsworth","E01004562","2",1,1,0,0,0,,0,0,1,"Not Optimised",,,,,,,2024-01-24,11,4,0.364,2026-03-24,165,92
 "506615","Springfield Medical Centre","HTN & CKD","Male","40-59","Global Majority","Lambeth","E01003034","3",0,1,1,,1,1,1,0,0,"Fully Optimised",0,0,0,0,0,0,2023-02-15,6,3,0.5,2026-04-23,139,85
-"506637","Springfield Medical Centre","CKD only","Male","60-74","White British","Lambeth","E01003126","2",0,0,1,,,1,1,0,0,"Fully Optimised",613,0,0,1,0,1,,0,0,0,2026-09-20,159,83
-"506653","Springfield Medical Centre","HTN only","Male","40-59","White British","Lambeth","E01003123","3",0,1,0,,1,,1,0,0,"Fully Optimised",665,0,0,0,0,0,2026-07-15,2,2,1,2026-07-20,134,84
+"506637","Springfield Medical Centre","CKD only","Male","60-74","White British","Lambeth","E01003126","2",0,0,1,,,1,1,0,0,"Fully Optimised",613,3,11,1,0,15,,0,0,0,2026-09-20,159,83
+"506653","Springfield Medical Centre","HTN only","Male","40-59","White British","Lambeth","E01003123","3",0,1,0,,1,,1,0,0,"Fully Optimised",665,19,0,3,0,22,2026-07-15,2,2,1,2026-07-20,134,84
 "506664","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Lambeth","E01003089","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2021-04-20,15,12,0.8,2026-04-22,100,79
 "506723","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003089","2",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,2024-05-20,13,6,0.462,2026-04-14,132,84
-"506843","Springfield Medical Centre","HTN only","Female","40-59","White British","Lambeth","E01003014","2",0,1,0,,1,,1,0,0,"Fully Optimised",152,0,0,0,0,0,2025-12-19,2,2,1,2026-05-20,109,86
-"506885","Springfield Medical Centre","HTN only","Female","60-74","Global Majority","Wandsworth","E01004617","2",0,1,0,,1,,1,0,0,"Fully Optimised",1461,1,0,0,0,1,2026-12-20,1,1,1,2026-12-20,116,76
+"506843","Springfield Medical Centre","HTN only","Female","40-59","White British","Lambeth","E01003014","2",0,1,0,,1,,1,0,0,"Fully Optimised",152,2,0,0,0,2,2025-12-19,2,2,1,2026-05-20,109,86
+"506885","Springfield Medical Centre","HTN only","Female","60-74","Global Majority","Wandsworth","E01004617","2",0,1,0,,1,,1,0,0,"Fully Optimised",1461,3,0,0,0,3,2026-12-20,1,1,1,2026-12-20,116,76
 "506926","Springfield Medical Centre","HTN & T2D","Male","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,1,0,0,0,,0,0,1,"Not Optimised",,,,,,,,0,0,0,2026-04-20,134,101
 "506985","Springfield Medical Centre","HTN only","Male","40-59","White British","Lambeth","E01003092","1 - Most Deprived",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,,0,0,0,,,
 "507005","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Wandsworth","E01004567","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2024-03-20,2,1,0.5,2026-01-22,133,93
 "507020","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003122","2",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,,0,0,0,2026-06-15,137,100
 "507087","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2022-05-16,9,8,0.889,2026-04-13,124,78
 "507142","Springfield Medical Centre","HTN only","Female","60-74","Global Majority",,"E01033132",,0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,2024-10-24,5,2,0.4,2025-11-24,134,93
-"507198","Springfield Medical Centre","HTN only","Male","40-59","White British","Lambeth","E01003128","1 - Most Deprived",0,1,0,,1,,1,0,0,"Fully Optimised",423,0,0,0,1,1,2023-11-20,6,6,1,2026-07-15,108,77
+"507198","Springfield Medical Centre","HTN only","Male","40-59","White British","Lambeth","E01003128","1 - Most Deprived",0,1,0,,1,,1,0,0,"Fully Optimised",423,5,0,0,7,12,2023-11-20,6,6,1,2026-07-15,108,77
 "507348","Springfield Medical Centre","T2D only","Male","60-74","White British","Lambeth","E01003126","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,,0,0,0,2024-11-21,186,89
 "507351","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","Lambeth","E01003091","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-01-13,12,8,0.667,2025-03-28,125,72
 "507424","Springfield Medical Centre","CKD only","Male","60-74","White British","Wandsworth","E01004562","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2021-10-22,16,11,0.688,2026-05-28,114,72
 "507437","Springfield Medical Centre","HTN & T2D","Male","40-59","Global Majority","Lambeth","E01003091","2",1,1,0,0,0,,0,0,1,"Not Optimised",,,,,,,,0,0,0,,,
-"507495","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lewisham","E01003298","2",0,1,0,,1,,1,0,0,"Fully Optimised",269,0,0,0,0,0,2022-03-16,4,4,1,2025-12-20,128,83
-"507537","Springfield Medical Centre","HTN only","Female","60-74","Global Majority","Lambeth","E01003034","3",0,1,0,,1,,1,0,0,"Fully Optimised",573,0,0,0,0,0,2023-11-20,22,16,0.727,2026-07-24,108,70
+"507495","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lewisham","E01003298","2",0,1,0,,1,,1,0,0,"Fully Optimised",269,4,0,0,0,4,2022-03-16,4,4,1,2025-12-20,128,83
+"507537","Springfield Medical Centre","HTN only","Female","60-74","Global Majority","Lambeth","E01003034","3",0,1,0,,1,,1,0,0,"Fully Optimised",573,32,0,0,2,34,2023-11-20,22,16,0.727,2026-07-24,108,70
 "507620","Springfield Medical Centre","T2D only","Male","60-74","Global Majority","Lambeth","E01003089","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2021-10-22,6,4,0.667,2026-02-20,140,80
 "507639","Springfield Medical Centre","CKD only","Female","40-59","Global Majority","City of Westminster","E01004669","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2022-01-21,3,3,1,2024-07-20,123,61
-"507757","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Wandsworth","E01004562","2",0,1,0,,1,,1,0,0,"Fully Optimised",460,1,0,0,1,2,2023-12-13,6,5,0.833,2026-04-13,128,78
-"507792","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003034","3",0,1,0,,1,,1,0,0,"Fully Optimised",338,0,0,0,0,0,2025-11-20,2,1,0.5,2026-04-22,149,83
+"507757","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Wandsworth","E01004562","2",0,1,0,,1,,1,0,0,"Fully Optimised",460,3,0,0,2,5,2023-12-13,6,5,0.833,2026-04-13,128,78
+"507792","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003034","3",0,1,0,,1,,1,0,0,"Fully Optimised",338,17,2,3,0,22,2025-11-20,2,1,0.5,2026-04-22,149,83
 "507859","Springfield Medical Centre","HTN only","Male","18-39","White British","Wandsworth","E01004562","2",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,,0,0,0,2026-06-15,153,96
 "507874","Springfield Medical Centre","T2D only","Male","60-74","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2024-11-22,1,1,1,2024-11-22,127,74
 "507916","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003121","2",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,,0,0,0,2022-06-20,171,110
@@ -406,12 +406,12 @@
 "508810","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003089","2",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,2025-02-20,6,1,0.167,2026-02-20,159,98
 "508892","Springfield Medical Centre","HTN only","Female","60-74","Global Majority","Wandsworth","E01004567","2",0,1,0,,1,,1,0,0,"Fully Optimised",28,0,0,0,0,0,2022-06-16,12,7,0.583,2026-04-27,116,69
 "508908","Springfield Medical Centre","All three","Female","60-74","Global Majority","Lambeth","E01003034","3",1,1,1,0,1,0,0,1,0,"Partially Optimised",,,,,,,2022-09-16,15,14,0.933,2026-02-20,105,64
-"508988","Springfield Medical Centre","HTN only","Female","18-39","Global Majority","Wandsworth","E01004562","2",0,1,0,,1,,1,0,0,"Fully Optimised",327,0,0,1,0,1,2025-05-20,1,1,1,2025-05-20,115,60
+"508988","Springfield Medical Centre","HTN only","Female","18-39","Global Majority","Wandsworth","E01004562","2",0,1,0,,1,,1,0,0,"Fully Optimised",327,4,0,1,1,6,2025-05-20,1,1,1,2025-05-20,115,60
 "509004","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Lambeth","E01003089","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2023-12-28,20,4,0.2,2026-02-17,166,94
 "509122","Springfield Medical Centre","T2D only","Female","40-59","Global Majority","Wandsworth","E01004567","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2024-03-18,5,4,0.8,2025-07-24,121,90
 "509236","Springfield Medical Centre","CKD only","Male","75+","White British","Lambeth","E01003092","1 - Most Deprived",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2021-01-20,23,9,0.391,2026-05-20,130,70
 "509273","Springfield Medical Centre","T2D only","Female","60-74","Global Majority","Lambeth","E01003089","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,,0,0,0,2025-11-25,145,99
-"509291","Springfield Medical Centre","HTN only","Female","60-74","Global Majority","Lambeth","E01003188","1 - Most Deprived",0,1,0,,1,,1,0,0,"Fully Optimised",133,0,0,1,0,1,2024-09-30,5,5,1,2026-06-23,100,68
+"509291","Springfield Medical Centre","HTN only","Female","60-74","Global Majority","Lambeth","E01003188","1 - Most Deprived",0,1,0,,1,,1,0,0,"Fully Optimised",133,2,0,1,0,3,2024-09-30,5,5,1,2026-06-23,100,68
 "509367","Springfield Medical Centre","T2D & CKD","Male","40-59","Global Majority","Lambeth","E01003034","3",1,0,1,0,,0,0,0,1,"Not Optimised",,,,,,,2022-03-29,5,5,1,2026-04-29,133,86
 "509373","Springfield Medical Centre","T2D only","Female","18-39","White British","Lambeth","E01003092","1 - Most Deprived",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2024-02-20,2,1,0.5,2024-03-20,157,76
 "509418","Springfield Medical Centre","T2D & CKD","Female","75+","White British","Lambeth","E01003089","2",1,0,1,0,,0,0,0,1,"Not Optimised",,,,,,,2021-05-20,19,6,0.316,2026-11-20,181,114
@@ -421,31 +421,31 @@
 "509542","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Wandsworth","E01004562","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2023-07-20,9,2,0.222,2026-08-24,167,104
 "509748","Springfield Medical Centre","HTN only","Female","75+","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,,0,0,0,,,
 "509749","Springfield Medical Centre","HTN only","Male","60-74","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,,0,0,0,2026-10-20,145,94
-"509759","Springfield Medical Centre","HTN & T2D","Female","40-59","Global Majority","Lambeth","E01003034","3",1,1,0,1,1,,1,0,0,"Fully Optimised",270,0,1,1,0,2,2025-06-17,1,1,1,2025-06-17,132,82
-"509854","Springfield Medical Centre","HTN only","Female","60-74","White British","Lambeth","E01003089","2",0,1,0,,1,,1,0,0,"Fully Optimised",335,1,0,1,1,3,2025-01-20,5,4,0.8,2026-08-20,153,74
+"509759","Springfield Medical Centre","HTN & T2D","Female","40-59","Global Majority","Lambeth","E01003034","3",1,1,0,1,1,,1,0,0,"Fully Optimised",270,2,1,2,2,7,2025-06-17,1,1,1,2025-06-17,132,82
+"509854","Springfield Medical Centre","HTN only","Female","60-74","White British","Lambeth","E01003089","2",0,1,0,,1,,1,0,0,"Fully Optimised",335,1,0,1,2,4,2025-01-20,5,4,0.8,2026-08-20,153,74
 "509859","Springfield Medical Centre","CKD only","Male","60-74","White British","Wandsworth","E01004567","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2021-12-13,6,5,0.833,2025-04-24,134,82
 "509888","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003091","2",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,,0,0,0,2025-09-16,140,90
-"509905","Springfield Medical Centre","HTN only","Female","60-74","Global Majority","Lambeth","E01003123","3",0,1,0,,1,,1,0,0,"Fully Optimised",772,0,0,1,1,2,2024-09-30,10,5,0.5,2026-03-20,138,86
+"509905","Springfield Medical Centre","HTN only","Female","60-74","Global Majority","Lambeth","E01003123","3",0,1,0,,1,,1,0,0,"Fully Optimised",772,4,0,2,1,7,2024-09-30,10,5,0.5,2026-03-20,138,86
 "509906","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,,0,0,0,2026-09-20,147,99
 "510022","Springfield Medical Centre","HTN & T2D","Female","40-59","Global Majority","Lambeth","E01003089","2",1,1,0,0,0,,0,0,1,"Not Optimised",,,,,,,2024-12-30,6,1,0.167,2026-09-20,146,100
-"510036","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Wandsworth","E01004562","2",0,0,1,,,1,1,0,0,"Fully Optimised",543,1,0,1,0,2,2022-10-24,10,10,1,2026-05-20,137,84
-"510088","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003097","2",0,1,0,,1,,1,0,0,"Fully Optimised",973,1,0,0,1,2,2025-11-20,4,4,1,2026-07-29,112,80
+"510036","Springfield Medical Centre","CKD only","Male","40-59","Global Majority","Wandsworth","E01004562","2",0,0,1,,,1,1,0,0,"Fully Optimised",543,12,0,3,0,15,2022-10-24,10,10,1,2026-05-20,137,84
+"510088","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003097","2",0,1,0,,1,,1,0,0,"Fully Optimised",973,3,0,2,3,8,2025-11-20,4,4,1,2026-07-29,112,80
 "510142","Springfield Medical Centre","HTN only","Female","40-59","White British","Lambeth","E01003092","1 - Most Deprived",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,,0,0,0,2026-10-20,129,90
 "510151","Springfield Medical Centre","T2D only","Female","18-39","Global Majority","Lambeth","E01003095","3",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2024-07-20,9,8,0.889,2026-06-29,124,89
 "510204","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003037","1 - Most Deprived",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,2024-08-29,6,2,0.333,2026-06-20,145,97
 "510208","Springfield Medical Centre","T2D only","Male","40-59","White British","Wandsworth","E01004562","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2025-01-31,3,2,0.667,2026-06-23,102,78
-"510237","Springfield Medical Centre","HTN only","Female","75+","Global Majority","Lambeth","E01003121","2",0,1,0,,1,,1,0,0,"Fully Optimised",259,0,0,0,0,0,2026-07-31,2,1,0.5,2026-08-24,141,74
+"510237","Springfield Medical Centre","HTN only","Female","75+","Global Majority","Lambeth","E01003121","2",0,1,0,,1,,1,0,0,"Fully Optimised",259,16,0,5,0,21,2026-07-31,2,1,0.5,2026-08-24,141,74
 "510457","Springfield Medical Centre","T2D only","Female","60-74","Global Majority","Wandsworth","E01004562","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2025-01-20,32,8,0.25,2025-12-28,130,73
 "510462","Springfield Medical Centre","T2D only","Female","18-39","Global Majority","Wandsworth","E01004567","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2024-06-20,3,2,0.667,2026-08-25,123,88
 "510472","Springfield Medical Centre","T2D only","Male","40-59","Global Majority","Lambeth","E01003089","2",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2022-09-20,12,11,0.917,2026-06-23,110,72
 "510561","Springfield Medical Centre","HTN & T2D","Female","40-59","Global Majority","Wandsworth","E01004562","2",1,1,0,0,1,,0,1,0,"Partially Optimised",,,,,,,2023-12-19,10,7,0.7,2026-06-26,123,82
-"510730","Springfield Medical Centre","HTN & CKD","Male","60-74","White British","Lambeth","E01003089","2",0,1,1,,1,1,1,0,0,"Fully Optimised",465,1,0,1,1,3,2026-04-16,1,1,1,2026-04-16,126,81
-"510837","Springfield Medical Centre","HTN only","Male","40-59","White British","Wandsworth","E01004567","2",0,1,0,,1,,1,0,0,"Fully Optimised",182,1,0,0,0,1,2025-12-23,1,1,1,2025-12-23,135,87
+"510730","Springfield Medical Centre","HTN & CKD","Male","60-74","White British","Lambeth","E01003089","2",0,1,1,,1,1,1,0,0,"Fully Optimised",465,7,0,2,1,10,2026-04-16,1,1,1,2026-04-16,126,81
+"510837","Springfield Medical Centre","HTN only","Male","40-59","White British","Wandsworth","E01004567","2",0,1,0,,1,,1,0,0,"Fully Optimised",182,8,0,0,0,8,2025-12-23,1,1,1,2025-12-23,135,87
 "510907","Springfield Medical Centre","CKD only","Male","60-74","Global Majority","Wandsworth","E01004567","2",0,0,1,,,0,0,0,1,"Not Optimised",,,,,,,2021-11-25,46,38,0.826,2026-07-31,137,81
 "510925","Springfield Medical Centre","HTN only","Male","40-59","Global Majority","Lambeth","E01003034","3",0,1,0,,0,,0,0,1,"Not Optimised",,,,,,,,0,0,0,2026-09-20,171,109
 "510982","Springfield Medical Centre","T2D only","Female","18-39","Global Majority","Lambeth","E01003092","1 - Most Deprived",1,0,0,0,,,0,0,1,"Not Optimised",,,,,,,2022-01-27,7,4,0.571,2025-10-20,135,90
 "511002","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003091","2",0,1,0,,1,,1,0,0,"Fully Optimised",0,0,0,0,0,0,2025-05-20,6,6,1,2026-04-30,130,84
-"511026","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,,1,,1,0,0,"Fully Optimised",42,0,0,0,0,0,2025-11-28,2,2,1,2026-04-01,126,79
+"511026","Springfield Medical Centre","HTN only","Female","40-59","Global Majority","Lambeth","E01003092","1 - Most Deprived",0,1,0,,1,,1,0,0,"Fully Optimised",42,1,0,1,0,2,2025-11-28,2,2,1,2026-04-01,126,79
 "511145","Springfield Medical Centre","HTN only","Female","18-39","Global Majority","Wandsworth","E01004562","2",0,1,0,,1,,1,0,0,"Fully Optimised",124,0,0,0,0,0,2025-10-22,4,4,1,2026-07-16,115,76
 "511284","Springfield Medical Centre","CKD only","Female","75+","White British","Lambeth","E01003089","2",0,0,1,,,1,1,0,0,"Fully Optimised",517,0,0,0,0,0,2022-04-20,9,6,0.667,2026-04-27,133,80
 "511373","Springfield Medical Centre","HTN & T2D","Male","60-74","Global Majority","Lambeth","E01003089","2",1,1,0,0,1,,0,1,0,"Partially Optimised",,,,,,,2026-02-23,5,5,1,2026-12-20,138,74

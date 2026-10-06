@@ -164,6 +164,9 @@ if(TestMode){
   }
 }
 
-
+# COHORT OPTIMISATION AUDIT REPORT ----
+if (file.exists("scripts/func_audit.R")) {
+  source("scripts/func_audit.R")
+}
 
 toc()

@@ -30,7 +30,8 @@ required_cols <- c(
   "organisation_name",
   "ckd_exist", "ckd_optimised",
   "diabetes_exist", "diabetes_optimised",
-  "hypertension_exist", "hypertension_optimised"
+  "hypertension_exist", "hypertension_optimised",
+  "time_to_optimisation_days", "appts_total_in_window"
 )
 
 missing_cols <- setdiff(required_cols, colnames(facts))
@@ -56,16 +57,25 @@ calc_condition_stats <- function(df, practice_name) {
     e_col <- conditions[[c_code]]$exist
     o_col <- conditions[[c_code]]$opt
     
-    n_pts <- sum(df[[e_col]] == 1, na.rm = TRUE)
-    n_opt <- sum(df[[e_col]] == 1 & df[[o_col]] == 1, na.rm = TRUE)
-    pct   <- if (n_pts > 0) (n_opt / n_pts) * 100 else 0
+    mask_opt <- df[[e_col]] == 1 & df[[o_col]] == 1
+    n_pts    <- sum(df[[e_col]] == 1, na.rm = TRUE)
+    n_opt    <- sum(mask_opt, na.rm = TRUE)
+    pct      <- if (n_pts > 0) (n_opt / n_pts) * 100 else 0
+    
+    times    <- df$time_to_optimisation_days[mask_opt]
+    appts    <- df$appts_total_in_window[mask_opt]
+    
+    mean_time  <- if (any(!is.na(times))) sprintf("%.1f", mean(times, na.rm = TRUE)) else "-"
+    mean_appts <- if (any(!is.na(appts))) sprintf("%.2f", mean(appts, na.rm = TRUE)) else "-"
     
     out[[length(out) + 1]] <- data.frame(
-      Practice      = practice_name,
-      Condition     = c_code,
-      Patients      = n_pts,
-      Optimised     = n_opt,
-      Pct_Optimised = round(pct, 1),
+      Practice       = practice_name,
+      Condition      = c_code,
+      Patients       = n_pts,
+      Optimised      = n_opt,
+      Pct_Optimised  = sprintf("%.1f%%", pct),
+      Mean_Time_Days = mean_time,
+      Mean_Appts     = mean_appts,
       stringsAsFactors = FALSE
     )
   }
@@ -88,25 +98,24 @@ if (length(practices) > 1) {
 
 # 4. Formatted Console Output --------------------------------------------------
 cat("\n")
-cat("========================================================================================\n")
-cat("                HEALTHY HEARTS COHORT OPTIMISATION AUDIT REPORT                         \n")
-cat("                             (Source: data/facts.csv)                                   \n")
-cat("========================================================================================\n\n")
+cat("===================================================================================================================\n")
+cat("                                 HEALTHY HEARTS COHORT OPTIMISATION AUDIT REPORT                                  \n")
+cat("                                              (Source: data/facts.csv)                                            \n")
+cat("===================================================================================================================\n\n")
 
 # Long Table: By Practice and Condition
 summary_display <- summary_df
-summary_display$Pct_Optimised <- sprintf("%.1f%%", summary_display$Pct_Optimised)
-colnames(summary_display) <- c("Practice", "Condition", "# Patients", "# Optimised", "% Optimised")
+colnames(summary_display) <- c("Practice", "Condition", "# Patients", "# Optimised", "% Optimised", "Mean Time (Days)", "Mean Appts")
 
 if (requireNamespace("knitr", quietly = TRUE)) {
-  cat(knitr::kable(summary_display, format = "simple", align = c("l", "c", "r", "r", "r")), sep = "\n")
+  cat(knitr::kable(summary_display, format = "simple", align = c("l", "c", "r", "r", "r", "r", "r")), sep = "\n")
 } else {
   print(summary_display, row.names = FALSE)
 }
 
-cat("\n========================================================================================\n")
+cat("\n===================================================================================================================\n")
 cat(sprintf("Total registered cohort size: %d patients across %d practice(s).\n", nrow(facts), length(practices)))
-cat("========================================================================================\n\n")
+cat("===================================================================================================================\n\n")
 
 # Return summary data frame invisibly
 invisible(summary_df)
