@@ -9,7 +9,7 @@ source('scripts/ini.R')
 
 # Pipeline Settings
 TestMode <- F
-SourceMode <- "practices" # Options: "practices" (local multi-practice extracts) or "sharepoint"
+SourceMode <- "practices" # Options: "practices" (local multi-practice extracts) or "SharePoint"
 
 tic('ETL Process complete')
 
